@@ -1,0 +1,195 @@
+ID1,common_name,np_tone,np_pattern,np_combined
+ALFL,Alder Flycatcher,buzzy,phrase,buzzy_phrase
+AMBI,American Bittern,hoot,phrase,hoot_phrase
+AMCO,American Coot,NA,NA,Call
+AMCR,American Crow,NA,NA,Call
+AMGO,American Goldfinch,polynoise,warble,polynoise_warble
+AMKE,American Kestrel,NA,NA,Call
+AMRE,American Redstart,click,phrase,click_phrase
+AMRO,American Robin,whistle,phrase,whistle_phrase
+AMTO,American Toad,click,trill,click_trill
+AMWI,American Wigeon,NA,NA,Call
+ATSP,American Tree Sparrow,whistle,phrase,whistle_phrase
+ATTW,American Three-toed Woodpecker,click,trill,click_trill
+BADO,Barred Owl,hoot,phrase,hoot_phrase
+BAEA,Bald Eagle,NA,NA,Call
+BANS,Bank Swallow,NA,NA,Call
+BAOR,Baltimore Oriole,whistle,phrase,whistle_phrase
+BARS,Barn Swallow,NA,NA,Call
+BAWW,Black-and-white Warbler,whistle,series,whistle_series
+BBCU,Black-billed Cuckoo,hoot,series,hoot_series
+BBMA,Black-billed Magpie,NA,NA,Call
+BBWA,Bay-breasted Warbler,whistle,series,whistle_series
+BBWO,Black-backed Woodpecker,click,trill,click_trill
+BCCH,Black-capped Chickadee,whistle,phrase,whistle_phrase
+BCFR,Boreal Chorus Frog,click,trill,click_trill
+BEKI,Belted Kingfisher,NA,NA,Call
+BHCO,Brown-headed Cowbird,polynoise,phrase,polynoise_phrase
+BHGR,Black-headed Grosbeak,whistle,warble,whistle_warble
+BHVI,Blue-headed Vireo,whistle,phrase,whistle_phrase
+BLBW,Blackburnian Warbler,whistle,phrase,whistle_phrase
+BLJA,Blue Jay,NA,NA,Call
+BLPW,Blackpoll Warbler,click,series,click_series
+BLTE,Black Tern,NA,NA,Call
+BOCH,Boreal Chickadee,NA,NA,Call
+BOGU,Bonaparte's Gull,NA,NA,Call
+BOOW,Boreal Owl,hoot,trill,hoot_trill
+BOWA,Bohemian Waxwing,NA,NA,Call
+BRBL,Brewer's Blackbird,polynoise,phrase,polynoise_phrase
+BRCR,Brown Creeper,whistle,warble,whistle_warble
+BRTH,Brown Thrasher,whistle,series,whistle_series
+BTBW,Black-throated Blue Warbler,buzzy,phrase,buzzy_phrase
+BTNW,Black-throated Green Warbler,buzzy,phrase,buzzy_phrase
+BUFF,Bufflehead,NA,NA,Call
+BWHA,Broad-winged Hawk,whistle,phrase,whistle_phrase
+BWTE,Blue-winged Teal,NA,NA,Call
+CAGU,California Gull,NA,NA,Call
+CANG,Canada Goose,NA,NA,Call
+CATE,Caspian Tern,NA,NA,Call
+CATO,Canadian Toad,click,trill,click_trill
+CAWA,Canada Warbler,whistle,warble,whistle_warble
+CCSP,Clay-colored Sparrow,buzzy,series,buzzy_series
+CEDW,Cedar Waxwing,NA,NA,Call
+CHSP,Chipping Sparrow,click,trill,click_trill
+CLSW,Cliff Swallow,NA,NA,Call
+CMWA,Cape May Warbler,whistle,series,whistle_series
+COGO,Common Goldeneye,NA,NA,Call
+COGR,Common Grackle,polynoise,phrase,polynoise_phrase
+COHA,Cooper's Hawk,NA,NA,Call
+COLO,Common Loon,whistle,phrase,whistle_phrase
+COME,Common Merganser,NA,NA,Call
+CONI,Common Nighthawk,polynoise,phrase,polynoise_phrase
+CONW,Connecticut Warbler,click,phrase,click_phrase
+CORA,Common Raven,NA,NA,Call
+CORE,Common Redpoll,buzzy,phrase,buzzy_phrase
+COTE,Common Tern,NA,NA,Call
+COYE,Common Yellowthroat,whistle,series,whistle_series
+CSWA,Chestnut-sided Warbler,click,phrase,click_phrase
+DEJU,Dark-eyed Junco,click,trill,click_trill
+DOWO,Downy Woodpecker,click,trill,click_trill
+EABL,Eastern Bluebird,whistle,phrase,whistle_phrase
+EAGR,Eared Grebe,NA,NA,Call
+EAKI,Eastern Kingbird,buzzy,phrase,buzzy_phrase
+EAPH,Eastern Phoebe,buzzy,phrase,buzzy_phrase
+EAWP,Eastern Wood-Pewee,buzzy,phrase,buzzy_phrase
+EVGR,Evening Grosbeak,NA,NA,Call
+FOSP,Fox Sparrow,whistle,phrase,whistle_phrase
+FOTE,Forster's Tern,NA,NA,Call
+FRGU,Franklin's Gull,NA,NA,Call
+GADW,Gadwall,NA,NA,Call
+GBHE,Great Blue Heron,NA,NA,Call
+GCFL,Great Crested Flycatcher,whistle,phrase,whistle_phrase
+GCKI,Golden-crowned Kinglet,whistle,series,whistle_series
+GCTH,Gray-cheeked Thrush,polynoise,warble,polynoise_warble
+GGOW,Great Gray Owl,hoot,series,hoot_series
+GHOW,Great Horned Owl,hoot,phrase,hoot_phrase
+GRAJ,Gray Jay,NA,NA,Call
+GRCA,Gray Catbird,whistle,phrase,whistle_phrase
+GRYE,Greater Yellowlegs,NA,NA,Call
+GWTE,Green-winged Teal,NA,NA,Call
+HASP,Harris's Sparrow,whistle,series,whistle_series
+HAWO,Hairy Woodpecker,click,trill,click_trill
+HERG,Herring Gull,NA,NA,Call
+HETH,Hermit Thrush,polynoise,warble,polynoise_warble
+HOGR,Horned Grebe,NA,NA,Call
+HOLA,Horned Lark,whistle,warble,whistle_warble
+HOME,Hooded Merganser,NA,NA,Call
+HOWR,House Wren,buzzy,warble,buzzy_warble
+KILL,Killdeer,NA,NA,Call
+LALO,Lapland Longspur,whistle,warble,whistle_warble
+LCSP,Le Conte's Sparrow,polynoise,phrase,polynoise_phrase
+LEFL,Least Flycatcher,click,series,click_series
+LEOW,Long-eared Owl,hoot,series,hoot_series
+LESA,Least Sandpiper,NA,NA,Call
+LEYE,Lesser Yellowlegs,NA,NA,Call
+LISP,Lincoln's Sparrow,buzzy,warble,buzzy_warble
+MALL,Mallard,NA,NA,Call
+MAWA,Magnolia Warbler,whistle,phrase,whistle_phrase
+MAWR,Marsh Wren,buzzy,trill,buzzy_trill
+MEGU,Mew Gull,NA,NA,Call
+MERL,Merlin,NA,NA,Call
+MOBL,Mountain Bluebird,whistle,phrase,whistle_phrase
+MODO,Mourning Dove,hoot,series,hoot_series
+MOWA,Mourning Warbler,buzzy,series,buzzy_series
+NAWA,Nashville Warbler,click,phrase,click_phrase
+NESP,Nelson's Sparrow,polynoise,phrase,polynoise_phrase
+NHOW,Northern Hawk-owl,hoot,trill,hoot_trill
+NLFR,Northern Leopard Frog,buzzy,series,buzzy_series
+NOFL,Northern Flicker,click,trill,click_trill
+NOGO,Northern Goshawk,NA,NA,Call
+NOPI,Northern Pintail,NA,NA,Call
+NOWA,Northern Waterthrush,click,phrase,click_phrase
+NRWS,Northern Rough-winged Swallow,NA,NA,Call
+NSHO,Northern Shoveler,NA,NA,Call
+NSWO,Northern Saw-whet Owl,whistle,series,whistle_series
+OCWA,Orange-crowned Warbler,click,trill,click_trill
+OSFL,Olive-sided Flycatcher,whistle,phrase,whistle_phrase
+OSPR,Osprey,NA,NA,Call
+OVEN,Ovenbird,click,series,click_series
+PAWA,Palm Warbler,buzzy,trill,buzzy_trill
+PBGR,Pied-billed Grebe,hoot,phrase,hoot_phrase
+PHVI,Philadelphia Vireo,whistle,phrase,whistle_phrase
+PIGR,Pine Grosbeak,whistle,warble,whistle_warble
+PISI,Pine Siskin,polynoise,phrase,polynoise_phrase
+PIWA,Pine Warbler,click,trill,click_trill
+PIWO,Pileated Woodpecker,click,trill,click_trill
+PUFI,Purple Finch,whistle,warble,whistle_warble
+RBGR,Rose-breasted Grosbeak,whistle,warble,whistle_warble
+RBGU,Ring-billed Gull,NA,NA,Call
+RBME,Red-breasted Merganser,NA,NA,Call
+RBNU,Red-breasted Nuthatch,NA,NA,Call
+RCKI,Ruby-crowned Kinglet,whistle,warble,whistle_warble
+RECR,Red Crossbill,buzzy,series,buzzy_series
+REDH,Redhead,NA,NA,Call
+RESQ,Red Squirrel,NA,NA,Call
+REVI,Red-eyed Vireo,whistle,phrase,whistle_phrase
+RNDU,Ring-necked Duck,NA,NA,Call
+RNGR,Red-necked Grebe,hoot,phrase,hoot_phrase
+RTHA,Red-tailed Hawk,NA,NA,Call
+RTHU,Ruby-throated Hummingbird,buzzy,phrase,buzzy_phrase
+RUBL,Rusty Blackbird,polynoise,phrase,polynoise_phrase
+RUDU,Ruddy Duck,NA,NA,Call
+RUGR,Ruffed Grouse,hoot,trill,hoot_trill
+RWBL,Red-winged Blackbird,polynoise,phrase,polynoise_phrase
+SACR,Sandhill Crane,NA,NA,Call
+SAPH,Say's Phoebe,whistle,phrase,whistle_phrase
+SAVS,Savannah Sparrow,polynoise,phrase,polynoise_phrase
+SCTA,Scarlet Tanager,whistle,phrase,whistle_phrase
+SEPL,Semipalmated Plover,NA,NA,Call
+SEWR,Sedge Wren,click,trill,click_trill
+SORA,Sora,polynoise,warble,polynoise_warble
+SOSA,Solitary Sandpiper,NA,NA,Call
+SOSP,Song Sparrow,buzzy,warble,buzzy_warble
+SPGR,Spruce Grouse,hoot,trill,hoot_trill
+SPSA,Spotted Sandpiper,NA,NA,Call
+SPTO,Spotted Towhee,buzzy,phrase,buzzy_phrase
+SSHA,Sharp-shinned Hawk,NA,NA,Call
+SWSP,Swamp Sparrow,click,trill,click_trill
+SWTH,Swainson's Thrush,polynoise,warble,polynoise_warble
+TEWA,Tennessee Warbler,click,phrase,click_phrase
+TOSO,Townsend's Solitaire,whistle,phrase,whistle_phrase
+TRES,Tree Swallow,NA,NA,Call
+TRUS,Trumpeter Swan,NA,NA,Call
+TUSW,Tundra Swan,NA,NA,Call
+VATH,Varied Thrush,polynoise,phrase,polynoise_phrase
+VEER,Veery,polynoise,warble,polynoise_warble
+VIRA,Virginia Rail,click,series,click_series
+WAVI,Warbling Vireo,whistle,warble,whistle_warble
+WBNU,White-breasted Nuthatch,NA,NA,Call
+WCSP,White-crowned Sparrow,whistle,phrase,whistle_phrase
+WEGR,Western Grebe,NA,NA,Call
+WETA,Western Tanager,whistle,phrase,whistle_phrase
+WEWP,Western Wood-Pewee,buzzy,phrase,buzzy_phrase
+WISN,Wilson's Snipe,hoot,trill,hoot_trill
+WIWA,Wilson's Warbler,click,trill,click_trill
+WIWR,Winter Wren,buzzy,warble,buzzy_warble
+WODU,Wood Duck,NA,NA,Call
+WOFR,Wood Frog,click,series,click_series
+WTSP,White-throated Sparrow,whistle,series,whistle_series
+WWCR,White-winged Crossbill,buzzy,trill,buzzy_trill
+YBFL,Yellow-bellied Flycatcher,click,series,click_series
+YBSA,Yellow-bellied Sapsucker,click,series,click_series
+YERA,Yellow Rail,click,series,click_series
+YEWA,Yellow Warbler,whistle,phrase,whistle_phrase
+YHBL,Yellow-headed Blackbird,polynoise,phrase,polynoise_phrase
+YRWA,Yellow-rumped Warbler,whistle,series,whistle_series

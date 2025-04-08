@@ -1,0 +1,213 @@
+ID1,species_common_name,SAR_prairies,np_tone,np_pattern,np_combined,mass,logmass,MaxFreqkHz_lhreg,n_tags_maxfreq_WT,maxfreqkHz,rarity
+ALFL,Alder Flycatcher,No,buzzy,phrase,buzzy_phrase,12.7,2.541601993,6.4,722,5.599404432,0.016354016
+AMBI,American Bittern,No,hoot,series,hoot_series,NA,NA,NA,168,1.612440476,0.001948669
+AMCO,American Coot,No,NA,NA,Call,NA,NA,NA,7,2.034285714,4.93E-05
+AMCR,American Crow,No,NA,NA,Call,448.76,6.106488224,1.62,382,2.445183246,0.005562339
+AMGO,American Goldfinch,No,polynoise,warble,polynoise_warble,12.79,2.548663616,8.25,87,6.14862069,0.001480001
+AMKE,American Kestrel,No,NA,NA,Call,NA,NA,NA,NA,NA,1.23E-05
+AMRE,American Redstart,No,whistle,phrase,whistle_phrase,8.24,2.109000344,8,1674,8.782425329,0.019881353
+AMRO,American Robin,No,whistle,phrase,whistle_phrase,78.5,4.363098625,4,1166,4.145643225,0.021706688
+AMTO,American Toad,No,click,trill,click_trill,NA,NA,NA,NA,NA,2.47E-05
+AMWI,American Wigeon,No,NA,NA,Call,NA,NA,NA,19,3.856842105,3.33E-04
+ATSP,American Tree Sparrow,No,whistle,phrase,whistle_phrase,17.83,2.880882432,6.5,NA,6.5,1.85E-04
+ATTW,American Three-toed Woodpecker,No,click,trill,click_trill,55.05,4.008241863,3.2,48,3.745625,0.001147001
+BADO,Barred Owl,No,hoot,phrase,hoot_phrase,NA,NA,NA,9,1.69,1.23E-04
+BAEA,Bald Eagle,No,NA,NA,Call,NA,NA,NA,7,4.61,2.71E-04
+BANS,Bank Swallow,Yes,NA,NA,Call,12.68,2.540025949,7,3,6.07,7.40E-05
+BAOR,Baltimore Oriole,No,whistle,phrase,whistle_phrase,32.83,3.491342732,3.9,10,4.923,1.60E-04
+BARS,Barn Swallow,Yes,NA,NA,Call,17.91,2.885359216,7,1,9.67,3.70E-05
+BAWW,Black-and-white Warbler,No,whistle,series,whistle_series,10.9,2.388762789,9,365,9.23939726,0.005550006
+BBCU,Black-billed Cuckoo,No,hoot,series,hoot_series,50.9,3.929862924,2.5,12,2.174166667,1.85E-04
+BBMA,Black-billed Magpie,No,NA,NA,Call,217.48,5.382106892,6,2,4.435,1.11E-04
+BBWA,Bay-breasted Warbler,No,whistle,series,whistle_series,11.8,2.468099531,9,15,8.734666667,0.003490337
+BBWO,Black-backed Woodpecker,No,click,trill,click_trill,69.24,4.23757873,12,68,4.267941176,0.001578668
+BCCH,Black-capped Chickadee,No,whistle,phrase,whistle_phrase,10.8,2.379546134,3.2,100,6.4024,0.001948669
+BCFR,Boreal Chorus Frog,No,click,trill,click_trill,NA,NA,NA,320,4.3385,0.00645034
+BEKI,Belted Kingfisher,No,click,trill,click_trill,148,4.997212274,9,12,6.7775,3.33E-04
+BHCO,Brown-headed Cowbird,No,polynoise,phrase,polynoise_phrase,40.26,3.69535842,12,117,9.246410256,0.001517002
+BHGR,Black-headed Grosbeak,No,whistle,warble,whistle_warble,NA,NA,NA,1,4.9,9.87E-05
+BHVI,Blue-headed Vireo,No,whistle,phrase,whistle_phrase,15.3,2.727852828,6,177,5.492655367,0.004908672
+BLBW,Blackburnian Warbler,No,whistle,phrase,whistle_phrase,9.74,2.276241118,11.5,387,9.823333333,0.003379337
+BLJA,Blue Jay,No,NA,NA,Call,88,4.477336814,3.2,146,4.792945205,0.002121335
+BLPW,Blackpoll Warbler,No,click,series,click_series,11.84,2.471483629,10.225,25,9.7524,9.50E-04
+BLTE,Black Tern,No,NA,NA,Call,NA,NA,NA,15,5.273333333,1.85E-04
+BOCH,Boreal Chickadee,No,buzzy,phrase,buzzy_phrase,9.8,2.282382386,7.7,100,8.0441,0.003194337
+BOGU,Bonaparte's Gull,No,NA,NA,Call,NA,NA,NA,44,3.872272727,0.001196335
+BOOW,Boreal Owl,No,hoot,trill,hoot_trill,NA,NA,NA,5,2.148,1.23E-04
+BOWA,Bohemian Waxwing,No,NA,NA,Call,54.41,3.99654796,10,8,7.26,2.10E-04
+BRBL,Brewer's Blackbird,No,polynoise,phrase,polynoise_phrase,62.48,4.134846506,6.7,8,5.6675,7.40E-05
+BRCR,Brown Creeper,No,whistle,phrase,whistle_phrase,8.1,2.091864062,8.5,189,8.278518519,0.003490337
+BRTH,Brown Thrasher,No,whistle,series,whistle_series,68.8,4.231203745,6.5,4,4.4575,1.23E-05
+BTBW,Black-throated Blue Warbler,No,buzzy,phrase,buzzy_phrase,10.14,2.316487998,6,NA,6,1.23E-05
+BTNW,Black-throated Green Warbler,No,buzzy,phrase,buzzy_phrase,8.69,2.162172939,8,122,7.519180328,0.001911669
+BUFF,Bufflehead,No,NA,NA,Call,NA,NA,NA,3,2.396666667,7.40E-05
+BWHA,Broad-winged Hawk,No,whistle,phrase,whistle_phrase,NA,NA,NA,5,5.708,1.23E-04
+BWTE,Blue-winged Teal,No,NA,NA,Call,NA,NA,NA,1,5.42,1.23E-05
+CAGU,California Gull,No,NA,NA,Call,NA,NA,NA,9,3.143333333,1.73E-04
+CANG,Canada Goose,No,NA,NA,Call,NA,NA,NA,464,2.150991379,0.009743343
+CATE,Caspian Tern,No,NA,NA,Call,NA,NA,NA,2,3.575,3.70E-05
+CATO,Canadian Toad,No,click,trill,click_trill,NA,NA,NA,33,2.161212121,7.03E-04
+CAWA,Canada Warbler,Yes,whistle,warble,whistle_warble,10.04,2.306577114,7.39,283,7.987349823,0.00353967
+CCSP,Clay-colored Sparrow,No,buzzy,series,buzzy_series,11.2,2.415913778,5.5,301,7.187707641,0.004921005
+CEDW,Cedar Waxwing,No,NA,NA,Call,31.58,3.452524009,8.5,354,8.533135593,0.006647673
+CHSP,Chipping Sparrow,No,click,trill,click_trill,12.2,2.501435952,5.98,1826,7.190131435,0.042389709
+CLSW,Cliff Swallow,No,NA,NA,Call,21.6,3.072693315,7,1,5.04,1.23E-05
+CMWA,Cape May Warbler,No,whistle,series,whistle_series,10.04,2.306577114,8.65,48,8.970416667,0.003083336
+COGO,Common Goldeneye,No,NA,NA,Call,NA,NA,NA,4,3.3275,8.63E-05
+COGR,Common Grackle,No,polynoise,phrase,polynoise_phrase,105.18,4.655673168,4,17,6.039411765,3.33E-04
+COHA,Cooper's Hawk,No,NA,NA,Call,NA,NA,NA,4,4.285,8.63E-05
+COLO,Common Loon,No,buzzy,series,buzzy_series,NA,NA,NA,550,2.090109091,0.012185346
+COME,Common Merganser,No,NA,NA,Call,NA,NA,NA,8,2.21125,3.70E-04
+CONI,Common Nighthawk,Yes,polynoise,phrase,polynoise_phrase,NA,NA,NA,323,4.942693498,0.004686671
+CONW,Connecticut Warbler,No,whistle,phrase,whistle_phrase,13.3,2.587764035,16,261,6.056091954,0.005303339
+CORA,Common Raven,No,NA,NA,Call,927.97,6.832999405,4,791,2.233426043,0.015466015
+CORE,Common Redpoll,No,buzzy,phrase,buzzy_phrase,NA,NA,NA,7,6.985714286,1.11E-04
+COTE,Common Tern,No,NA,NA,Call,NA,NA,NA,1,4.48,1.23E-04
+COYE,Common Yellowthroat,No,whistle,series,whistle_series,9.54,2.255493485,6.3,1016,6.63898622,0.015626349
+CSWA,Chestnut-sided Warbler,No,whistle,warble,whistle_warble,9.29,2.228938553,7.5,827,8.178077388,0.008164675
+DEJU,Dark-eyed Junco,No,click,trill,click_trill,19.5,2.970414466,8.2,1424,6.801116573,0.029439696
+DOWO,Downy Woodpecker,No,click,trill,click_trill,25.55,3.240637317,4.25,25,4.8016,6.66E-04
+EABL,Eastern Bluebird,No,buzzy,phrase,buzzy_phrase,27.5,3.314186005,3.5,1,3.27,1.23E-05
+EAGR,Eared Grebe,No,NA,NA,Call,NA,NA,NA,1,2.33,1.23E-05
+EAKI,Eastern Kingbird,No,buzzy,phrase,buzzy_phrase,39.85,3.685122405,8.2,47,8.616808511,5.92E-04
+EAPH,Eastern Phoebe,No,buzzy,phrase,buzzy_phrase,19.7,2.980618636,5,5,6.19,6.17E-05
+EAWP,Eastern Wood-Pewee,No,buzzy,phrase,buzzy_phrase,13.9,2.63188884,5,1,4.72,1.23E-05
+EVGR,Evening Grosbeak,Yes,NA,NA,Call,57.3,4.048300624,4.2,35,5.232571429,0.001134668
+FOSP,Fox Sparrow,No,whistle,phrase,whistle_phrase,33.25,3.504054767,7,290,5.206862069,0.005118338
+FOTE,Forster's Tern,No,NA,NA,Call,NA,NA,NA,NA,NA,2.47E-05
+FRGU,Franklin's Gull,No,NA,NA,Call,NA,NA,NA,16,3.00375,1.97E-04
+GADW,Gadwall,No,NA,NA,Call,NA,NA,NA,4,3.035,7.40E-05
+GBHE,Great Blue Heron,No,NA,NA,Call,NA,NA,NA,4,2.86,7.40E-05
+GCFL,Great Crested Flycatcher,No,whistle,phrase,whistle_phrase,32.1,3.46885603,3.5,7,4.522857143,6.17E-05
+GCKI,Golden-crowned Kinglet,No,whistle,warble,whistle_warble,6.19,1.822935087,9.5,70,8.939571429,0.002331002
+GCTH,Gray-cheeked Thrush,No,polynoise,warble,polynoise_warble,31.58,3.452524009,7.5,24,5.704583333,6.17E-04
+GGOW,Great Gray Owl,No,hoot,series,hoot_series,NA,NA,NA,5,1.296,8.63E-05
+GHOW,Great Horned Owl,No,hoot,phrase,hoot_phrase,NA,NA,NA,8,1.44,1.85E-04
+GRAJ,Gray Jay,No,NA,NA,Call,71.58,4.270815705,1.8,730,3.997027397,0.023162023
+GRCA,Gray Catbird,No,whistle,phrase,whistle_phrase,35.3,3.563882964,9,14,4.93,1.60E-04
+GRYE,Greater Yellowlegs,No,NA,NA,Call,161.74,5.085990108,3.45,259,3.781698842,0.006142006
+GWTE,Green-winged Teal,No,NA,NA,Call,NA,NA,NA,14,3.212142857,2.59E-04
+HASP,Harris's Sparrow,No,whistle,phrase,whistle_phrase,NA,NA,NA,38,4.503947368,9.13E-04
+HAWO,Hairy Woodpecker,No,click,trill,click_trill,62.65,4.137563681,5.5,57,5.056491228,0.001430668
+HERG,Herring Gull,No,NA,NA,Call,NA,NA,NA,19,2.498421053,4.07E-04
+HETH,Hermit Thrush,No,polynoise,warble,polynoise_warble,30.1,3.404525172,6.5,2074,4.993659595,0.047471047
+HOGR,Horned Grebe,Yes,NA,NA,Call,NA,NA,NA,2,3.08,2.47E-05
+HOLA,Horned Lark,No,whistle,warble,whistle_warble,33.33,3.506457892,7,6,7.066666667,7.40E-05
+HOME,Hooded Merganser,No,NA,NA,Call,NA,NA,NA,1,5.42,1.23E-05
+HOWR,House Wren,No,buzzy,warble,buzzy_warble,10.85,2.38416508,8,123,6.852439024,5.67E-04
+KILL,Killdeer,No,NA,NA,Call,96.44,4.568921053,2.58,17,6.180588235,2.84E-04
+LALO,Lapland Longspur,No,whistle,warble,whistle_warble,27.84,3.326473835,5,2,4.485,4.93E-05
+LCSP,Le Conte's Sparrow,No,polynoise,phrase,polynoise_phrase,13,2.564949357,11,128,9.73484375,0.002923003
+LEFL,Least Flycatcher,No,click,series,click_series,10,2.302585093,7.5,209,7.677368421,0.004662005
+LEOW,Long-eared Owl,No,hoot,series,hoot_series,NA,NA,NA,5,0.832,9.87E-05
+LESA,Least Sandpiper,No,NA,NA,Call,NA,NA,NA,1,3.78,3.70E-05
+LEYE,Lesser Yellowlegs,No,NA,NA,Call,77.5,4.350277936,2.79,70,3.571285714,0.001529335
+LISP,Lincoln's Sparrow,No,buzzy,warble,buzzy_warble,16.6,2.809402695,7,983,6.618952187,0.022644023
+MALL,Mallard,No,NA,NA,Call,NA,NA,NA,46,3.911521739,7.28E-04
+MAWA,Magnolia Warbler,No,whistle,phrase,whistle_phrase,8.14,2.09679018,7.5,478,7.097384937,0.010532677
+MAWR,Marsh Wren,No,buzzy,warble,buzzy_warble,10.8,2.379546134,9,7,7.957142857,1.23E-04
+MEGU,Mew Gull,No,NA,NA,Call,NA,NA,NA,15,4.130666667,2.84E-04
+MERL,Merlin,No,NA,NA,Call,NA,NA,NA,1,5.51,6.17E-05
+MOBL,Mountain Bluebird,No,buzzy,phrase,buzzy_phrase,29.6,3.387774361,3,NA,3,1.23E-05
+MODO,Mourning Dove,No,hoot,series,hoot_series,118.93,4.778535085,0.47,194,1.562938144,0.001874669
+MOWA,Mourning Warbler,No,whistle,phrase,whistle_phrase,11.74,2.463001814,5.458,587,6.480579216,0.009274676
+NAWA,Nashville Warbler,No,whistle,phrase,whistle_phrase,8.09,2.090628731,9.25,1012,8.387648221,0.015318015
+NESP,Nelson's Sparrow,No,polynoise,phrase,polynoise_phrase,15.11,2.715356776,7.3,3,7.1,7.40E-05
+NHOW,Northern Hawk Owl,No,hoot,trill,hoot_trill,NA,NA,NA,3,1.616666667,4.93E-05
+NLFR,Northern Leopard Frog,No,buzzy,series,buzzy_series,NA,NA,NA,3,2.146666667,1.11E-04
+NOFL,Northern Flicker,No,click,trill,click_trill,131.46,4.878702623,3.35,113,4.645221239,0.00353967
+NOGO,Northern Goshawk,No,NA,NA,Call,NA,NA,NA,5,4.408,2.84E-04
+NOPI,Northern Pintail,No,NA,NA,Call,NA,NA,NA,1,2.85,1.23E-05
+NOWA,Northern Waterthrush,No,whistle,warble,whistle_warble,16.3,2.791165108,9,295,6.953966102,0.004945672
+NRWS,Northern Rough-winged Swallow,No,NA,NA,Call,NA,NA,NA,NA,NA,2.47E-05
+NSHO,Northern Shoveler,No,NA,NA,Call,NA,NA,NA,4,2.265,3.70E-05
+NSWO,Northern Saw-whet Owl,No,whistle,series,whistle_series,NA,NA,NA,1,1.4,3.70E-05
+OCWA,Orange-crowned Warbler,No,click,trill,click_trill,9.19,2.218115936,8.5,295,7.369355932,0.005735006
+OSFL,Olive-sided Flycatcher,Yes,whistle,phrase,whistle_phrase,32.1,3.46885603,3.8,233,4.581587983,0.004859338
+OSPR,Osprey,No,NA,NA,Call,NA,NA,NA,13,4.739230769,5.55E-04
+OVEN,Ovenbird,No,click,series,click_series,18.8,2.93385687,8,1784,7.99455157,0.042932376
+PAWA,Palm Warbler,No,buzzy,series,buzzy_series,10.3,2.332143895,8,653,7.087274119,0.015848349
+PBGR,Pied-billed Grebe,No,hoot,phrase,hoot_phrase,NA,NA,NA,217,1.877603687,0.002701003
+PHVI,Philadelphia Vireo,No,whistle,phrase,whistle_phrase,11.5,2.442347035,7,129,5.209457364,0.002997003
+PIGR,Pine Grosbeak,No,whistle,phrase,whistle_phrase,56.4,4.032469159,4.5,6,5.7,8.63E-05
+PISI,Pine Siskin,No,buzzy,warble,buzzy_warble,12.7,2.541601993,8,269,7.148698885,0.006610673
+PIWA,Pine Warbler,No,click,trill,click_trill,11.79,2.467251715,5.7,NA,5.7,3.70E-05
+PIWO,Pileated Woodpecker,No,click,trill,click_trill,286.59,5.658052623,6,133,2.62887218,0.002701003
+PUFI,Purple Finch,No,whistle,warble,whistle_warble,23.3,3.148453361,6,45,5.169333333,0.001011334
+RBGR,Rose-breasted Grosbeak,No,whistle,warble,whistle_warble,42,3.737669618,9,356,4.261488764,0.008263342
+RBGU,Ring-billed Gull,No,NA,NA,Call,NA,NA,NA,11,3.243636364,3.21E-04
+RBME,Red-breasted Merganser,No,NA,NA,Call,NA,NA,NA,3,1.883333333,7.40E-05
+RBNU,Red-breasted Nuthatch,No,NA,NA,Call,9.8,2.282382386,8,269,4.063457249,0.007017674
+RCKI,Ruby-crowned Kinglet,No,whistle,warble,whistle_warble,6.19,1.822935087,7,1227,5.296650367,0.029230029
+RECR,Red Crossbill,No,buzzy,phrase,buzzy_phrase,38.29,3.645188765,6,7,5.255714286,3.70E-04
+REDH,Redhead,No,NA,NA,Call,NA,NA,NA,1,3.18,1.23E-05
+RESQ,Red Squirrel,No,NA,NA,Call,NA,NA,NA,1033,8.128441433,0.021793022
+REVI,Red-eyed Vireo,No,whistle,phrase,whistle_phrase,16.06,2.776331709,6,2118,4.890542965,0.031302031
+RNDU,Ring-necked Duck,No,NA,NA,Call,NA,NA,NA,7,4.661428571,1.73E-04
+RNGR,Red-necked Grebe,No,hoot,phrase,hoot_phrase,NA,NA,NA,65,2.642,0.001233335
+RTHA,Red-tailed Hawk,No,NA,NA,Call,NA,NA,NA,2,3.15,4.93E-05
+RTHU,Ruby-throated Hummingbird,No,buzzy,phrase,buzzy_phrase,3.09,1.128171091,6,17,5.655882353,1.60E-04
+RUBL,Rusty Blackbird,Yes,polynoise,phrase,polynoise_phrase,59.57,4.087152092,9.5,57,5.884561404,0.001282668
+RUDU,Ruddy Duck,No,NA,NA,Call,NA,NA,NA,1,4.11,1.23E-05
+RUGR,Ruffed Grouse,No,hoot,trill,hoot_trill,530.91,6.274592515,4,422,1.156516588,0.007449341
+RWBL,Red-winged Blackbird,No,polynoise,phrase,polynoise_phrase,50.78,3.927502576,6,700,5.5689,0.008004341
+SACR,Sandhill Crane,No,NA,NA,Call,NA,NA,NA,293,2.092116041,0.005439005
+SAPH,Say's Phoebe,No,whistle,phrase,whistle_phrase,NA,NA,NA,NA,NA,3.70E-05
+SAVS,Savannah Sparrow,No,polynoise,phrase,polynoise_phrase,19.97,2.994231147,10,22,9.340909091,3.58E-04
+SCTA,Scarlet Tanager,No,whistle,phrase,whistle_phrase,28.2,3.339321978,5,NA,5,1.23E-05
+SEPL,Semipalmated Plover,No,NA,NA,Call,NA,NA,NA,NA,NA,1.23E-05
+SEWR,Sedge Wren,No,buzzy,series,buzzy_series,9.04,2.201659174,7.8,131,8.550152672,0.001763668
+SORA,Sora,No,NA,NA,Call,NA,NA,NA,244,3.582254098,0.003626004
+SOSA,Solitary Sandpiper,No,NA,NA,Call,48.4,3.879499814,5.8,94,6.579787234,0.00291067
+SOSP,Song Sparrow,No,buzzy,warble,buzzy_warble,21.91,3.086943154,9,385,7.465662338,0.009361009
+SPGR,Spruce Grouse,No,hoot,trill,hoot_trill,473.65,6.160468652,6,69,2.475072464,0.001060668
+SPSA,Spotted Sandpiper,No,NA,NA,Call,40.4,3.698829785,5.426,36,4.334166667,0.001270335
+SPTO,Spotted Towhee,No,buzzy,phrase,buzzy_phrase,NA,NA,NA,NA,NA,1.23E-05
+SSHA,Sharp-shinned Hawk,No,NA,NA,Call,NA,NA,NA,NA,NA,6.17E-05
+SWSP,Swamp Sparrow,No,click,trill,click_trill,16.1,2.778819272,7.66,973,7.375529291,0.014479348
+SWTH,Swainson's Thrush,No,polynoise,warble,polynoise_warble,30.3,3.411147713,6.05,1600,4.78308125,0.041588042
+TEWA,Tennessee Warbler,No,click,trill,click_trill,8.9,2.186051277,10,815,9.769067485,0.035544702
+TOSO,Townsend's Solitaire,No,whistle,phrase,whistle_phrase,33.2,3.502549876,5.5,NA,5.5,6.17E-05
+TRES,Tree Swallow,No,NA,NA,Call,21.2,3.054001182,5.95,65,6.669538462,0.001665002
+TRUS,Trumpeter Swan,Yes,NA,NA,Call,NA,NA,NA,46,2.262173913,5.43E-04
+TUSW,Tundra Swan,No,NA,NA,Call,NA,NA,NA,NA,2.262173913,1.23E-05
+VATH,Varied Thrush,No,polynoise,phrase,polynoise_phrase,77.5,4.350277936,5.85,NA,5.85,4.93E-05
+VEER,Veery,No,polynoise,warble,polynoise_warble,31.9,3.46260601,5.6,138,5.045724638,0.001319668
+VIRA,Virginia Rail,No,click,series,click_series,NA,NA,NA,3,3.86,3.70E-05
+WAVI,Warbling Vireo,No,whistle,warble,whistle_warble,12.67,2.539236994,6.9,NA,6.9,0.001036001
+WBNU,White-breasted Nuthatch,No,NA,NA,Call,21,3.044522438,2.9,11,4.564545455,1.48E-04
+WCSP,White-crowned Sparrow,No,buzzy,phrase,buzzy_phrase,28,3.33220451,7,117,6.07008547,0.001948669
+WEGR,Western Grebe,Yes,NA,NA,Call,NA,NA,NA,2,4.09,2.47E-05
+WETA,Western Tanager,No,buzzy,phrase,buzzy_phrase,28.1,3.335769576,4.42,10,4.75,0.002540669
+WEWP,Western Wood-Pewee,No,buzzy,phrase,buzzy_phrase,13.1,2.57261223,5.25,59,5.777118644,0.001455335
+WISN,Wilson's Snipe,No,hoot,trill,hoot_trill,112.94,4.726856704,2.4,1149,2.167171453,0.021028354
+WIWA,Wilson's Warbler,No,click,trill,click_trill,6.96,1.940179474,8.1,183,7.835846995,0.004933338
+WIWR,Winter Wren,No,buzzy,warble,buzzy_warble,9.74,2.276241118,9,438,7.452191781,0.010076343
+WODU,Wood Duck,No,NA,NA,Call,NA,NA,NA,1,11.25,2.47E-05
+WOFR,Wood Frog,No,click,series,click_series,NA,NA,NA,25,3.8348,4.07E-04
+WTSP,White-throated Sparrow,No,whistle,series,whistle_series,24.4,3.194583132,6.6,5542,5.169855648,0.112936446
+WWCR,White-winged Crossbill,No,polynoise,warble,polynoise_warble,28.69,3.35654863,6.2,239,6.255313808,0.007128674
+YBFL,Yellow-bellied Flycatcher,No,click,series,click_series,11.8,2.468099531,4,274,5.832189781,0.005056672
+YBSA,Yellow-bellied Sapsucker,No,click,series,click_series,50.3,3.918005077,2.41,352,3.342357955,0.005599339
+YERA,Yellow Rail,Yes,click,series,click_series,NA,NA,NA,7,3.975714286,1.11E-04
+YEWA,Yellow Warbler,No,whistle,phrase,whistle_phrase,10.22,2.324346585,6.75,577,8.192010399,0.007017674
+YHBL,Yellow-headed Blackbird,No,polynoise,phrase,polynoise_phrase,62.68,4.138042417,7.3,26,3.548076923,3.08E-04
+YRWA,Yellow-rumped Warbler,No,whistle,series,whistle_series,11.94,2.479894108,5.8,1318,6.791919575,0.046916047
+WILL,Willet,No,NA,NA,Call,,,,,,
+MAGO,Marbled Godwit,No,NA,NA,Call,,,,,,
+LARB,Lark Bunting,Yes,buzzy,trill,buzzy_trill,,,,,,
+WEME,Western Meadowlark,No,whistle,warble,whistle_warble,,,,,,
+TBLO,Thick-billed Longspur,Yes,whistle,phrase,whistle_phrase,,,,,,
+VESP,Vesper Sparrow,No,buzzy,phrase,buzzy_phrase,,,,,,
+UPSA,Upland Sandpiper,No,whistle,phrase,whistle_phrase,,,,,,
+CCLO,Chestnut-collared Longspur,Yes,whistle,warble,whistle_warble,,,,,,
+STGR,Sharp-tailed Grouse,No,click,trill,click_trill,,,,,,
+BRSP,Brewer's Sparrow,No,buzzy,series,buzzy_series,,,,,,
+SPPI,Sprague's Pipit,Yes,buzzy,series,buzzy_series,,,,,,
+BAIS,Baird's Sparrow,Yes,whistle,phrase,whistle_phrase,,,,,,
+LBCU,Long-billed Curlew,Yes,whistle,phrase,whistle_phrase,,,,,,
+WIPH,Wilson's Phalarope,No,buzzy,series,buzzy_series,,,,,,
+GRSP,Grasshopper Sparrow,No,click,trill,click_trill,,,,,,
+WIFL,Willow Flycatcher,No,buzzy,phrase,buzzy_phrase,,,,,,
+GPTO,Great Plains Toad,Yes,,,,,,,,,
+BOBO,Bobolink,Yes,polynoise,warble,polynoise_warble,,,,,,

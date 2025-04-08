@@ -1,0 +1,193 @@
+ID1,Mean % Agreement,Tags,species_common_name
+ALFL,82.14,14,Alder Flycatcher
+AMBI,71.43,14,American Bittern
+AMCO,100,3,American Coot
+AMCR,96.43,14,American Crow
+AMGO,64.29,14,American Goldfinch
+AMKE,50,1,American Kestrel
+AMRE,89.29,14,American Redstart
+AMRO,100,14,American Robin
+AMTO,0,1,American Toad
+AMWI,70,15,American Wigeon
+ATSP,0,7,American Tree Sparrow
+ATTW,28.57,14,American Three-toed Woodpecker
+BADO,100,6,Barred Owl
+BAEA,43.33,15,Bald Eagle
+BANS,20,5,Bank Swallow
+BAOR,50,6,Baltimore Oriole
+BARS,66.67,3,Barn Swallow
+BAWW,90,15,Black-and-white Warbler
+BBCU,20,5,Black-billed Cuckoo
+BBMA,75,6,Black-billed Magpie
+BBWA,89.29,14,Bay-breasted Warbler
+BBWO,71.43,14,Black-backed Woodpecker
+BCCH,85.71,14,Black-capped Chickadee
+BCFR,100,14,Boreal Chorus Frog
+BEKI,73.08,13,Belted Kingfisher
+BHCO,89.29,14,Brown-headed Cowbird
+BHGR,0,6,Black-headed Grosbeak
+BHVI,85.71,14,Blue-headed Vireo
+BLBW,84.62,13,Blackburnian Warbler
+BLJA,78.57,14,Blue Jay
+BLPW,46.43,14,Blackpoll Warbler
+BLTE,91.67,12,Black Tern
+BOCH,82.14,14,Boreal Chickadee
+BOGU,85.71,14,Bonaparte's Gull
+BOOW,21.43,7,Boreal Owl
+BOWA,94.44,9,Bohemian Waxwing
+BRBL,30,5,Brewer's Blackbird
+BRCR,65.38,13,Brown Creeper
+BRTH,100,1,Brown Thrasher
+BTBW,0,1,Black-throated Blue Warbler
+BTNW,100,14,Black-throated Green Warbler
+BUFF,66.67,3,Bufflehead
+BWHA,58.33,6,Broad-winged Hawk
+BWTE,50,1,Blue-winged Teal
+CAGU,6.25,8,California Gull
+CANG,100,14,Canada Goose
+CATE,50,2,Caspian Tern
+CATO,85.71,7,Canadian Toad
+CAWA,89.29,14,Canada Warbler
+CCSP,100,14,Clay-colored Sparrow
+CEDW,93.33,15,Cedar Waxwing
+CHSP,82.14,14,Chipping Sparrow
+CLSW,0,1,Cliff Swallow
+CMWA,85.71,14,Cape May Warbler
+COGO,50,4,Common Goldeneye
+COGR,92.86,7,Common Grackle
+COHA,37.5,4,Cooper's Hawk
+COLO,96.43,14,Common Loon
+COME,31.25,8,Common Merganser
+CONI,89.29,14,Common Nighthawk
+CONW,82.14,14,Connecticut Warbler
+CORA,100,14,Common Raven
+CORE,37.5,8,Common Redpoll
+COTE,50,8,Common Tern
+COYE,96.43,14,Common Yellowthroat
+CSWA,85.71,14,Chestnut-sided Warbler
+DEJU,89.29,14,Dark-eyed Junco
+DOWO,50,8,Downy Woodpecker
+EABL,50,1,Eastern Bluebird
+EAGR,0,1,Eared Grebe
+EAKI,75,16,Eastern Kingbird
+EAPH,62.5,4,Eastern Phoebe
+EAWP,50,1,Eastern Wood-Pewee
+EVGR,96.43,14,Evening Grosbeak
+FOSP,92.86,14,Fox Sparrow
+FOTE,25,2,Forster's Tern
+FRGU,46.15,13,Franklin's Gull
+GADW,83.33,3,Gadwall
+GBHE,20,5,Great Blue Heron
+GCFL,80,5,Great Crested Flycatcher
+GCKI,92.86,14,Golden-crowned Kinglet
+GCTH,100,14,Gray-cheeked Thrush
+GGOW,58.33,6,Great Gray Owl
+GHOW,100,9,Great Horned Owl
+GRAJ,100,14,Gray Jay
+GRCA,56.25,8,Gray Catbird
+GRYE,64.29,14,Greater Yellowlegs
+GWTE,68.18,11,Green-winged Teal
+HASP,100,14,Harris's Sparrow
+HAWO,85.71,14,Hairy Woodpecker
+HERG,43.75,8,Herring Gull
+HETH,96.43,14,Hermit Thrush
+HOLA,75,2,Horned Lark
+HOME,50,1,Hooded Merganser
+HOWR,65.62,16,House Wren
+KILL,92.86,14,Killdeer
+LALO,100,2,Lapland Longspur
+LCSP,89.29,14,Le Conte's Sparrow
+LEFL,85.71,14,Least Flycatcher
+LEOW,25,2,Long-eared Owl
+LESA,16.67,3,Least Sandpiper
+LEYE,39.29,14,Lesser Yellowlegs
+LISP,96.43,14,Lincoln's Sparrow
+MALL,71.43,14,Mallard
+MAWA,89.29,14,Magnolia Warbler
+MAWR,28.57,7,Marsh Wren
+MEGU,56.25,8,Mew Gull
+MERL,33.33,3,Merlin
+MOBL,100,1,Mountain Bluebird
+MODO,92.86,14,Mourning Dove
+MOWA,78.57,14,Mourning Warbler
+NAWA,85.71,14,Nashville Warbler
+NESP,40,5,Nelson's Sparrow
+NHOW,50,1,Northern Hawk Owl
+NLFR,71.43,7,Northern Leopard Frog
+NOFL,92.86,14,Northern Flicker
+NOGO,64.29,14,Northern Goshawk
+NOPI,0,1,Northern Pintail
+NOWA,96.43,14,Northern Waterthrush
+NRWS,100,1,Northern Rough-winged Swallow
+NSHO,50,1,Northern Shoveler
+NSWO,50,1,Northern Saw-whet Owl
+OCWA,64.29,14,Orange-crowned Warbler
+OSFL,96.43,14,Olive-sided Flycatcher
+OSPR,37.5,8,Osprey
+OVEN,89.29,14,Ovenbird
+PAWA,92.86,14,Palm Warbler
+PBGR,85.71,14,Pied-billed Grebe
+PHVI,75,14,Philadelphia Vireo
+PIGR,62.5,4,Pine Grosbeak
+PISI,100,14,Pine Siskin
+PIWA,0,3,Pine Warbler
+PIWO,82.14,14,Pileated Woodpecker
+PUFI,60.71,14,Purple Finch
+RBGR,100,14,Rose-breasted Grosbeak
+RBGU,50,7,Ring-billed Gull
+RBME,50,3,Red-breasted Merganser
+RBNU,92.86,14,Red-breasted Nuthatch
+RCKI,89.29,14,Ruby-crowned Kinglet
+RECR,42.86,14,Red Crossbill
+REDH,0,1,Redhead
+RESQ,92.86,14,Red Squirrel
+REVI,96.67,15,Red-eyed Vireo
+RNDU,50,7,Ring-necked Duck
+RNGR,92.86,14,Red-necked Grebe
+RTHA,100,2,Red-tailed Hawk
+RTHU,56.25,8,Ruby-throated Hummingbird
+RUBL,89.29,14,Rusty Blackbird
+RUGR,92.86,14,Ruffed Grouse
+RWBL,75,14,Red-winged Blackbird
+SACR,96.43,14,Sandhill Crane
+SAPH,100,2,Say's Phoebe
+SAVS,96.43,14,Savannah Sparrow
+SCTA,0,1,Scarlet Tanager
+SEPL,0,1,Semipalmated Plover
+SEWR,82.14,14,Sedge Wren
+SORA,92.86,14,Sora
+SOSA,96.43,14,Solitary Sandpiper
+SOSP,100,14,Song Sparrow
+SPGR,46.43,14,Spruce Grouse
+SPSA,62.5,16,Spotted Sandpiper
+SPTO,50,1,Spotted Towhee
+SSHA,50,4,Sharp-shinned Hawk
+SWSP,92.86,14,Swamp Sparrow
+SWTH,96.43,14,Swainson's Thrush
+TEWA,100,14,Tennessee Warbler
+TOSO,40,5,Townsend's Solitaire
+TRES,82.14,14,Tree Swallow
+TRUS,100,10,Trumpeter Swan
+TUSW,0,1,Tundra Swan
+VATH,100,4,Varied Thrush
+VEER,90.91,22,Veery
+VIRA,66.67,3,Virginia Rail
+WAVI,96.43,14,Warbling Vireo
+WBNU,35.71,7,White-breasted Nuthatch
+WCSP,92.86,14,White-crowned Sparrow
+WEGR,25,2,Western Grebe
+WETA,96.43,14,Western Tanager
+WEWP,92.86,14,Western Wood-Pewee
+WISN,96.43,14,Wilson's Snipe
+WIWA,57.14,14,Wilson's Warbler
+WIWR,100,14,Winter Wren
+WODU,75,2,Wood Duck
+WOFR,75,10,Wood Frog
+WTSP,100,14,White-throated Sparrow
+WWCR,75,14,White-winged Crossbill
+YBFL,85.71,14,Yellow-bellied Flycatcher
+YBSA,71.43,14,Yellow-bellied Sapsucker
+YERA,83.33,6,Yellow Rail
+YEWA,80.77,13,Yellow Warbler
+YHBL,92.86,14,Yellow-headed Blackbird
+YRWA,90,15,Yellow-rumped Warbler

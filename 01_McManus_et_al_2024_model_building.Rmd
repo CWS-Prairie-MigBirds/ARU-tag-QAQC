@@ -1,0 +1,299 @@
+---
+title: "Boreal Monitoring Strategy: Tag Validation Analysis"
+author: Janine McManus and Steven Van Wilgenburg
+
+---
+
+THIS SCRIPT COLLAPSES SONG TYPES INTO THREE CATEGORIES. Original models used more categories, however only two were significant in best fitting models from the first iteration.
+
+
+Our aim is to model the proportion of species tags that are agreed upon by multiple observers as a function of species and transcriber specific covariates. Such a model could then be applied to community level output from WildTrax and predict the proportion of disagreements that are likely for a given point count. We then aim to use such predictions to test applying advanced double-observer auditing of entire point counts based on predicted proportions of likely disagreements.
+
+```{r include = FALSE}
+library(tidyverse)
+library(dplyr)
+library(caret)
+library(papeR)
+library(ggcorrplot)
+library(AICcmodavg)
+library(sjPlot)
+library(lme4)
+library(ggeffects)
+library(ggplot2)
+library(performance)
+library(see)
+library(DHARMa)
+```
+
+
+## Section 1: Mean Agreement Summary Table
+
+
+A total of 1948 tags in 11 projects were validated by two additional observers for 192 species. For species that had less than 7 tags across projects, all tags were validated. All tags are included in Table 1, but for model selection we will only use species that had five or more tags validated.
+
+Step 1: Read in tag data and species and transcriber traits
+
+```{r include = FALSE}
+dat <- read_csv("data/validated_tags_training_WIDE.csv")
+
+spp_traits <- read_csv("data/trait_tables/species_traits_aug2022.csv")
+
+t_traits <- read_csv("data/trait_tables/boreal_transcriber_traits.csv")
+
+t_traits <- t_traits %>% dplyr::rename(transcriber_ID1 = transcriber)
+
+```
+
+Step 2: Create tables summarizing mean % agreement by transcriber and species
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+
+table1 <- dat %>% group_by(ID1) %>% dplyr::summarise('Tags' = n(),'mean1' = mean(ID1_v_ID2), 'mean2' = mean(ID1_v_ID3))
+table1$'Mean % Agreement' <- round((table1$mean1 + table1$mean2)/2*100,2) 
+table1 <- table1 %>% dplyr::select(ID1, 'Mean % Agreement', 'Tags')
+
+spp <- spp_traits %>% select(ID1, species_common_name)
+table1 <- left_join(table1, spp, by = "ID1")
+
+mean(table1$Tags)
+write_csv(table1, "tables/appendixB_step1.csv")
+
+DT:: datatable(table1, filter = 'top', rownames = FALSE, caption = "Table 1. A summary of the percent mean agreement between the original species identification and validation by a second and third observer.")
+
+```
+
+Create a list with species that have more than 5 tags validated, as this will be the minimum number of tags required per species for the analysis
+
+Poor species are the gulls, terns and ducks that are not well surveyed by point counts but are also species in our data set that Rob Wapple in particular would ID to species (any random grunt as a GBHE) but no verifier felt comfortable confirming the species ID. 
+
+In addition, Rob Wapple in his first time transcribing started by identifying FOSP as ATSP, but that issue was identitified early and the 7 ATSP tags in the dataset were corrected before verification actually happened so we remove them here.
+
+```{r}
+spp <- table1 %>% dplyr::filter(Tags > 5)
+
+spp <- unique(spp$ID1)
+
+#we removed gulls and ducks from the analysis, and ATSP tags had already been corrected by the time additional verification was done.
+poor <- c("ATSP", "GBHE", "AMTO", "COME", "CAGU", "HERG", "MEGU", "CATE", "FRGU", "RBGU", "COTE", "FOTE", "MALL", "RNDU", "COGO")
+
+```
+
+How many species had more than 5 tags validated?
+
+```{r}
+table3 <- dat %>% filter(ID1 %in% spp) %>% group_by(ID1) %>% dplyr::summarise('Tags' = n(),'mean1' = mean(ID1_v_ID2), 'mean2' = mean(ID1_v_ID3))
+table3$'Mean % Agreement' <- round((table3$mean1 + table3$mean2)/2*100,2) 
+table3 <- table3 %>% dplyr::select(ID1, 'Mean % Agreement', 'Tags')
+
+mean(table3$Tags)
+
+DT:: datatable(table3, filter = 'top', rownames = FALSE, caption = "Table 1. A summary of the percent mean agreement between the original species identification and validation by a second and third observer.")
+```
+
+
+```{r}
+table2 <- dat %>% group_by(transcriber_ID1) %>% dplyr::summarise('Tags' = n(),'mean1' = mean(ID1_v_ID2), 'mean2' = mean(ID1_v_ID3))
+table2$mean_agree <- round((table2$mean1 + table2$mean2)/2,4) 
+table2 <- table2 %>% dplyr::select(transcriber_ID1, mean_agree, 'Tags')
+t_t <- left_join(table2, t_traits, by = "transcriber_ID1")
+
+DT:: datatable(t_t, filter = 'top', rownames = FALSE, caption = "Table 1. A summary of the percent agreement between the original species identification and a second and third audit of the tag.")
+```
+
+
+### Section 2: Modelling Agreement (Data in this section exclude species that had  < 5 tags in total.)
+
+First up, read in long format of the data and add species and transcriber traits
+
+```{r}
+
+tags_all <- read_csv("data/validated_tags_training_data.csv")
+
+tags_all$transcriber_ID1 <- gsub("steve.enid", "Enid", tags_all$transcriber_ID1)
+tags_all$transcriber_ID2 <- gsub("steve.enid", "Enid", tags_all$transcriber_ID2)
+
+unique(tags_all$ID1) #number of species
+
+mean(tags_all$agreement)
+sd(tags_all$agreement)
+
+##change a couple of the deprecated codes
+tags_all['confidence'][tags_all['confidence'] == 'Confirmed'] <- 'Confident'
+
+tags_all['confidence'][tags_all['confidence'] == 'Check Data'] <- 'To Be Checked'
+
+dat2 <- left_join(tags_all, spp_traits, by= "ID1")
+dat2 <- left_join(dat2, t_traits, by = "transcriber_ID1")
+
+```
+
+
+Filter out poor and far species, create song type category
+
+```{r}
+
+dat3 <- dat2 %>% filter(ID1 %in% spp, !ID1 %in% poor, confidence != "Unknown far")
+
+dat3 <- dat3 %>% dplyr::mutate(far = replace_na(far, "N"))
+
+dat4 <- dat3 %>% filter(far == "N")
+
+dat4$song_type_np <- ifelse(dat4$song_call == "Song", yes = dat4$np_combined, no = "Call")
+
+dat4$song_type_c <- ifelse(dat4$song_type_np == "click_trill", "click_trill", ifelse(dat4$song_type_np == "polynoise_phrase", "polynoise_phrase", "Other"))
+
+dat4$song_tone <- ifelse(dat4$song_call == "Song", yes = dat4$np_tone, no = "Call")
+
+dat4$song_pattern <- ifelse(dat4$song_call == "Song", yes = dat4$np_pattern, no = "Call")
+
+unique(dat4$song_type_c)
+
+```
+
+
+Create models
+
+
+```{r}
+
+dat4$song_type_np <- as.factor(dat4$song_type_np)
+dat4$song_type_c <- factor(dat4$song_type_c, levels = c("Other", "click_trill", "polynoise_phrase"))
+dat4$agreement <- as.factor(dat4$agreement)
+dat4$ID1 <- as.factor(dat4$ID1)
+dat4$confidence <- as.factor(dat4$confidence)
+dat4$song_call <- as.factor(dat4$song_call)
+dat4$mf_d10 <- dat4$maxfreqkHz/10
+dat4$rar_u10 <- dat4$rarity*10
+dat4$mf_z <- scale(dat4$maxfreqkHz)
+
+```
+
+Check covariate summary
+```{r}
+
+summary(dat4)
+
+```
+
+
+#### Candiate Model Set, z-scaled, far tags excluded
+What are we testing: test_score, confidence, song_type_c, song_call, maxfreqkHz, (1|ID1)
+
+```{r}
+
+mm1 <- glmer(agreement ~ scale(test_score) + confidence + song_type_c + mf_z + I(mf_z^2) + scale(rarity) + (1|ID1), data = dat4, family = binomial, control=glmerControl(optimizer="bobyqa",
+            optCtrl=list(maxfun=100000)))
+
+mm2 <- glmer(agreement ~ scale(test_score) + confidence + song_type_c + mf_z + scale(rarity) + (1|ID1), data = dat4, family = binomial, control=glmerControl(optimizer="bobyqa",
+            optCtrl=list(maxfun=100000)))
+
+mm3 <- glmer(agreement ~ scale(test_score) + confidence + mf_z + I(mf_z^2) + scale(rarity) + (1|ID1), data = dat4, family = binomial, control=glmerControl(optimizer="bobyqa",
+            optCtrl=list(maxfun=100000)))
+
+mm4 <- glmer(agreement ~ confidence + song_type_c + mf_z + I(mf_z^2) + scale(rarity) + (1|ID1), data = dat4, family = binomial, control=glmerControl(optimizer="bobyqa",
+            optCtrl=list(maxfun=100000)))
+
+mm5 <- glmer(agreement ~ scale(test_score) + song_type_c + mf_z + I(mf_z^2) + scale(rarity) + (1|ID1), data = dat4, family = binomial, control=glmerControl(optimizer="bobyqa",
+            optCtrl=list(maxfun=100000)))
+
+mm6 <- glmer(agreement ~ confidence + song_type_c + mf_z + scale(rarity) + (1|ID1), data = dat4, family = binomial, control=glmerControl(optimizer="bobyqa",
+            optCtrl=list(maxfun=100000)))
+
+mm7 <- glmer(agreement ~ scale(test_score) + confidence + song_type_c + scale(rarity)  + (1|ID1), data = dat4, family = binomial, control=glmerControl(optimizer="bobyqa",
+            optCtrl=list(maxfun=100000)))
+
+mm8 <- glmer(agreement ~ confidence + song_type_c + scale(rarity)  + (1|ID1), data = dat4, family = binomial, control=glmerControl(optimizer="bobyqa",
+            optCtrl=list(maxfun=100000)))
+
+mm9 <- glmer(agreement ~ confidence + scale(rarity) + (1|ID1), data = dat4, family = binomial, control=glmerControl(optimizer="bobyqa",
+            optCtrl=list(maxfun=100000)))
+
+mm10 <- glmer(agreement ~ song_type_c + mf_z  + (1|ID1), data = dat4, family = binomial, control=glmerControl(optimizer="bobyqa",
+            optCtrl=list(maxfun=100000)))
+
+mm11 <- glmer(agreement ~ scale(rarity) + (1|ID1), data = dat4, family = binomial, control=glmerControl(optimizer="bobyqa",
+            optCtrl=list(maxfun=100000)))
+
+mm12 <- glmer(agreement ~ confidence + (1|ID1), data = dat4, family = binomial, control=glmerControl(optimizer="bobyqa",
+            optCtrl=list(maxfun=100000)))
+
+mm13 <- glmer(agreement ~ scale(test_score) + confidence + song_call + mf_z + I(mf_z^2) + scale(rarity) + (1|ID1), data = dat4, family = binomial, control=glmerControl(optimizer="bobyqa",
+            optCtrl=list(maxfun=100000)))
+
+mm14 <- glmer(agreement ~ scale(test_score) + confidence + song_call  + scale(rarity) + (1|ID1), data = dat4, family = binomial, control=glmerControl(optimizer="bobyqa",
+            optCtrl=list(maxfun=100000)))
+
+mm15 <- glmer(agreement ~ scale(test_score)*scale(rarity) + confidence + song_type_c  + (1|ID1), data = dat4, family = binomial, control=glmerControl(optimizer="bobyqa",
+            optCtrl=list(maxfun=100000)))
+
+mm16 <- glmer(agreement ~ scale(test_score)*scale(rarity) + confidence + song_type_c + mf_z  + (1|ID1), data = dat4, family = binomial, control=glmerControl(optimizer="bobyqa",
+            optCtrl=list(maxfun=100000)))
+
+```
+
+
+####AIC Table
+
+```{r}
+Cand.mods <- list("mm1" = mm1, "mm2" = mm2,  "mm3" = mm3, "mm4" = mm4,
+                  "mm5" = mm5, "mm6" = mm6, "mm7" = mm7, "mm8" = mm8, "mm9" = mm9, "mm10" = mm10,
+                  "mm11" = mm11, "mm12" = mm12, "mm13" = mm13, "mm14" = mm14, "mm15" = mm15, "mm16" = mm16)
+
+aic <- aictab(cand.set = Cand.mods, mod.names = NULL, second.ord = FALSE, nobs = NULL, sort = TRUE)
+
+aic
+
+write_csv(aic, "tables/aic_table.csv")
+
+```
+
+
+Model Summary
+
+```{r}
+summary(mm7)
+```
+
+```{r}
+library(jtools)
+library(ggstance)
+library(huxtable)
+
+tab_model(mm7, transform = NULL, show.reflvl = TRUE, prefix.labels = "varname", file = "tables/table1_model_estimates.doc")
+
+```
+
+Save the model
+
+```{r}
+saveRDS(mm7, "./output/mm7.rds")
+```
+
+
+### Goodness-of-fit Tests
+
+
+```{r}
+simulationOutput <- simulateResiduals(fittedModel = mm7, n = 1000, use.u = T, plot = T)
+```
+
+
+```{r}
+testResiduals(simulationOutput)
+```
+
+
+```{r}
+figa <- plot_model(mm7, title = "")
+
+figa <- figa + theme_bw()
+
+figa
+
+ggsave(filename = "appendix_odds_ratio_mm7.tiff", plot =  figa, path = "./figures/",
+       height = 5, width = 7, dpi = 320)
+
+
+```
+
+

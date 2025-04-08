@@ -1,0 +1,843 @@
+Project,Validator,Species,Type,Number of tags,Seconds,Time (minutes),Minutes per tag,Changed Spp tags,Changed Vocalization type,Confusion
+Avian surveys on Athabasca Denesuliné Nuhenéné 2021 and 2022,Enid Cumming,AMGO,Call,1,10.02,0.17,0.16700,1,0,UNKN
+Avian surveys on Athabasca Denesuliné Nuhenéné 2021 and 2022,Stephane Menu,BBPL,Call,1,76,1.27,1.26667,1,0,changed to UNBI with Needs review
+Avian surveys on Athabasca Denesuliné Nuhenéné 2021 and 2022,Enid Cumming,BLJA,Call,1,10.02,0.17,0.16700,1,0,UNKN
+Avian surveys on Athabasca Denesuliné Nuhenéné 2021 and 2022,Enid Cumming,CMWA,Song,2,36,0.60,0.30000,2,0,BLPW
+Avian surveys on Athabasca Denesuliné Nuhenéné 2021 and 2022,Stephane Menu,COGR,Song,1,106,1.77,1.76667,1,0,changed to RUBL; Note: there is another RUBL tagged later with call: maybe the same bird but I have made no changes in that regard
+Avian surveys on Athabasca Denesuliné Nuhenéné 2021 and 2022,Enid Cumming,GCTH,Song,55,585,9.75,0.17700,0,0,
+Avian surveys on Athabasca Denesuliné Nuhenéné 2021 and 2022,Enid Cumming,LEYE,Call,6,132,2.20,0.37000,2,0,CAJA
+Avian surveys on Athabasca Denesuliné Nuhenéné 2021 and 2022,Enid Cumming,MALL,Call,2,36,0.60,0.30000,0,1,call not song
+Avian surveys on Athabasca Denesuliné Nuhenéné 2021 and 2022,Enid Cumming,NOFL,Song,4,90,1.50,0.37500,2,0,"AMRO, MERL"
+Avian surveys on Athabasca Denesuliné Nuhenéné 2021 and 2022,Enid Cumming,NOGO,Song,1,10.02,0.17,0.16700,0,1,call not song
+Avian surveys on Athabasca Denesuliné Nuhenéné 2021 and 2022,Enid Cumming,OCWA,Song,55,1090.2,18.17,0.30200,7,0,"SWSP, DEJU, CHSP, UNKN"
+Avian surveys on Athabasca Denesuliné Nuhenéné 2021 and 2022,Enid Cumming,OVEN,Song,1,10.02,0.17,0.16700,1,0,PAWA
+Avian surveys on Athabasca Denesuliné Nuhenéné 2021 and 2022,Enid Cumming,RBNU,Call,1,10.02,0.17,0.16700,0,0,
+Avian surveys on Athabasca Denesuliné Nuhenéné 2021 and 2022,Stephane Menu,RESQ,Song,5,269,4.48,0.89667,1,5,changed all to call; one changed to UNKN
+Avian surveys on Athabasca Denesuliné Nuhenéné 2021 and 2022,Enid Cumming,REVI,Song,5,120,2.00,0.40000,2,0,"BHVI, UNPA"
+Avian surveys on Athabasca Denesuliné Nuhenéné 2021 and 2022,Stephane Menu,RNDU,Call,3,124,2.07,0.68889,0,0,changed two to RTLO
+Avian surveys on Athabasca Denesuliné Nuhenéné 2021 and 2022,Enid Cumming,RNDU,Song,1,10.02,0.17,0.16700,0,1,call not song
+Avian surveys on Athabasca Denesuliné Nuhenéné 2021 and 2022,Stephane Menu,RTHA,Call,2,114,1.90,0.95000,1,0,changed one to UNBI
+Avian surveys on Athabasca Denesuliné Nuhenéné 2021 and 2022,Stephane Menu,RTLO,Call,6,316,5.27,0.87778,0,0,
+Avian surveys on Athabasca Denesuliné Nuhenéné 2021 and 2022,Stephane Menu,RTLO,Song,2,125,2.08,1.04167,0,0,
+Avian surveys on Athabasca Denesuliné Nuhenéné 2021 and 2022,Enid Cumming,RUBL,Call,1,10.02,0.17,0.16700,0,0,
+Avian surveys on Athabasca Denesuliné Nuhenéné 2021 and 2022,Stephane Menu,RUBL,Song,4,145,2.42,0.60417,1,1,changed one RUBL to UNBI and call
+Avian surveys on Athabasca Denesuliné Nuhenéné 2021 and 2022,Stephane Menu,SAVS,Call,1,152,2.53,2.53333,1,0,changed to UNBI
+Avian surveys on Athabasca Denesuliné Nuhenéné 2021 and 2022,Stephane Menu,SAVS,Song,5,72,1.20,0.24000,0,0,
+Avian surveys on Athabasca Denesuliné Nuhenéné 2021 and 2022,Stephane Menu,SORA,Song,2,76,1.27,0.63333,0,0,
+Avian surveys on Athabasca Denesuliné Nuhenéné 2021 and 2022,Stephane Menu,SOSA,Call,3,170,2.83,0.94444,1,1,one changed to RUBL song
+Avian surveys on Athabasca Denesuliné Nuhenéné 2021 and 2022,Stephane Menu,SOSA,Song,2,84,1.40,0.70000,0,2,changed to Call
+Avian surveys on Athabasca Denesuliné Nuhenéné 2021 and 2022,Stephane Menu,SPSA,Call,6,356,5.93,0.98889,2,0,changed two to UNBI
+Avian surveys on Athabasca Denesuliné Nuhenéné 2021 and 2022,Stephane Menu,SPSA,Song,6,116,1.93,0.32222,0,3,changed 3 to Call
+Avian surveys on Athabasca Denesuliné Nuhenéné 2021 and 2022,Stephane Menu,STSA,Song,2,114,1.90,0.95000,2,0,changed to UNSH
+Avian surveys on Athabasca Denesuliné Nuhenéné 2021 and 2022,Enid Cumming,TRES,Call,4,70.02,1.17,0.30000,1,0,WWCR
+Avian surveys on Athabasca Denesuliné Nuhenéné 2021 and 2022,Stephane Menu,UNFI,Call,1,79,1.32,1.31667,1,0,deleted! I think it is the WWCR tagged earlier (I believe this is a recording I did!!)
+Avian surveys on Athabasca Denesuliné Nuhenéné 2021 and 2022,Stephane Menu,UNSP,Song,3,197,3.28,1.09444,3,0,"changed two to CCSP, changed one to WCSP"
+Avian surveys on Athabasca Denesuliné Nuhenéné 2021 and 2022,Stephane Menu,UNTH,Call,2,396,6.60,3.30000,0,0,changed both to HETH
+Avian surveys on Athabasca Denesuliné Nuhenéné 2021 and 2022,Stephane Menu,WCSP,Song,15,133,2.22,0.14778,0,0,
+Avian surveys on Athabasca Denesuliné Nuhenéné 2021 and 2022,Enid Cumming,WEWP,Song,3,30,0.50,0.16700,0,0,
+Avian surveys on Athabasca Denesuliné Nuhenéné 2021 and 2022,Stephane Menu,WISN,Non-vocal,1,27,0.45,0.45000,0,1,changed non-vocal to call
+Avian surveys on Athabasca Denesuliné Nuhenéné 2021 and 2022,Sean Jenniskens,WIWA,Song,17,510.43,8.51,0.50042,6,0,"PAWA, OCWA x3, TEWA x2"
+Avian surveys on Athabasca Denesuliné Nuhenéné 2021 and 2022,Enid Cumming,WWCR,Song,5,70.02,1.17,0.24000,0,1,call not song
+Avian surveys on Athabasca Denesuliné Nuhenéné 2021 and 2022,Stephane Menu,YBFL,Call,8,129,2.15,0.26875,0,0,
+Avian surveys on Athabasca Denesuliné Nuhenéné 2021 and 2022,Stephane Menu,YBFL,Song,15,420,7.00,0.46667,3,0,"changed two to LEFL; deleted one: could not hear anything, but mayb it is just me!"
+Avian surveys on Athabasca Denesuliné Nuhenéné 2021 and 2022,Stephane Menu,YBSA,Song,1,100,1.67,1.66667,1,1,changed to UNKN non-vocal
+Boreal Monitoring Strategy – Manitoba 2022,Sean Jenniskens,ALFL,Call,9,339.85,5.66,0.62935,2,1,"UNPA x2, call to song"
+Boreal Monitoring Strategy – Manitoba 2022,Sean Jenniskens,ALFL,Song,15,238.55,3.98,0.26506,0,4,song to call
+Boreal Monitoring Strategy – Manitoba 2022,Sean Jenniskens,AMBI,Call,2,57.27,0.95,0.47725,0,2,call to song x2
+Boreal Monitoring Strategy – Manitoba 2022,Sean Jenniskens,AMBI,Song,16,270.9,4.52,0.28219,2,0,deleted
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,AMGO,Call,1,60,1,1,1,1,1 LISP song
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,AMGO,Call,1,60,1.00,1.00000,1,1,1-GRCA- song
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,AMGO,Call,5,240,4.00,0.80000,4,1,"2-UNBI, 1 PISI, 1 UNTR"
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,AMGO,Song,4,240,4,1,4,3,"3 UNBI (call), 1 WIWA"
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,AMRE,Song,13,600,10.00,0.76923,12,,"1-BBWA, 1 NAWA,  5 BLBW, 1 YRWA, 4 nothing"
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,AMRO,Song,1,30,0.50,0.50000,1,,1 -BRTH- song
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,ATTW,Call,1,60,1.00,1.00000,1,,1-YRWA
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,ATTW,Song,9,300,5.00,0.55556,1,,1-BBWO
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,BAEA,Call,2,30,0.50,0.25000,0,,
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,BAOR,Song,1,30,0.50,0.50000,1,,"1-AMRO,  added PAWA"
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,BARS,Call,1,30,0.50,0.50000,1,,1-WWCR
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,BARS,Song,1,30,0.50,0.50000,0,,
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,BAWW,Song,6,120,2.00,0.33333,4,,"2-BLBW, 1 NAWA, 1 nothing"
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,BBWO,Song,14,300,5.00,0.35714,3,2,"1- BBWO call, 1 UNWO- call, 1 UNWO song"
+Boreal Monitoring Strategy – Manitoba 2022,Sean Jenniskens,BHVI,Song,17,467.54,7.79,0.45837,1,0,RPVI
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,BLBW,Song,24,390,6.50,0.27083,3,,"1-BRCR, 1 BBWA, 1 UNWA"
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,BLJA,Call,11,240,4.00,0.36364,0,,"added a SPGR, missed on"
+Boreal Monitoring Strategy – Manitoba 2022,Erica Alex,BLPW,Song,7,142.8,2.38,0.34000,0,0,
+Boreal Monitoring Strategy – Manitoba 2022,Erica Alex,BOCH,Call,11,375,6.25,0.57000,2,0,"WTSP, UNPA"
+Boreal Monitoring Strategy – Manitoba 2022,Erica Alex,BOCH,Song,9,264,4.40,0.49000,1,7,"BCCH, chicka-dee call vs song"
+Boreal Monitoring Strategy – Manitoba 2022,Sean Jenniskens,BRCR,Call,10,404.24,6.74,0.67373,8,0,"CEDW x4, WTSP x2, CCSP song, UNPA"
+Boreal Monitoring Strategy – Manitoba 2022,Sean Jenniskens,BRCR,Song,15,365.02,6.08,0.40558,5,0,"CEDW x3, BLBW, deleted"
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,CANG,Call,2,30,0.50,0.25000,1,0,changed CANG- CORA
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,CHSP,Song,1,30,0.5,0.5,1,,1 DEJU
+Boreal Monitoring Strategy – Manitoba 2022,Erica Alex,CMWA,Song,2,42,0.70,0.35000,0,0,
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,COLO,Song,1,30,0.50,0.50000,1,,1 CAJA
+Boreal Monitoring Strategy – Manitoba 2022,Erica Alex,CONW,Song,6,46.2,0.77,0.12000,0,0,
+Boreal Monitoring Strategy – Manitoba 2022,Erica Alex,CSWA,Song,2,139.8,2.33,2.33000,0,0,**there was only 1 tag
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,DEJU,Song,1,30,0.50,,1,0,DEJU- change to SEWR
+Boreal Monitoring Strategy – Manitoba 2022,Erica Alex,EVGR,Call,3,120,2.00,0.50000,0,3,**accidentally did one extra tag
+Boreal Monitoring Strategy – Manitoba 2022,Erica Alex,EWPW,Call,1,36,0.60,0.60000,0,1,
+Boreal Monitoring Strategy – Manitoba 2022,Erica Alex,EWPW,Song,19,147,2.45,0.13000,0,0,
+Boreal Monitoring Strategy – Manitoba 2022,Erica Alex,FOSP,Song,5,214.8,3.58,0.71600,1,0,WEME
+Boreal Monitoring Strategy – Manitoba 2022,Sean Jenniskens,GCKI,Call,4,152.54,2.54,0.63558,2,0,UNPA x2
+Boreal Monitoring Strategy – Manitoba 2022,Sean Jenniskens,GCKI,Song,21,264.17,4.40,0.20966,1,0,UNPA
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,GCKI,Song,2,30,0.50,0.25000,,,added 2 GCKI
+Boreal Monitoring Strategy – Manitoba 2022,Sean Jenniskens,GGOW,Song,1,94,1.57,1.56667,1,0,UNBI
+Boreal Monitoring Strategy – Manitoba 2022,Sean Jenniskens,GRYE,Call,6,84.96,1.416,0.236,1,0,UNSH
+Boreal Monitoring Strategy – Manitoba 2022,Sean Jenniskens,GRYE,Song,9,420,7,0.78,1,0,WISN call
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,HAWO,Call,1,30,0.50,0.50000,0,0,changed PHVI to MAWA
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,HAWO,Song,3,180,3.00,1.00000,1,1,1-BBWO 
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,HOLA,Call,1,30,0.50,0.50000,1,,1 UNPA
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,HOWR,Song,1,30,0.50,0.50000,0,,
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,LEFL,Song,18,480,8.00,0.44444,4,,"1- ALFL, 1- YBFL, 2- nothing"
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,LEYE,Call,3,180,3.00,1.00000,3,,"1-UNYE, 1-GRYE, 1-REVI"
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,LEYE,Song,11,1200,20.00,1.81818,11,0,"3-UNYE,  5-GRYE, 2 RCKI, 1-CAJA"
+Boreal Monitoring Strategy – Manitoba 2022,Sean Jenniskens,MAWA,Song,18,164.03,2.73,0.15188,1,0,UNWA
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,MODO,Song,1,60,1.00,1.00000,1,1,1-SACR
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,NAWA,Song,1,30,0.5,0.5,1,,1 YRWA
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,NAWA,Song,1,30,0.50,0.50000,1,,NAWA- changed to OCWA
+Boreal Monitoring Strategy – Manitoba 2022,Sean Jenniskens,NAWA,Song,18,245.15,4.09,0.22699,4,0,"UNPA, YRWA, TEWA, UNPA"
+Boreal Monitoring Strategy – Manitoba 2022,Sean Jenniskens,NOWA,Song,6,3205.8,53.43,0.742,72,0,"EATO (1), SOSP (70), 1 deleted tag"
+Boreal Monitoring Strategy – Manitoba 2022,Sean Jenniskens,OCWA,Call,1,18.36,0.306,0.102,0,0,
+Boreal Monitoring Strategy – Manitoba 2022,Sean Jenniskens,OCWA,Song,13,135,2.25,0.375,1,1,RUGR
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,OCWA,song,83,1080,18.00,0.21687,11,,"1-CHSP, 2-DEJU, 1-NOWA, 5-UNTR, 1- WIWA,1-WIWR"
+Boreal Monitoring Strategy – Manitoba 2022,Sean Jenniskens,OSFL,Song,3,50.58,0.84,0.28100,1,0,UNPA
+Boreal Monitoring Strategy – Manitoba 2022,Sean Jenniskens,OSPR,Call,1,39.14,0.65,0.65233,1,0,GRYE
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,OSPR,Call,1,30,0.50,,1,0,1 OSPR to CAJA
+Boreal Monitoring Strategy – Manitoba 2022,Sean Jenniskens,OVEN,Song,15,88.99,1.48,0.09888,0,0,
+Boreal Monitoring Strategy – Manitoba 2022,Sean Jenniskens,PBGR,Song,5,63.94,1.07,0.21313,0,0,
+Boreal Monitoring Strategy – Manitoba 2022,Sean Jenniskens,PHVI,Song,9,1090.8,18.18,2.27,4,0,"UNVI (3), REVI (1)"
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,PISI,Call,9,420,7.00,0.77778,5,1,"2-HETH, 1 EVGR, 1 AMRO, 1 BHVI"
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,PISI,Song,2,60,1.00,0.50000,0,2,calls not song
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,PIWO,Song,9,360,6.00,0.66667,4,,"1-UNWO, 2-BBWO, 1 ATTW"
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,PUFI,Song,7,150,2.50,0.35714,1,,1-UNBI
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,RBNU,Call,2,60,1.00,0.50000,0,2,2 RBNU- call to song
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,RBNU,Song,6,120,2.00,0.33333,0,,
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,RCKI,Song,1,30,0.50,0.50000,1,,1-BRTH-song
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,RCKI,Song,7,30,0.50,0.07143,0,,changed 7 RCKI to 4 RCKI
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,RECR,Call,1,30,0.50,0.50000,1,,"1-UNBI, 3- BHVI"
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,RNGR,Call,3,180,3.00,1.00000,3,,"1-CAJA, 1 BBWO, 1 WISN"
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,RNGR,Song,1,30,0.50,0.50000,1,1,1-GRYE-call
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,RUBL,Call,2,120,2.00,1.00000,2,0,2- UNBI
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,RUGR,non-vocal,1,30,0.50,0.50000,1,,RUGR - was missed
+Boreal Monitoring Strategy – Manitoba 2022,Sean Jenniskens,SEWR,Song,15,125.38,2.09,0.13931,0,0,
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,SORA,Call,1,30,0.50,0.50000,0,0,
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,SORA,Song,1,30,0.50,0.50000,0,0,
+Boreal Monitoring Strategy – Manitoba 2022,Sean Jenniskens,SOSP,Song,97,3205.8,53.43,0.742,72,0,"EATO (1), SOSP (70), 1 deleted tag"
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,SOSP,Song,3,30,0.50,0.16667,2,,3 - VESP
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,SOSP,song,3,180,3.00,1.00000,3,,3-VESP
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,SOSP,song,1,60,1.00,1.00000,1,,1-VESP
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,SOSP,song,6,360,6.00,1.00000,6,,4-VESP (2 birds repeats)
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,SOSP,song,4,240,4.00,1.00000,4,,4-VESP 
+Boreal Monitoring Strategy – Manitoba 2022,Sean Jenniskens,SPGR,Call,3,18.36,0.306,0.102,0,0,
+Boreal Monitoring Strategy – Manitoba 2022,Sean Jenniskens,SPGR,Song,7,135,2.25,0.375,1,1,RUGR
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,SPPE,Song,1,30,0.50,,1,0,SPPE- change to GWTE
+Boreal Monitoring Strategy – Manitoba 2022,Sean Jenniskens,SWSP,Song,17,595.14,9.92,0.58347,12,0,"WTSP, PAWA x5, YRWA, CHSP x2, DEJU x3"
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,TEWA,Song,4,60,1.00,0.25000,4,,"4 TEWA- are 2 NAWA, 2 SEWR"
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,TRUS,Call,6,90,1.50,0.25000,1,,1- SACR
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,TRUS,Song,3,60,1.00,0.33333,1,,"1-UNGO, 1-SACR, 1-nothing"
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,UNBI,Song,3,60,1.00,1.00000,3,,3 UNBI- changed to 3 SEWR
+Boreal Monitoring Strategy – Manitoba 2022,Sean Jenniskens,UNTR,Call,2,74.56,1.24,0.62133,2,0,UNPA; CHSP
+Boreal Monitoring Strategy – Manitoba 2022,Sean Jenniskens,UNTR,Song,7,466.98,7.78,1.11186,5,0,YRWA; PAWA x2; WIWA; CHSP
+Boreal Monitoring Strategy – Manitoba 2022,Sean Jenniskens,UNWA,Song,4,350.32,5.84,1.45967,4,0,PAWA; YRWA; BLBW; BRCR
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,VESP,Song,1,30,0.5,0.5,1,0,changed SOSP- VESP
+Boreal Monitoring Strategy – Manitoba 2022,Sean Jenniskens,WCSP,Song,2,27,0.45,0.22500,0,0,
+Boreal Monitoring Strategy – Manitoba 2022,Sean Jenniskens,WIWA,Song,12,509.8,8.50,0.70806,7,0,PAWA; TEWA x4; YRWA; UNTR
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,WOFR,Song,3,60,1.00,0.33333,3,,"1-UNWO, 1 UNBI, 1 NLFR"
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,WWCR,Call,32,1200,20.00,0.62500,9,1,"1-NOWA, 4- UNBI, 4-nothing"
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,WWCR,Song,10,300,5.00,0.50000,3,7,"1-RCKI , 1-nothing, 1-UNPA"
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,YBFL,Call,6,360,6.00,1.00000,4,,"1-UNBI, 3- BHVI"
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,YBFL,Song,13,360,6.00,0.50000,4,2,"2-UNBI, 1 nothing"
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,YBSA,Call,1,30,0.50,0.50000,1,,1-NOFL
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,YBSA,Song,1,30,0.50,0.50000,1,,1-UNWO
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,YEWA,Song,1,30,0.50,0.50000,0,,
+Boreal Monitoring Strategy – Manitoba 2022,Enid Cumming,YRWA,Song,1,30,0.50,0.50000,1,,1 PAWA
+Boreal Monitoring Strategy - Saskatchewan Breeding Bird Atlas collaboration 2021,Sean Jenniskens,SWSP,Song,60,2426.3,40.44,0.67397,27,0,YRWA x4; PAWA x8; deleted x2; WIWA x3; DEJU x3; UNTR x3; UNWA; CHSP x3
+Boreal Monitoring Strategy - Saskatchewan Breeding Bird Atlas collaboration 2021,Sean Jenniskens,TEWA,Song,86,1713.7,28.56,0.33211,5,0,UNWA x2; deleted; WTSP (mis-tag); UNPA
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,ALFL,Song,15,217.32,3.62,0.24147,1,4,"UNWA, song to call x4"
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,AMBI,Song,13,170.79,2.85,0.21896,0,0,
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,AMCR,Call,2,105.36,1.756,0.878,0,0,
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,AMGO,Call,6,105.02,1.75,0.29172,1,0,UNPA
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,AMRE,Song,3,652.08,10.868,3.622,0,0,
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,AMRE,Song,15,294.66,4.91,0.32740,2,0,"UNWA, CSWA"
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,AMRO,Call,1,43.62,0.727,0.727,0,0,
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,AMRO,Song,15,618.74,10.31,0.68749,3,0,"RBGR x2, REVI"
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,ATTW,Song,2,76.02,1.267,0.633,2,9,UNWO
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,BAOR,Song,1,96.82,1.61,1.61367,1,0,AMRO
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,BAWW,Song,15,305.81,5.10,0.33979,2,0,"AMRE, UNWA"
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,BBMA,Call,1,165.58,2.76,2.75967,1,0,UNPA chatter
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,BBWO,Call,7,398.4,6.64,0.95,1,0,ATTW
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,BBWO,Song,3,139.02,2.317,0.772,3,0,UNWO
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,BCCH,Call,1,38.34,0.639,0.639,0,0,
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,BCCH,Song,1,112.08,1.868,1.868,1,0,"WCSP (very distant, only opening note audible)"
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,BHCO,Call,3,32.6,0.54,0.18111,0,0,
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,BHVI,Song,1,187.44,3.124,3.124,1,,REVI
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,BHVI,Song,15,429.4,7.16,0.47711,2,0,"REVI, RBGR"
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,BLBW,Song,15,282.75,4.71,0.31417,2,0,"BRCR, UNWA"
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,BLJA,Call,1,24,0.4,0.4,0,0,
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,BLPW,Song,9,219.18,3.65,0.40589,3,0,UNPA calls x2; UNSP
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,BOCH,Call,2,36.9,0.62,0.30750,0,0,
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,BOGU,Call,2,65.1,1.085,1.085,0,0,
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,BRCR,Call,8,201.57,3.36,0.41994,8,0,CEDW x8
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,BRCR,Song,7,165.42,2.76,0.39386,4,0,CEDW x2; HETH; RWBL call
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,CAJA,Call,6,591.36,9.856,1.643,4,0,"UNBI (possible NOGO/NOGO imitation by CAJA), UNPA, AMRO, AMCR"
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,CAJA,Song,13,573.75,9.56,0.73558,2,0,BLJA x2
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,CCSP,Call,1,63.24,1.054,1.054,1,0,UNSP (CHSP/CCSP)
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,CCSP,Song,15,79.14,1.32,0.08793,0,0,
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,CHSP,Call,1,68.4,1.14,1.14,0,0,
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,CHSP,Song,4,681.6,11.36,2.84,1,0,UNTR
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,CHSP,Song,15,366.22,6.10,0.40691,8,0,"SWSP x7, UNTR"
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,CMWA,Call,1,94.31,1.57,1.57183,1,0,UNWA
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,COGO,Non-vocal,1,68.4,1.14,1.14,0,0,
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,COGR,Call,7,186.88,3.11,0.44495,0,5,call to song
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,COLO,Call,1,114.12,1.902,1.902,1,0,CAJA
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,COME,Call,1,60,1,1,0,0,
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,CONW,Song,2,137.4,2.29,1.14500,1,0,UNWA
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,COYE,Song,15,183.11,3.05,0.20346,1,0,AMRE
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,CSWA,Song,1,158.58,2.643,2.643,1,0,MAWA
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,CSWA,Song,15,179.26,2.99,0.19918,0,0,
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,DEJU,Call,1,15.84,0.264,0.264,0,0,
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,DEJU,Song,9,204.6,3.41,0.379,0,0,
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,DEJU,Song,15,329.4,5.49,0.36600,4,0,SWSP x4
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,DOWO,Call,1,51.76,0.86,0.86267,1,0,HAWO
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,DOWO,Song,7,161.35,2.69,0.38417,7,0,UNWO drum
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,FOSP,Song,2,201.72,3.362,3.362,1,0,UNPA (extremely distant)
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,FOSP,Song,15,137.42,2.29,0.15269,1,0,UNPA
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,GCTH,Song,1,142.07,2.37,2.36783,1,0,UCTH
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,GGOW,Song,2,238.41,3.97,1.98675,2,0,UNBI; CORA
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,HAWO,Call,2,69.39,1.16,0.57825,1,0,UNBI maybe non-pass
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,HAWO,Song,3,33.97,0.57,0.18872,0,0,
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,HETH,Song,2,138,2.3,1.15,1,0,"UNPA (distant, lots of noise, single high note)"
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,HOWR,Song,11,217.72,3.63,0.32988,2,0,"UNPA, NOWA"
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,LEFL,Call,1,129.53,2.16,2.15883,1,,ALFL
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,LEFL,Song,9,386.15,6.44,0.71509,3,0,AMRO call x2; ALFL call
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,LEYE,Call,3,100.68,1.678,0.626,2,0,GRYE
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,LEYE,Song,1,39.72,0.662,0.662,1,1,GRYE
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,LISP,Song,6,126.84,2.114,0.352,1,0,"YRWA (already tagged, delete)"
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,LISP,Song,15,175.36,2.92,0.19484,1,0,SOSP
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,MALL,Call,6,252.74,4.21,0.70206,3,0,UNDU x3
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,MALL,Song,1,50.13,0.84,0.83550,1,0,UNDU
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,MAWA,Song,2,300,5,2.5,2,0,"YRWA, MOWA"
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,MAWA,Song,15,264.48,4.41,0.29387,2,0,"YRWA, NOWA"
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,MAWR,Song,9,70.73,1.18,0.13098,0,0,
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,MOWA,Song,2,103.02,1.717,0.859,0,0,
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,MOWA,Song,15,94.38,1.57,0.10487,0,0,
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,MYWA,Song,1,38.26,0.64,0.63767,0,0,YRWA
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,NAWA,Song,15,222.55,3.71,0.24728,1,0,BLBW
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,NLFR,Song,7,180.89,3.01,0.43069,1,0,UNKN
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,NOFL,Call,5,143.01,2.38,0.47670,1,1,deleted; call to song
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,NOFL,Song,1,24.18,0.40,0.40300,0,0,
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,NOWA,Song,15,252.4,4.21,0.28044,3,0,"CSWA, MOWA x2"
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,OCWA,Song,10,166.72,2.78,0.27787,2,0,DEJU
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,OSFL,Song,15,202.89,3.38,0.22543,2,0,UNFL
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,OSFL,Song,22,86.16,1.436,0.06525,0,0,
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,OSPR,Song,1,47.64,0.794,0.794,0,0,
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,OVEN,Song,1,117.6,1.96,1.96,1,0,UNPA (wind)
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,OVEN,Song,15,112.96,1.88,0.12551,0,0,
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,PAWA,Song,7,645.54,10.759,1.537,1,0,YRWA
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,PAWA,Song,15,600,10,0.667,5,0,"SWSP (4), DEJU (1)"
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,PBGR,Call,1,27.36,0.456,0.456,0,1,
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,PHVI,Song,6,283.98,4.73,0.78900,0,0,
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,PIGR,Call,1,199.2,3.32,3.32000,1,0,UNPA
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,PISI,Call,1,14.34,0.239,0.239,0,0,
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,PIWO,Call,3,40.02,0.67,0.22200,0,0,
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,PUFI,Song,3,144,2.40,0.80000,0,0,
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,RBGR,Song,15,538.92,8.982,0.532,3,0,"UNAM (2), AMRO"
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,RBNU,Call,3,61.71,1.03,0.34283,1,0,WWCR
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,RBNU,Song,2,90,1.50,0.75000,0,0,
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,RBNU,Song,2,28.55,0.48,0.23792,0,0,
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,RCKI,Song,15,332.94,5.549,0.37,0,0,
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,RECR,Call,13,567.89,9.46,0.72806,9,0,UNPA x3; WWCR x5; 
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,RESQ,Call,1,135.12,2.252,2.252,1,0,UNKN
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,REVI,Song,3,457.02,7.617,2.539,2,0,UNVI
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,REVI,Song,15,1502.76,25.046,1.603,5,0,"PHVI (3, all from the same grid), UNVI (2, distant birds same grid as PHVIs), 1 tag deleted (repeat bird)"
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,RNDU,Call,1,44.16,0.736,0.736,0,0,
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,RNDU,Song,1,98.94,1.649,1.649,1,1,UNWT (RBME/COME)
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,RNGR,Call,1,40.94,0.68,0.68233,0,0,
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,RUBL,Call,4,185.47,3.09,0.77279,1,0,deleted
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,RUBL,Song,7,257.68,4.29,0.61352,3,1,RWBL x2; UNPA; song to call
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,RWBL,Call,1,118.14,1.969,1.969,0,0,
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,SAVS,Song,7,87.75,1.46,0.20893,1,0,LCSP
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,SORA,Call,1,37.8,0.63,0.63,0,0,
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,SOSA,Call,2,18.24,0.304,0.152,0,0,
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,SOSP,Song,2,169.68,2.828,1.414,1,0,UNPA
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,SPPE,Song,3,92.15,1.54,0.51194,2,0,UNBI; SWTH
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,SWSP,Song,4,595.26,9.921,2.48,3,0,"PAWA (2), DEJU (1)"
+Boreal Monitoring Strategy -Saskatchewan 2022,,SWSP,Song,19,115,1.92,0.10088,,,
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,SWTH,Song,5,189.24,3.154,0.631,2,0,HETH
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,TEWA,Song,1,67.92,1.132,1.132,0,0,
+Boreal Monitoring Strategy -Saskatchewan 2022,,TEWA,Song,15,98.17,1.64,0.10908,0,0,
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,UNBL,Call,5,416.2,6.94,1.38733,4,0,RUBL x4
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,UNBT,Non-vocal,3,114.9,1.915,0.638,0,0,"drumming, no option to switch to song for this ID"
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,UNDU,Call,2,90.9,1.515,0.757,0,0,
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,UNFI,Call,2,188.67,3.14,1.57225,2,0,TRES; UNPA
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,UNFL,Call,2,178.68,2.978,1.489,0,0,
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,UNFL,Song,1,45.96,0.766,0.766,1,0,YBFL
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,UNFR,Song,3,97.08,1.618,0.539,3,0,WOFR
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,UNGU,Call,5,132.63,2.2105,0.442,0,0,
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,UNGU,Song,1,81.18,1.353,1.353,1,0,UNBI
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,UNOW,Call,1,491.76,8.20,8.19600,1,0,SEOW
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,UNSH,Call,1,328.2,5.47,5.47,0,0,
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,UNSP,Call,3,392.66,6.54,2.18144,2,0,DEJU; WTSP
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,UNSP,Song,1,167.71,2.80,2.79517,1,0,DEJU
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,UNVI,Call,1,52.2,0.87,0.87,1,0,RWBL alert call
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,UNVI,Song,4,388.02,6.467,1.167,1,0,PHVI
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,UNWT,Non-vocal,2,152.64,2.544,1.272,1,0,"HAWO, already tagged, delete"
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,UNYE,Call,5,293.1,4.89,0.97700,4,5,GRYE x4
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,VIRA,Song,1,34.48,0.57,0.57467,1,0,WISN
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,WCSP,Call,1,53.76,0.896,0.896,0,1,
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,WCSP,Song,15,215.88,3.60,0.23987,1,0,deleted
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,WCSP,Song,18,142.56,2.376,0.132,0,0,
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,WEWP,Song,2,20.86,0.35,0.17383,0,0,
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,WIWA,Song,13,389.28,6.49,0.49908,6,0,PAWA x3; SWSP; UNTR x2
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,WIWR,Call,1,86.52,1.442,1.442,0,0,
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,WOFR,Song,4,41.72,0.70,0.17383,0,0,
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,WTSP,Call,2,71.64,1.194,0.597,0,0,
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,WTSP,Song,1,132.48,2.208,2.208,1,0,"UNPA, high wind"
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,WWCR,Call,1,17.34,0.289,0.289,0,0,
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,YBFL,Call,6,133.48,2.22,0.37078,1,0,BHVI
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,YBFL,Song,6,175.38,2.92,0.48717,1,1,ALFL; song to call
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,YBSA,Call,1,22.58,0.38,0.37633,0,0,
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,YBSA,Song,4,215.71,3.60,0.89879,3,0,NLFR x2; UNBI
+Boreal Monitoring Strategy -Saskatchewan 2022,,YEWA,Song,15,553.53,9.23,0.61503,6,0,"CSWA x4, MOWA, UNWA, NOWA"
+Boreal Monitoring Strategy -Saskatchewan 2022,Erica Alex,YRWA,Song,14,522.72,8.712,0.622,3,0,"DEJU, PAWA (2)"
+Boreal Monitoring Strategy -Saskatchewan 2022,Sean Jenniskens,YSFL,Call,1,51.13,0.85,0.85217,0,0,NOFL
+Eastern Prairies Living Labs - Morning Contract 2022-23,Kelsey Bell,AMAV,Call,1,24,0.40,0.40000,0,0,
+Eastern Prairies Living Labs - Morning Contract 2022-23,Kelsey Bell,AMBI,Call,2,120,2.00,1.00000,1,0,UNBI
+Eastern Prairies Living Labs - Morning Contract 2022-23,Kelsey Bell,AMRE,Song,4,35,0.58,0.14583,0,0,
+Eastern Prairies Living Labs - Morning Contract 2022-23,Kelsey Bell,AMWO,Song,1,157,2.62,2.61667,1,0,"deleted, I couldn't make out an AMWO, and other signals were already accounted for earlier in task"
+Eastern Prairies Living Labs - Morning Contract 2022-23,Kelsey Bell,BAOR,Call,3,196,3.27,1.08889,0,0,
+Eastern Prairies Living Labs - Morning Contract 2022-23,Sean Jenniskens,BAOR,Song,15,122.24,2.04,0.13582,0,0,
+Eastern Prairies Living Labs - Morning Contract 2022-23,Kelsey Bell,BARS,Call,10,226,3.77,0.37667,0,2,"call-song, 1xUNBI, 1xdeleted"
+Eastern Prairies Living Labs - Morning Contract 2022-23,Kelsey Bell,BARS,Song,16,155,2.58,0.16146,0,0,
+Eastern Prairies Living Labs - Morning Contract 2022-23,Kelsey Bell,BAWW,Song,7,72,1.20,0.17143,0,0,
+Eastern Prairies Living Labs - Morning Contract 2022-23,Kelsey Bell,BBCU,Song,3,27,0.45,0.15000,0,0,
+Eastern Prairies Living Labs - Morning Contract 2022-23,Kelsey Bell,BLBW,Song,1,94,1.57,1.56667,0,0,"had to double chck, seems like an odd location"
+Eastern Prairies Living Labs - Morning Contract 2022-23,Kelsey Bell,BLTE,Call,6,35,0.58,0.09722,0,0,
+Eastern Prairies Living Labs - Morning Contract 2022-23,Kelsey Bell,BLTE,Song,4,40,0.67,0.16667,0,4,song-call
+Eastern Prairies Living Labs - Morning Contract 2022-23,Kelsey Bell,BOBO,Call,1,75,1.25,1.25000,1,0,UNBI
+Eastern Prairies Living Labs - Morning Contract 2022-23,Kelsey Bell,BOBO,Song,17,473,7.88,0.46373,1,0,UNBI
+Eastern Prairies Living Labs - Morning Contract 2022-23,Sean Jenniskens,BRBL,Call,14,322.55,5.38,0.38399,4,0,"COGR x3, RWBL"
+Eastern Prairies Living Labs - Morning Contract 2022-23,Kelsey Bell,BRTH,Song,5,41,0.68,0.13667,0,0,
+Eastern Prairies Living Labs - Morning Contract 2022-23,Sean Jenniskens,CHSP,Song,10,98.81,1.65,0.16468,0,0,
+Eastern Prairies Living Labs - Morning Contract 2022-23,Kelsey Bell,CLSW,Song,1,18,0.30,0.30000,0,0,
+Eastern Prairies Living Labs - Morning Contract 2022-23,Kelsey Bell,COGR,Call,4,87,1.45,0.36250,1,2,"UNBL, 2x call-song"
+Eastern Prairies Living Labs - Morning Contract 2022-23,Sean Jenniskens,COGR,Call,3,24.39,0.41,0.13550,0,0,
+Eastern Prairies Living Labs - Morning Contract 2022-23,Kelsey Bell,CONI,Call,2,35,0.58,0.29167,0,0,
+Eastern Prairies Living Labs - Morning Contract 2022-23,Kelsey Bell,COYE,Call,1,42,0.70,0.70000,0,0,
+Eastern Prairies Living Labs - Morning Contract 2022-23,Sean Jenniskens,COYE,Song,17,217.93,3.63,0.21366,1,0,UNPA
+Eastern Prairies Living Labs - Morning Contract 2022-23,Kelsey Bell,EABL,Song,2,96,1.60,0.80000,0,0,
+Eastern Prairies Living Labs - Morning Contract 2022-23,Kelsey Bell,EAPH,Song,4,59,0.98,0.24583,0,0,
+Eastern Prairies Living Labs - Morning Contract 2022-23,Kelsey Bell,EATO,Song,5,407,6.78,1.35667,3,0,3x deleted -all were VESP that were already tagged in recording.
+Eastern Prairies Living Labs - Morning Contract 2022-23,Sean Jenniskens,GCFL,Song,3,30.43,0.51,0.16906,0,0,
+Eastern Prairies Living Labs - Morning Contract 2022-23,Erica Alex,GRTF,Song,4,175.2,2.92,0.72900,2,0,Cope's Gray Tree Frog
+Eastern Prairies Living Labs - Morning Contract 2022-23,Erica Alex,HOFI,Song,1,48,0.80,0.80000,0,0,
+Eastern Prairies Living Labs - Morning Contract 2022-23,Erica Alex,HOLA,Call,4,118.02,1.97,0.49200,0,3,Song
+Eastern Prairies Living Labs - Morning Contract 2022-23,Erica Alex,HOSP,Call,1,30,0.50,0.50000,0,1,Song
+Eastern Prairies Living Labs - Morning Contract 2022-23,Erica Alex,HOSP,Song,8,120,2.00,0.25000,0,2,Calls
+Eastern Prairies Living Labs - Morning Contract 2022-23,Erica Alex,LASP,Call,1,39,0.65,0.65000,0,1,Song
+Eastern Prairies Living Labs - Morning Contract 2022-23,Erica Alex,LASP,Song,4,240,4.00,0.50000,1,0,"VESP (already tagged, delete)"
+Eastern Prairies Living Labs - Morning Contract 2022-23,Erica Alex,LCSP,Song,4,52.02,0.87,0.21700,0,0,
+Eastern Prairies Living Labs - Morning Contract 2022-23,Erica Alex,LESA,Call,1,37.02,0.62,0.61700,0,0,
+Eastern Prairies Living Labs - Morning Contract 2022-23,Erica Alex,MAGO,Call,7,154.02,2.57,0.08100,1,1,RNGR braying
+Eastern Prairies Living Labs - Morning Contract 2022-23,Erica Alex,MAGO,Song,2,18,0.30,0.15000,0,0,
+Eastern Prairies Living Labs - Morning Contract 2022-23,Erica Alex,MAWR,Call,1,64.98,1.08,1.08300,0,0,
+Eastern Prairies Living Labs - Morning Contract 2022-23,Sean Jenniskens,MAWR,Song,17,235.9,3.93,0.23127,2,0,"HOWR, deleted"
+Eastern Prairies Living Labs - Morning Contract 2022-23,Erica Alex,NESP,Song,8,178.98,2.98,0.37300,1,0,"CCSP (already tagged, delete)"
+Eastern Prairies Living Labs - Morning Contract 2022-23,Erica Alex,NOFL,Non-vocal,1,55.8,0.93,0.93000,1,1,"UNWO, either a HAWO or NOFL drum but hard to tell which"
+Eastern Prairies Living Labs - Morning Contract 2022-23,Erica Alex,PBGR,Call,4,97.98,1.63,0.40800,0,0,
+Eastern Prairies Living Labs - Morning Contract 2022-23,Sean Jenniskens,PHVI,Song,1,84.71,1.41,1.41183,1,0,RPVI
+Eastern Prairies Living Labs - Morning Contract 2022-23,Sean Jenniskens,PIWO,Call,1,28.31,0.47,0.47183,0,0,
+Eastern Prairies Living Labs - Morning Contract 2022-23,Sean Jenniskens,PUMA,Call,1,69.34,1.16,1.15567,0,0,
+Eastern Prairies Living Labs - Morning Contract 2022-23,Sean Jenniskens,PUMA,Song,3,96.52,1.61,0.53622,1,0,UNPA
+Eastern Prairies Living Labs - Morning Contract 2022-23,Sean Jenniskens,RBGR,Song,10,123.63,2.06,0.20605,0,0,
+Eastern Prairies Living Labs - Morning Contract 2022-23,Sean Jenniskens,REJU,Song,1,40.18,0.67,0.66967,1,0,CHIK
+Eastern Prairies Living Labs - Morning Contract 2022-23,Sean Jenniskens,RHWO,Call,3,23.06,0.38,0.12811,0,0,
+Eastern Prairies Living Labs - Morning Contract 2022-23,Sean Jenniskens,RNEP,Song,4,24.86,0.41,0.10358,0,0,
+Eastern Prairies Living Labs - Morning Contract 2022-23,Sean Jenniskens,RTHA,Call,1,53.35,0.89,0.88917,0,0,
+Eastern Prairies Living Labs - Morning Contract 2022-23,Sean Jenniskens,RTHU,Call,1,29.48,0.49,0.49133,0,0,
+Eastern Prairies Living Labs - Morning Contract 2022-23,Sean Jenniskens,SEWR,Song,16,133.44,2.22,0.13900,0,0,
+Eastern Prairies Living Labs - Morning Contract 2022-23,Sean Jenniskens,SOSP,Song,18,233.53,3.89,0.21623,1,0,BAOR
+Eastern Prairies Living Labs - Morning Contract 2022-23,Sean Jenniskens,SPSA,Call,3,90,1.50,0.50000,1,0,AMGO song
+Eastern Prairies Living Labs - Morning Contract 2022-23,Sean Jenniskens,SPSA,Song,1,24.36,0.41,0.40600,0,0,
+Eastern Prairies Living Labs - Morning Contract 2022-23,Sean Jenniskens,SWSP,Song,11,226.36,3.77,0.34297,1,0,UNTR
+Eastern Prairies Living Labs - Morning Contract 2022-23,Sean Jenniskens,TEWA,Song,2,22.51,0.38,0.18758,0,0,
+Eastern Prairies Living Labs - Morning Contract 2022-23,Sean Jenniskens,UNBI,Non-vocal,9,225.41,3.76,0.41743,2,0,UNKN; deleted (RWBL calls)
+Eastern Prairies Living Labs - Morning Contract 2022-23,Sean Jenniskens,UNBI,Song,7,548.65,9.14,1.30631,3,0,BAOR; deleted; BLJA
+Eastern Prairies Living Labs - Morning Contract 2022-23,Sean Jenniskens,UNBI,Song,7,267.05,4.45,0.63583,3,0,"NOFL call, SPSA, TRES"
+Eastern Prairies Living Labs - Morning Contract 2022-23,Sean Jenniskens,UNBI,Song,5,324,5.40,1.08000,4,,"SAVS, GRAP, WEME, deleted(bad weather recording)"
+Eastern Prairies Living Labs - Morning Contract 2022-23,Sean Jenniskens,UNBL,Song,1,46.19,0.77,0.76983,1,1,BRBL call
+Eastern Prairies Living Labs - Morning Contract 2022-23,Sean Jenniskens,UNKN,Call,4,211.08,3.52,0.87950,2,0,UNMA x2
+Eastern Prairies Living Labs - Morning Contract 2022-23,Sean Jenniskens,UNKN,Non-vocal,5,161.33,2.69,0.53777,2,0,UNMA x2
+Eastern Prairies Living Labs - Morning Contract 2022-23,Sean Jenniskens,UNKN,Song,1,86.41,1.44,1.44017,1,0,deleted (crickets)
+Eastern Prairies Living Labs - Morning Contract 2022-23,Sean Jenniskens,UNPA,Song,7,474.06,7.90,1.12871,3,0,SOSP; AMGO; GRCA
+Eastern Prairies Living Labs - Morning Contract 2022-23,Sean Jenniskens,UNSH,Call,1,143.93,2.40,2.39883,1,0,UNPA
+Eastern Prairies Living Labs - Morning Contract 2022-23,Sean Jenniskens,UNSP,Song,2,89.71,1.50,0.74758,2,0,VESP; SOSP
+Eastern Prairies Living Labs - Morning Contract 2022-23,Sean Jenniskens,UNWA,Song,1,124.42,2.07,2.07367,1,0,UNPA
+Eastern Prairies Living Labs - Morning Contract 2022-23,Sean Jenniskens,UNWA,Song,1,36.86,0.61,0.61433,1,0,YEWA
+Eastern Prairies Living Labs - Morning Contract 2022-23,Sean Jenniskens,UNWO,Non-vocal,2,316.02,5.27,2.63350,2,0,AMTO; PIWO
+Eastern Prairies Living Labs - Morning Contract 2022-23,Sean Jenniskens,VEER,Call,3,18.53,0.31,0.10294,0,0,
+Eastern Prairies Living Labs - Morning Contract 2022-23,Sean Jenniskens,VEER,Song,6,47.04,0.78,0.13067,0,0,
+Eastern Prairies Living Labs - Morning Contract 2022-23,Sean Jenniskens,VIRA,Song,2,17.16,0.29,0.14300,0,0,
+Eastern Prairies Living Labs - Morning Contract 2022-23,Sean Jenniskens,WAVI,Song,15,85.02,1.42,0.09447,0,0,
+Eastern Prairies Living Labs - Morning Contract 2022-23,Sean Jenniskens,WBNU,Call,3,37.94,0.63,0.21078,0,0,
+Eastern Prairies Living Labs - Morning Contract 2022-23,Sean Jenniskens,WBNU,Song,6,61.51,1.03,0.17086,0,2,song to call x2
+Eastern Prairies Living Labs - Morning Contract 2022-23,Sean Jenniskens,WEKI,Call,5,212.67,3.54,0.70890,2,0,EAKI; deleted
+Eastern Prairies Living Labs - Morning Contract 2022-23,Sean Jenniskens,WEKI,Song,9,176.19,2.94,0.32628,1,2,UNPA; song to call x2
+Eastern Prairies Living Labs - Morning Contract 2022-23,Sean Jenniskens,WEWP,Song,1,13.26,0.22,0.22100,0,0,
+Eastern Prairies Living Labs - Morning Contract 2022-23,Sean Jenniskens,WILL,Song,4,33.92,0.57,0.14133,0,0,
+Eastern Prairies Living Labs - Morning Contract 2022-23,Sean Jenniskens,WITU,Call,1,46.99,0.78,0.78317,0,1,call to song
+Eastern Prairies Living Labs - Morning Contract 2022-23,Sean Jenniskens,WITU,Song,3,28.83,0.48,0.16017,0,0,
+Eastern Prairies Living Labs - Morning Contract 2022-23,Sean Jenniskens,YBSA,Song,2,21.4,0.36,0.17833,0,0,
+Eastern Prairies Living Labs - Morning Contract 2022-23,Sean Jenniskens,YEWA,Song,30,600,10.00,0.33333,3,0,"SOSP, COYE, AMRE"
+Eastern Prairies Living Labs - Morning Contract 2022-23,Sean Jenniskens,YTVI,Song,2,29.3,0.49,0.24417,0,0,
+GBMP: Contract 2022-23 Morning Recordings,Erica Alex,AMAV,Call,1,13.8,0.23,0.23000,0,0,
+GBMP: Contract 2022-23 Morning Recordings,Sean Jenniskens,AMBI,Call,2,83.35,1.39,0.69458,2,0,deleted - presumed abiotic sounds
+GBMP: Contract 2022-23 Morning Recordings,Sean Jenniskens,AMBI,Song,1,19.81,0.33,0.33017,0,0,
+GBMP: Contract 2022-23 Morning Recordings,Sean Jenniskens,AMWI,Song,3,36.14,0.60,0.20078,0,0,
+GBMP: Contract 2022-23 Morning Recordings,Sean Jenniskens,BAIS,Song,20,218.87,3.65,0.18239,0,0,
+GBMP: Contract 2022-23 Morning Recordings,Sean Jenniskens,BBMA,Call,3,209.93,3.50,1.16628,3,0,"UNBI x3 - not BBMA, maybe UNDU?"
+GBMP: Contract 2022-23 Morning Recordings,Erica Alex,BCFR,Song,2,84,1.40,0.70000,0,0,
+GBMP: Contract 2022-23 Morning Recordings,Erica Alex,BHCO,Song,19,1507.92,25.132,1.323,10,10,"HOLA calls(5) 1 already tagged (delete), UNPA calls (5)"
+GBMP: Contract 2022-23 Morning Recordings,Erica Alex,BRBL,Call,1,49.8,0.83,0.83000,0,0,
+GBMP: Contract 2022-23 Morning Recordings,Erica Alex,BRBL,Song,1,141,2.35,2.35000,1,1,"HOLA call, honestly not sure what was up with this one"
+GBMP: Contract 2022-23 Morning Recordings,Sean Jenniskens,BRSP,Call,1,152.3,2.54,2.53833,0,0,
+GBMP: Contract 2022-23 Morning Recordings,Sean Jenniskens,BRSP,Song,20,190.36,3.17,0.15863,1,0,UNSP - CCSP/BRSP
+GBMP: Contract 2022-23 Morning Recordings,Sean Jenniskens,CANG,Song,2,119.32,1.99,0.99433,2,0,CORA x2
+GBMP: Contract 2022-23 Morning Recordings,Kelsey Bell,CCLO,Call,20,240,4.00,0.20000,1,0,HOLA
+GBMP: Contract 2022-23 Morning Recordings,Kelsey Bell,CCLO,Song,29,547,9.12,0.31437,2,1,"UNPA x 2, song- call"
+GBMP: Contract 2022-23 Morning Recordings,Kelsey Bell,CCSP,Call,2,25,0.42,0.20833,0,0,
+GBMP: Contract 2022-23 Morning Recordings,Kelsey Bell,CCSP,Song,8,185,3.08,0.38542,2,2,"UNPA, UNSP - both changed to call"
+GBMP: Contract 2022-23 Morning Recordings,Kelsey Bell,CEDW,Song,1,162,2.70,2.70000,1,1,UNPA call
+GBMP: Contract 2022-23 Morning Recordings,Kelsey Bell,CLSW,Song,2,24,0.40,0.20000,0,0,
+GBMP: Contract 2022-23 Morning Recordings,Sean Jenniskens,CONI,Non-vocal,20,374.25,6.24,0.31188,0,20,non-vocal to song x20
+GBMP: Contract 2022-23 Morning Recordings,Erica Alex,CONI,Song,21,172.02,2.867,0.137,0,3,
+GBMP: Contract 2022-23 Morning Recordings,Erica Alex,COWW,Song,20,454.8,7.58,0.379,0,20,CALL
+GBMP: Contract 2022-23 Morning Recordings,Sean Jenniskens,COYE,Song,3,33.24,0.55,0.18467,0,0,
+GBMP: Contract 2022-23 Morning Recordings,Erica Alex,COYO,Song,20,633.48,10.558,0.528,1,20,COWW
+GBMP: Contract 2022-23 Morning Recordings,Kelsey Bell,EAGR,Call,7,60,1.00,0.14286,0,7,call-song
+GBMP: Contract 2022-23 Morning Recordings,Kelsey Bell,EAGR,Song,8,45,0.75,0.09375,0,0,
+GBMP: Contract 2022-23 Morning Recordings,Kelsey Bell,EAKI,Call,3,40,0.67,0.22222,1,0,UNPA
+GBMP: Contract 2022-23 Morning Recordings,Kelsey Bell,EAKI,Song,4,39,0.65,0.16250,0,0,
+GBMP: Contract 2022-23 Morning Recordings,Kelsey Bell,GADW,Song,4,27,0.45,0.11250,0,4,call
+GBMP: Contract 2022-23 Morning Recordings,Kelsey Bell,GRSP,Call,1,87,1.45,1.45000,1,0,UNSP
+GBMP: Contract 2022-23 Morning Recordings,Kelsey Bell,GRSP,Song,21,439,7.32,0.34841,1,0,SAVS
+GBMP: Contract 2022-23 Morning Recordings,Erica Alex,HOLA,Call,21,574.8,9.58,0.45600,2,1,"TBLO, CCLO calls (already tagged, delete)"
+GBMP: Contract 2022-23 Morning Recordings,Erica Alex,HOLA,Song,20,225,3.75,0.18800,0,0,
+GBMP: Contract 2022-23 Morning Recordings,Erica Alex,LARB,Song,1,64.8,1.08,1.08000,0,0,
+GBMP: Contract 2022-23 Morning Recordings,Erica Alex,LBCU,Call,20,550.02,9.17,0.45800,0,9,song
+GBMP: Contract 2022-23 Morning Recordings,Erica Alex,LBCU,Song,20,264,4.40,0.22000,0,0,
+GBMP: Contract 2022-23 Morning Recordings,Erica Alex,MAGO,Song,22,640.5,10.675,0.485,0,11,
+GBMP: Contract 2022-23 Morning Recordings,Kelsey Bell,MALL,Song,2,85,1.42,0.70833,1,2,"GADW call, call"
+GBMP: Contract 2022-23 Morning Recordings,Kelsey Bell,MODO,Call,2,50,0.83,0.41667,0,2,song
+GBMP: Contract 2022-23 Morning Recordings,Kelsey Bell,MODO,Song,2,28,0.47,0.23333,0,0,
+GBMP: Contract 2022-23 Morning Recordings,Kelsey Bell,NLFR,Song,1,32,0.53,0.53333,0,0,
+GBMP: Contract 2022-23 Morning Recordings,Kelsey Bell,NOPI,Call,1,21,0.35,0.35000,0,0,
+GBMP: Contract 2022-23 Morning Recordings,Kelsey Bell,NSHO,Song,4,43,0.72,0.17917,0,4,call
+GBMP: Contract 2022-23 Morning Recordings,Kelsey Bell,PLSP,Song,8,48,0.80,0.10000,0,0,
+GBMP: Contract 2022-23 Morning Recordings,Erica Alex,RWBL,Song,20,436.86,7.281,0.364,2,0,"SAVS, WEME"
+GBMP: Contract 2022-23 Morning Recordings,Erica Alex,SAVS,Song,25,256.2,4.27,0.1708,2,0,GRSP
+GBMP: Contract 2022-23 Morning Recordings,Kelsey Bell,SPPI,Song,24,351,5.85,0.24375,2,0,deleted x 2 - undetected
+GBMP: Contract 2022-23 Morning Recordings,Sean Jenniskens,TBLO,Call,11,474.25,7.90,0.71856,8,0,HOLA x4; CCLO x4
+GBMP: Contract 2022-23 Morning Recordings,Sean Jenniskens,TBLO,Song,26,466,7.77,0.29872,7,,six review: CCLO x3;    twenty confident: CCLO x4
+GBMP: Contract 2022-23 Morning Recordings,Sean Jenniskens,UPSA,Song,1,133.92,2.23,2.23200,1,0,LBCU
+GBMP: Contract 2022-23 Morning Recordings,Erica Alex,VESP,Song,22,716.58,11.943,0.543,2,0,"CCLO, LASP"
+GBMP: Contract 2022-23 Morning Recordings,Erica Alex,WEME,Song,22,264.18,4.403,0.2,0,0,
+GBMP: Contract 2022-23 Morning Recordings,Erica Alex,WILL,Song,21,624.18,10.403,0.495,4,1,"WEME (2 - extremely distant, I think they were going based off the up/down swoops on the spectrogram??), UNBI, EAGR"
+GRASS: M.Sc. Waterton,Sean Jenniskens,ALFL,Call,3,15.6,0.26,0.08667,0,0,
+GRASS: M.Sc. Waterton,Sean Jenniskens,ALFL,Song,2,35.4,0.59,0.29500,0,1,song to call
+GRASS: M.Sc. Waterton,Sean Jenniskens,AMAV,Call,1,123.21,2.05,2.05350,1,0,AMRO
+GRASS: M.Sc. Waterton,Sean Jenniskens,AMBI,Song,14,101.54,1.69,0.12088,0,0,
+GRASS: M.Sc. Waterton,Sean Jenniskens,BAEA,Call,1,5,0.08,0.08333,0,0,
+GRASS: M.Sc. Waterton,Sean Jenniskens,BAIS,Song,4,29.64,0.49,0.12350,0,0,
+GRASS: M.Sc. Waterton,Sean Jenniskens,BANS,Call,2,60,1.00,0.50000,0,0,
+GRASS: M.Sc. Waterton,Sean Jenniskens,BANS,Song,2,22.77,0.38,0.18975,0,1,
+GRASS: M.Sc. Waterton,Sean Jenniskens,BARS,Call,2,24.92,0.42,0.20767,0,0,
+GRASS: M.Sc. Waterton,Sean Jenniskens,BARS,Song,1,25.97,0.43,0.43283,0,1,
+GRASS: M.Sc. Waterton,Sean Jenniskens,BBCU,Song,1,20.54,0.34,0.34233,0,0,
+GRASS: M.Sc. Waterton,Sean Jenniskens,BEKI,Song,1,7.72,0.13,0.12867,0,0,
+GRASS: M.Sc. Waterton,Sean Jenniskens,BHCO,Song,15,278.55,4.64,0.30950,0,0,
+GRASS: M.Sc. Waterton,Erica Alex,BHGR,Song,11,1008.6,16.81,1.52818,3,0,"RBGR (2), AMRO"
+GRASS: M.Sc. Waterton,Erica Alex,BLTE,Call,4,446.4,7.44,1.86000,1,0,UNBI
+GRASS: M.Sc. Waterton,Erica Alex,BOBO,Call,1,159,2.65,2.65000,0,0,
+GRASS: M.Sc. Waterton,Erica Alex,BOBO,Song,1,60,1.00,1.00000,0,0,
+GRASS: M.Sc. Waterton,Erica Alex,BRBL,Call,13,592.8,9.88,0.76000,1,0,RWBL
+GRASS: M.Sc. Waterton,Erica Alex,BRBL,Song,1,19.8,0.33,0.33000,0,0,
+GRASS: M.Sc. Waterton,Erica Alex,BRSP,Song,1,25.8,0.43,0.43000,0,0,
+GRASS: M.Sc. Waterton,Erica Alex,BRTH,Song,2,212.4,3.54,1.77000,1,0,GRCA
+GRASS: M.Sc. Waterton,Sean Jenniskens,CCSP,Song,30,334.32,5.57,0.18573,1,0,Deleted
+GRASS: M.Sc. Waterton,Sean Jenniskens,CCSP,Song,70,612.89,10.21,0.14593,0,1,song to call
+GRASS: M.Sc. Waterton,Sean Jenniskens,CHSP,Song,2,80.02,1.33,0.66683,1,0,UNPA
+GRASS: M.Sc. Waterton,Sean Jenniskens,CLSW,Call,3,30.11,0.50,0.16728,0,0,
+GRASS: M.Sc. Waterton,Sean Jenniskens,COGR,Call,1,7,0.12,0.11667,0,0,
+GRASS: M.Sc. Waterton,Sean Jenniskens,COGR,Song,1,64.89,1.08,1.08150,1,0,UNBL
+GRASS: M.Sc. Waterton,Kelsey Bell,COLO,call,8,126,2.10,0.26250,0,4,call-song
+GRASS: M.Sc. Waterton,Kelsey Bell,COLO,Song,6,102,1.70,0.28333,0,2,song-call
+GRASS: M.Sc. Waterton,Kelsey Bell,COME,call,2,25,0.42,0.20833,0,0,
+GRASS: M.Sc. Waterton,Kelsey Bell,COME,Song,2,36,0.60,0.30000,0,1,song-call
+GRASS: M.Sc. Waterton,Sean Jenniskens,CONI,Non-vocal,8,149.19,2.49,0.31081,0,8,NV-Song
+GRASS: M.Sc. Waterton,Erica Alex,CONI,Song,15,391.8,6.53,0.43533,0,14,Beer call tagged as song
+GRASS: M.Sc. Waterton,Erica Alex,COPO,Song,1,55.8,0.93,0.93000,0,0,
+GRASS: M.Sc. Waterton,Erica Alex,DOWO,Call,1,19.8,0.33,0.33000,0,0,
+GRASS: M.Sc. Waterton,Erica Alex,DOWO,Song,1,39.6,0.66,0.66000,0,0,
+GRASS: M.Sc. Waterton,Erica Alex,EAGR,Call,1,22.8,0.38,0.38000,0,1,
+GRASS: M.Sc. Waterton,Erica Alex,EAGR,Song,1,79.8,1.33,1.33000,0,0,
+GRASS: M.Sc. Waterton,Erica Alex,ELKK,Call,4,45.6,0.76,0.19000,0,0,
+GRASS: M.Sc. Waterton,Erica Alex,EUST,Call,15,555.6,9.26,0.61733,1,1,WEWP
+GRASS: M.Sc. Waterton,Erica Alex,EUST,Song,4,532.2,8.87,2.21750,0,1,
+GRASS: M.Sc. Waterton,Kelsey Bell,FRGU,call,1,184,3.07,3.06667,1,0,RTHA
+GRASS: M.Sc. Waterton,Kelsey Bell,GBHE,call,2,54,0.90,0.45000,0,0,
+GRASS: M.Sc. Waterton,Kelsey Bell,GRAP,call,1,108,1.80,1.80000,1,0,GBHE
+GRASS: M.Sc. Waterton,Kelsey Bell,GRYE,call,5,196,3.27,0.65333,1,0,UNBI
+GRASS: M.Sc. Waterton,Kelsey Bell,HAWO,call,1,17,0.28,0.28333,0,0,
+GRASS: M.Sc. Waterton,Kelsey Bell,HOLA,call,1,22,0.37,0.36667,0,0,
+GRASS: M.Sc. Waterton,Kelsey Bell,HOLA,Song,5,554,9.23,1.84667,3,0,"COYE, deleted to HOLA in 1 task that were COYE overlayed with VESP"
+GRASS: M.Sc. Waterton,Kelsey Bell,HOSP,Song,1,14,0.23,0.23333,0,0,
+GRASS: M.Sc. Waterton,Kelsey Bell,LAZB,Song,11,763,12.72,1.15606,5,0,"deleted (same bird from earlier in recording), YEWA (x3)"
+GRASS: M.Sc. Waterton,Erica Alex,LBCU,Call,1,102,1.70,1.70000,0,0,
+GRASS: M.Sc. Waterton,Erica Alex,MAGO,Call,2,145.8,2.43,1.21500,0,0,
+GRASS: M.Sc. Waterton,Erica Alex,MAWR,Song,4,450.6,7.51,1.87750,1,0,SPTO
+GRASS: M.Sc. Waterton,Erica Alex,MERL,Call,1,29.4,0.49,0.49000,0,0,
+GRASS: M.Sc. Waterton,Erica Alex,MOBL,Call,1,49.8,0.83,0.83000,0,0,
+GRASS: M.Sc. Waterton,Erica Alex,MOBL,Song,5,259.8,4.33,0.86600,1,0,UNPA
+GRASS: M.Sc. Waterton,Erica Alex,NESP,Song,6,291.6,4.86,0.81000,1,0,SAVS
+GRASS: M.Sc. Waterton,Erica Alex,NLFR,Song,2,306,5.10,2.55000,1,0,UNBI
+GRASS: M.Sc. Waterton,Kelsey Bell,NSWO,Song,2,95,1.58,0.79167,1,0,PBGR
+GRASS: M.Sc. Waterton,Kelsey Bell,PBGR,Call,8,126,2.10,0.26250,0,3,song
+GRASS: M.Sc. Waterton,Kelsey Bell,PBGR,Song,4,50,0.83,0.20833,0,0,
+GRASS: M.Sc. Waterton,Kelsey Bell,PISI,Call,7,45,0.75,0.10714,0,0,
+GRASS: M.Sc. Waterton,Kelsey Bell,RBNU,Song,2,74,1.23,0.61667,1,0,WBNU
+GRASS: M.Sc. Waterton,Kelsey Bell,RNEP,Call,1,77,1.28,1.28333,1,0,CANG
+GRASS: M.Sc. Waterton,Kelsey Bell,RNEP,Song,1,77,1.28,1.28333,1,0,UNBI
+GRASS: M.Sc. Waterton,Kelsey Bell,RTHA,Call,3,233,3.88,1.29444,0,0,
+GRASS: M.Sc. Waterton,Kelsey Bell,SAPH,Song,1,9,0.15,0.15000,0,0,
+GRASS: M.Sc. Waterton,Kelsey Bell,SAVS,Song,788,2085,34.75,0.04410,1,0,deleted - repeat of same bird
+GRASS: M.Sc. Waterton,Kelsey Bell,SOSP,Song,1,143,2.38,2.38333,1,0,SAVS
+GRASS: M.Sc. Waterton,Kelsey Bell,SPSA,Call,8,364,6.07,0.75833,1,1,UNBI; song
+GRASS: M.Sc. Waterton,Kelsey Bell,SPSA,Song,4,44,0.73,0.18333,0,0,
+GRASS: M.Sc. Waterton,Kelsey Bell,SPTO,Call,1,46,0.77,0.76667,0,0,
+GRASS: M.Sc. Waterton,Kelsey Bell,SPTO,Song,2,229,3.82,1.90833,1,0,LISP
+GRASS: M.Sc. Waterton,Kelsey Bell,TOSO,Song,1,48,0.80,0.80000,0,0,
+GRASS: M.Sc. Waterton,Kelsey Bell,TRUS,Call,1,12,0.20,0.20000,0,0,
+GRASS: M.Sc. Waterton,Kelsey Bell,UNAM,Song,9,343,5.72,0.63519,3,0,AMRO
+GRASS: M.Sc. Waterton,Kelsey Bell,UNBL,Song,20,515,8.58,0.42917,6,0,"RWBL (x3), BRBL (x3)"
+GRASS: M.Sc. Waterton,Sean Jenniskens,UNMA,Song,3,384.9,6.42,2.13833,2,0,"ELKK, SACR"
+GRASS: M.Sc. Waterton,Sean Jenniskens,UNOW,Call,1,164.4,2.74,2.74000,0,0,
+GRASS: M.Sc. Waterton,Sean Jenniskens,UNOW,Song,2,166.2,2.77,1.38500,0,0,
+GRASS: M.Sc. Waterton,Sean Jenniskens,UNSH,Call,2,184.8,3.08,1.54000,1,0,GRYE
+GRASS: M.Sc. Waterton,Sean Jenniskens,UNSH,Song,2,478.8,7.98,3.99000,0,0,
+GRASS: M.Sc. Waterton,Sean Jenniskens,UNSW,Call,4,304.37,5.07,1.26821,2,0,TRES (also lowered count from 4 to 2); TRES ((also lowered count from TMTT to 2)
+GRASS: M.Sc. Waterton,Sean Jenniskens,UNSW,Song,1,88.44,1.47,1.47400,1,0,VGSW (also lowered count from 4 to 2)
+GRASS: M.Sc. Waterton,Sean Jenniskens,UNTR,Song,2,139.84,2.33,1.16533,2,0,LISP x2
+GRASS: M.Sc. Waterton,Sean Jenniskens,UNWA,Song,1,107.02,1.78,1.78367,1,0,YEWA
+GRASS: M.Sc. Waterton,Sean Jenniskens,VATH,Song,2,182.69,3.04,1.52242,1,1,VEER (call)
+GRASS: M.Sc. Waterton,Sean Jenniskens,VESP,Song,18,216.05,3.60,0.20005,0,0,
+GRASS: M.Sc. Waterton,Sean Jenniskens,VGSW,Call,1,59.42,0.99,0.99033,0,0,
+GRASS: M.Sc. Waterton,Sean Jenniskens,VGSW,Song,4,328.58,5.48,1.36908,0,0,
+GRASS: M.Sc. Waterton,Kelsey Bell,VIRA,Call,3,16,0.27,0.08889,0,0,
+GRASS: M.Sc. Waterton,Kelsey Bell,VIRA,Song,2,20,0.33,0.16667,0,2,call
+GRASS: M.Sc. Waterton,Kelsey Bell,WAVI,Song,3,56,0.93,0.31111,0,0,
+GRASS: M.Sc. Waterton,Kelsey Bell,WEKI,Call,2,93,1.55,0.77500,0,1,song
+GRASS: M.Sc. Waterton,Kelsey Bell,WEME,Song,172,834,13.90,0.08081,1,0,deleted - AMRO and already tagged in task
+GRASS: M.Sc. Waterton,Kelsey Bell,WETA,Song,1,90,1.50,1.50000,0,0,
+GRASS: M.Sc. Waterton,Sean Jenniskens,WETO,Song,4,372,6.20,1.55000,0,0,
+GRASS: M.Sc. Waterton,Sean Jenniskens,WILL,Song,4,53.82,0.90,0.22425,0,0,
+GRASS: M.Sc. Waterton,Sean Jenniskens,WIWA,Song,1,74.46,1.24,1.24100,0,0,
+GRASS: M.Sc. Waterton,Sean Jenniskens,WOFR,Song,3,52.02,0.87,0.28900,0,0,
+GRASS: M.Sc. Waterton,Sean Jenniskens,YEAR,Song,4,53.81,0.90,0.22421,0,0,
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,ALFL,song,8,142.13,2.37,0.29610,1,1,deleted; song to call 
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,AMAV,call,5,95.74,1.60,0.31913,1,0,deleted
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,AMBI,call,1,29.66,0.49,0.49433,0,1,call to song
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,AMCO,song,1,67.04,1.12,1.11733,1,0,deleted
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,AMCR,non-vocal,1,37.58,0.63,0.62633,0,1,non-vocal to call
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,BAIS,song,4,120.37,2.01,0.50154,0,0,
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,BANS,call,1,31.73,0.53,0.52883,0,1,call to song
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,BANS,song,1,59.09,0.98,0.98483,0,0,
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,BARS,call,8,347.59,5.79,0.72415,5,1,deleted x4 (3BOBO+HOLA); TRES; call to song
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,BARS,song,5,102.9,1.72,0.34300,0,1,song to call
+Grassland Bird Monitoring - MB 2022,Erica Alex,BAWW,song,9,325.2,5.42,0.60222,0,0,
+Grassland Bird Monitoring - MB 2022,Erica Alex,BBCU,song,6,48.6,0.81,0.13500,0,0,
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,BBMA,song,2,97.81,1.63,0.81508,0,2,song to call
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,BCCH,call,1,66.19,1.10,1.10317,1,0,distant AMRE song
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,BCCH,song,3,24.78,0.41,0.13767,0,0,
+Grassland Bird Monitoring - MB 2022,Erica Alex,BCNH,call,1,223.2,3.72,3.72000,1,0,"UNKN - possibly corvid, pretty funky"
+Grassland Bird Monitoring - MB 2022,Erica Alex,BHVI,song,1,271.8,4.53,4.53000,1,0,"REVI - bird already tagged earlier in the recording, deleted incorrect tag "
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,BLTE,song,4,115.12,1.92,0.47967,0,4,song to call
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,BOBO,call,4,219.21,3.65,0.91338,3,1,deleted x3 (2RWBL+WEME); call to song
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,BRTH,call,1,50.66,0.84,0.84433,0,1,call to song
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,BRTH,song,6,141.77,2.36,0.39381,0,0,
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,CAWA,song,1,17.82,0.30,0.29700,0,0,
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,CCLO,call,3,80.48,1.34,0.44711,0,0,
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,CCLO,song,25,171.64,2.86,0.11443,0,0,
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,CCSP,song,15,108.18,1.80,0.12020,0,0,
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,CHSP,song,5,99.57,1.66,0.33190,1,0,UNTR
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,COGR,call,11,104.15,1.74,0.15780,1,0,BRBL
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,COGR,song,1,38.85,0.65,0.64750,0,1,call to song
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,COHA,call,1,106.75,1.78,1.77917,0,0,
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,CONI,song,2,118.05,1.97,0.98375,2,0,deleted x2
+Grassland Bird Monitoring - MB 2022,Erica Alex,CONW,song,1,40.8,0.68,0.68000,0,0,
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,DOWO,call,1,56.39,0.94,0.93983,1,0,HAWO
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,DOWO,non-vocal,2,53.51,0.89,0.44592,2,0,UNWO x2
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,DOWO,song,3,152.59,2.54,0.84772,3,0,UNWO x3
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,EABL,call,2,69.41,1.16,0.57842,1,0,deleted
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,EABL,song,5,215.08,3.58,0.71693,3,1,BAOR; deleted x2; song to call
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,EAGR,call,1,28.08,0.47,0.46800,0,1,call to song
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,EAGR,song,2,41.46,0.69,0.34550,0,0,
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,EAPH,song,4,77.77,1.30,0.32404,1,0,UNPA
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,EATO,song,2,88.2,1.47,0.73500,1,0,SOSP
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,EAWP,song,10,83.9,1.40,0.13983,0,0,
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,GCFL,song,10,341.64,5.69,0.56940,3,7,BAOR; YTVI; UNPA; song to call x7
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,GHOW,call,3,51.9,0.87,0.28833,0,3,call to song
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,GHOW,song,8,116.8,1.95,0.24333,0,0,
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,GRAP,song,1,48.38,0.81,0.80633,0,0,
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,GRSP,song,15,100.64,1.68,0.11182,0,0,
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,HAWO,call,1,29.29,0.49,0.48817,0,0,
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,HETH,song,8,66.22,1.10,0.13796,0,0,
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,HOFI,song,1,64.73,1.08,1.07883,0,0,
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,HOLA,call,2,93.85,1.56,0.78208,1,0,TRES
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,HOLA,song,10,63.35,1.06,0.10558,0,0,
+Grassland Bird Monitoring - MB 2022,Erica Alex,LASP,song,2,33,0.55,0.27500,0,0,
+Grassland Bird Monitoring - MB 2022,Erica Alex,LCSP,song,15,382.8,6.38,0.42533,1,0,SAVS
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,LEFL,call,10,51.32,0.86,0.08553,0,0,
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,MAGO,song,4,160.62,2.68,0.66925,0,1,call to song
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,MAWR,song,10,170.85,2.85,0.28475,1,0,SEWR
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,MOBL,song,4,45.59,0.76,0.18996,0,0,
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,NESP,song,15,70.88,1.18,0.07876,0,0,
+Grassland Bird Monitoring - MB 2022,Erica Alex,NOHA,call,1,120,2.00,2.00000,0,0,
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,NOWA,song,10,217.83,3.63,0.36305,1,0,CAWA
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,OVEN,song,9,175.29,2.92,0.32461,1,0,destorted COYE
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,PBGR,call,2,60.09,1.00,0.50075,1,0,UNBI
+Grassland Bird Monitoring - MB 2022,Erica Alex,PHVI,song,1,442.2,7.37,7.37000,1,0,"UNVI - not comfortable making a call on PHVI/REVI based on this recording. Background bird, tough to hear complete song well. REVI would be more likely at this location"
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,PISI,song,1,62.94,1.05,1.04900,1,0,EAWP
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,PIWO,call,4,55.75,0.93,0.23229,0,0,
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,PIWO,song,1,32.88,0.55,0.54800,0,0,
+Grassland Bird Monitoring - MB 2022,Erica Alex,PUFI,song,3,471,7.85,2.61667,2,0,"WAVI, WAVI (same recording)"
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,PUMA,call,4,104.37,1.74,0.43488,1,0,UNPA
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,RBGR,song,15,241.71,4.03,0.26857,1,0,BAOR
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,RNEP,call,4,87.38,1.46,0.36408,0,3,call to song
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,RNGR,call,2,99.61,1.66,0.83008,2,0,HAWO; UNBI
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,RNGR,song,12,245.67,4.09,0.34121,0,0,
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,RTHU,non-vocal,1,82.76,1.38,1.37933,1,0,UNKN
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,RUGR,non-vocal,4,144.18,2.40,0.60075,0,4,non-vocal to song
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,SAVS,song,15,166.35,2.77,0.18483,0,0,
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,SEWR,song,15,114.12,1.90,0.12680,0,0,
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,SORA,call,15,338.14,5.64,0.37571,2,1,EAGR; UNBI; call to song
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,SPPI,song,25,130.34,2.17,0.08689,0,0,
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,SPSA,call,1,85.63,1.43,1.42717,0,0,
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,SPSA,song,3,108.76,1.81,0.60422,0,2,song to call
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,SWSP,song,4,172.23,2.87,0.71763,1,0,UNPA
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,TEWA,song,2,116.92,1.95,0.97433,1,0,NOWA
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,TRES,song,11,210.96,3.52,0.31964,1,1,PUMA; song to call
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,UNBI,song,13,881.63,14.69,1.13029,5,0,BRBL; MODO; AMGO; VESP; GRTF
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,UNSH,call,4,379.79,6.33,1.58246,1,0,UNBI
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,UNSH,song,2,133.66,2.23,1.11383,2,0,deleted x2
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,UNSP,song,2,90.11,1.50,0.75092,2,0,VESP; SAVS
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,UNWA,song,5,253.12,4.22,0.84373,5,,AMRE; BAWW; MAWA; NOWA x2
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,UPSA,call,1,20.57,0.34,0.34283,0,0,
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,VESP,song,15,134.09,2.23,0.14899,0,0,
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,VIRA,song,3,94.74,1.58,0.52633,1,0,deleted
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,WBNU,call,2,86.4,1.44,0.72000,1,0,UNBI (non-pass chuckling)
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,WBNU,song,1,20,0.33,0.33333,0,0,
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,WEKI,call,13,308.91,5.15,0.39604,3,5,RWBL x2; BARS; call to song
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,WEKI,song,3,85.8,1.43,0.47667,0,2,song to call
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,WEME,song,15,112.01,1.87,0.12446,0,0,
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,WEWP,call,1,29.63,0.49,0.49383,0,0,
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,WEWP,song,1,32.39,0.54,0.53983,0,0,
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,WIFL,song,1,20.04,0.33,0.33400,0,0,
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,WILL,call,5,296.72,4.95,0.98907,5,0,WISN; UNBI; GRYE; MAGO x2
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,WILL,song,5,69.69,1.16,0.23230,1,9,UNBI
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,WIPH,call,2,120.14,2.00,1.00117,0,0,
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,WISN,non-vocal,20,368,6.13,0.30667,0,20,non-vocal to song
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,WITU,song,1,17.67,0.29,0.29450,0,0,
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,WTSP,song,3,29.57,0.49,0.16428,0,0,
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,YBCH,song,1,14.14,0.24,0.23567,0,0,
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,YBSA,non-vocal,9,148.79,2.48,0.27554,0,9,non-vocal to song
+Grassland Bird Monitoring - MB 2022,Erica Alex,YERA,song,1,67.2,1.12,1.12000,0,0,
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,YEWA,song,20,141.78,2.36,0.11815,0,0,
+Grassland Bird Monitoring - MB 2022,Sean Jenniskens,YTVI,song,7,45.91,0.77,0.10931,0,0,
+Grassland Bird Monitoring - SK 2022,Kelsey Bell,ALFL,song,1,34,0.57,0.56667,0,0,
+Grassland Bird Monitoring - SK 2022,Kelsey Bell,AMBI,song,5,232,3.87,0.77333,1,0,COWW
+Grassland Bird Monitoring - SK 2022,Sean Jenniskens,AMCR,song,8,199.94,3.33,0.41654,2,6,deleted; song to call x6
+Grassland Bird Monitoring - SK 2022,Sean Jenniskens,AMGO,song,7,107.91,1.80,0.25693,1,0,deleted
+Grassland Bird Monitoring - SK 2022,Sean Jenniskens,AMWI,call,2,23.97,0.40,0.19975,0,0,
+Grassland Bird Monitoring - SK 2022,Sean Jenniskens,AMWI,song,1,77.15,1.29,1.28583,1,0,AMRO call
+Grassland Bird Monitoring - SK 2022,Sean Jenniskens,BAIS,song,25,182.91,3.05,0.12194,0,0,
+Grassland Bird Monitoring - SK 2022,Kelsey Bell,BANS,call,8,202,3.37,0.42083,0,3,call-song
+Grassland Bird Monitoring - SK 2022,Kelsey Bell,BANS,song,7,145,2.42,0.34524,0,1,song-call
+Grassland Bird Monitoring - SK 2022,Kelsey Bell,BAOR,song,7,94,1.57,0.22381,0,0,
+Grassland Bird Monitoring - SK 2022,Kelsey Bell,BARS,call,7,567,9.45,1.35000,5,2,"2 x call-song, 2xHOLA, 3xUNSW (call, could be TRES or CLSW, but doesn't seem right for BARS)"
+Grassland Bird Monitoring - SK 2022,Kelsey Bell,BARS,song,1,23,0.38,0.38333,0,0,
+Grassland Bird Monitoring - SK 2022,Kelsey Bell,BCCH,song,3,44,0.73,0.24444,0,0,
+Grassland Bird Monitoring - SK 2022,Kelsey Bell,BLJA,call,1,141,2.35,2.35000,1,0,"GRCA, but already one tagged in recording - deleted (BSC-SK-SBLY-06-01, 223sec)"
+Grassland Bird Monitoring - SK 2022,Kelsey Bell,BLTE,call,4,122,2.03,0.50833,1,0,"deleted - I thinkg overlapping HOLA and WILL contributed to the confusion, both already tagged"
+Grassland Bird Monitoring - SK 2022,Sean Jenniskens,BOBO,call,1,36.26,0.60,0.60433,0,1,song not call
+Grassland Bird Monitoring - SK 2022,Sean Jenniskens,BOBO,song,9,80.22,1.34,0.14856,0,0,
+Grassland Bird Monitoring - SK 2022,Sean Jenniskens,BRSP,song,25,476.71,7.95,0.31781,3,0,"WEME, UNSP, UNPA"
+Grassland Bird Monitoring - SK 2022,Sean Jenniskens,BWTE,call,2,26.3,0.44,0.21917,0,0,
+Grassland Bird Monitoring - SK 2022,Sean Jenniskens,CCLO,call,15,285.85,4.76,0.31761,3,1,HOLA x2; ROWR; call to song
+Grassland Bird Monitoring - SK 2022,Sean Jenniskens,CCLO,song,25,173.94,2.90,0.11596,0,0,
+Grassland Bird Monitoring - SK 2022,Sean Jenniskens,CCSP,song,25,148.49,2.47,0.09899,0,0,
+Grassland Bird Monitoring - SK 2022,Sean Jenniskens,CLSW,call,10,259.46,4.32,0.43243,10,0,BANS x9; EUST
+Grassland Bird Monitoring - SK 2022,Sean Jenniskens,CLSW,song,2,209.02,3.48,1.74183,2,0,BANS x2
+Grassland Bird Monitoring - SK 2022,Sean Jenniskens,COGR,call,11,141.24,2.35,0.21400,1,2,BRBL; call to song x2
+Grassland Bird Monitoring - SK 2022,Sean Jenniskens,COGR,song,2,80.77,1.35,0.67308,2,0,UNPA; CLSW
+Grassland Bird Monitoring - SK 2022,Sean Jenniskens,CONI,non-vocal,2,51.94,0.87,0.43283,0,2,non-vocal to song x2
+Grassland Bird Monitoring - SK 2022,Sean Jenniskens,EAGR,call,6,70.78,1.18,0.19661,0,0,
+Grassland Bird Monitoring - SK 2022,Sean Jenniskens,EAWP,song,1,17.86,0.30,0.29767,0,0,
+Grassland Bird Monitoring - SK 2022,Sean Jenniskens,FISP,song,2,26.62,0.44,0.22183,0,0,
+Grassland Bird Monitoring - SK 2022,Sean Jenniskens,GHOW,call,4,114.57,1.91,0.47738,4,0,STGR x4
+Grassland Bird Monitoring - SK 2022,Sean Jenniskens,GHOW,song,1,16.43,0.27,0.27383,0,0,
+Grassland Bird Monitoring - SK 2022,Kelsey Bell,GRAP,call,2,235,3.92,1.95833,2,0,"UNBL call, UNKN (might be a VERY distant cow) tried different audio settings, could not make out any GRAP"
+Grassland Bird Monitoring - SK 2022,Kelsey Bell,GRAP,song,1,27,0.45,0.45000,1,1,UNBI - too distant
+Grassland Bird Monitoring - SK 2022,Kelsey Bell,HAWO,song,1,91,1.52,1.51667,0,1,song-call
+Grassland Bird Monitoring - SK 2022,Kelsey Bell,HOGR,song,1,221,3.68,3.68333,0,0,
+Grassland Bird Monitoring - SK 2022,Kelsey Bell,HOLA,call,15,272,4.53,0.30222,1,0,BARS
+Grassland Bird Monitoring - SK 2022,Kelsey Bell,HOLA,song,25,244,4.07,0.16267,0,0,
+Grassland Bird Monitoring - SK 2022,Kelsey Bell,HOSP,call,4,20,0.33,0.08333,0,0,
+Grassland Bird Monitoring - SK 2022,Kelsey Bell,MAWR,song,2,99,1.65,0.82500,1,0,deleted - overlapping RWBL and EAKI
+Grassland Bird Monitoring - SK 2022,Kelsey Bell,MERL,call,1,15,0.25,0.25000,0,1,call-song
+Grassland Bird Monitoring - SK 2022,Kelsey Bell,MERL,song,3,23,0.38,0.12778,0,0,
+Grassland Bird Monitoring - SK 2022,Kelsey Bell,MOBL,call,1,48,0.80,0.80000,0,0,
+Grassland Bird Monitoring - SK 2022,Kelsey Bell,MOBL,song,3,145,2.42,0.80556,2,0,"WEME - deleted because already tagged. UNPA - could also be a WEME, but too distant to confirm"
+Grassland Bird Monitoring - SK 2022,Kelsey Bell,NESP,song,3,181,3.02,1.00556,2,0,"SAVS - deleted because already tagged and the other was an industrial sound, also deleted"
+Grassland Bird Monitoring - SK 2022,Sean Jenniskens,NOFL,non-vocal,3,97.64,1.63,0.54244,3,3,UNWO x3; non-vocal to song x3
+Grassland Bird Monitoring - SK 2022,Sean Jenniskens,NRWS,song,1,72.58,1.21,1.20967,0,1,song to call
+Grassland Bird Monitoring - SK 2022,Sean Jenniskens,PISI,call,1,17,0.28,0.28333,0,0,
+Grassland Bird Monitoring - SK 2022,Sean Jenniskens,REVI,song,2,44.37,0.74,0.36975,0,0,
+Grassland Bird Monitoring - SK 2022,Sean Jenniskens,RNEP,call,6,154.97,2.58,0.43047,2,4,UNBI; UNKN; call to song x4
+Grassland Bird Monitoring - SK 2022,Sean Jenniskens,ROWR,song,15,217.82,3.63,0.24202,0,0,
+Grassland Bird Monitoring - SK 2022,Sean Jenniskens,RTHA,call,1,150.7,2.51,2.51167,1,0,LBCU
+Grassland Bird Monitoring - SK 2022,Sean Jenniskens,SAPH,call,1,136.58,2.28,2.27633,1,0,UNPA
+Grassland Bird Monitoring - SK 2022,Sean Jenniskens,SAPH,song,6,284.62,4.74,0.79061,3,0,UNBI x4
+Grassland Bird Monitoring - SK 2022,Kelsey Bell,SORA,call,5,49,0.82,0.16333,0,0,
+Grassland Bird Monitoring - SK 2022,Kelsey Bell,SORA,song,1,29,0.48,0.48333,0,0,
+Grassland Bird Monitoring - SK 2022,Kelsey Bell,SOSP,song,5,54,0.90,0.18000,0,0,
+Grassland Bird Monitoring - SK 2022,Kelsey Bell,SPPI,song,25,197,3.28,0.13133,0,0,
+Grassland Bird Monitoring - SK 2022,Kelsey Bell,SPSA,song,2,22,0.37,0.18333,0,0,
+Grassland Bird Monitoring - SK 2022,Sean Jenniskens,TBLO,song,2,87.85,1.46,0.73208,1,0,WEME
+Grassland Bird Monitoring - SK 2022,Kelsey Bell,UNBI,call,26,2667,44.45,1.70962,10,0,"1xMAGO, 1xUNTE, 2xUNPA, 1xUNBL, 1xMAWR, 3xUNSP, 1xdeleted (MAGO already tagged)"
+Grassland Bird Monitoring - SK 2022,Kelsey Bell,UNBI,song,8,693,11.55,1.44375,2,0,"EAKI call, WEME"
+Grassland Bird Monitoring - SK 2022,Kelsey Bell,UNMA,call,1,44,0.73,0.73333,0,0,
+Grassland Bird Monitoring - SK 2022,Sean Jenniskens,UNSP,call,1,41.54,0.69,0.69233,0,0,
+Grassland Bird Monitoring - SK 2022,Sean Jenniskens,UNSP,song,1,31.23,0.52,0.52050,0,1,song to call
+Grassland Bird Monitoring - SK 2022,Sean Jenniskens,UNTR,song,1,33.14,0.55,0.55233,1,0,BAIS
+Grassland Bird Monitoring - SK 2022,Sean Jenniskens,UNWA,song,1,425.28,7.09,7.08800,0,0,
+Grassland Bird Monitoring - SK 2022,Sean Jenniskens,UPSA,song,15,185.64,3.09,0.20627,0,1,song to call
+Grassland Bird Monitoring - SK 2022,Sean Jenniskens,VESP,song,25,327,5.45,0.21800,2,0,AMGO calls; deleted
+Grassland Bird Monitoring - SK 2022,Sean Jenniskens,VIRA,call,1,71.92,1.20,1.19867,1,0,UNBI
+Grassland Bird Monitoring - SK 2022,Sean Jenniskens,WAVI,call,2,162.21,2.70,1.35175,2,0,UNPA x2
+Grassland Bird Monitoring - SK 2022,Sean Jenniskens,WAVI,song,7,119.82,2.00,0.28529,0,0,
+Grassland Bird Monitoring - SK 2022,Sean Jenniskens,WCSP,song,15,207.56,3.46,0.23062,2,0,VESP x2
+PAU - Morning Recordings Contract 2022-23,Sean Jenniskens,ALFL,Song,15,288.46,4.81,0.32051,1,4,"LEFL, song to call x4"
+PAU - Morning Recordings Contract 2022-23,Kelsey Bell,AMAV,Call,15,581,9.68,0.64556,3,0,"1xdeleted (AMAV already tagged overlapping with LEYE), 1xLEYE song, 1xRWBL"
+PAU - Morning Recordings Contract 2022-23,Kelsey Bell,AMAV,Song,5,67,1.12,0.22333,0,5,song-call
+PAU - Morning Recordings Contract 2022-23,Kelsey Bell,AMBI,Call,1,102,1.70,1.70000,1,0,NSHO
+PAU - Morning Recordings Contract 2022-23,Sean Jenniskens,AMBI,Song,16,134.66,2.24,0.14027,0,0,
+PAU - Morning Recordings Contract 2022-23,Kelsey Bell,AMCO,Song,5,191,3.18,0.63667,1,4,"1xdeleted (NSHO already tagged), 4x song-call"
+PAU - Morning Recordings Contract 2022-23,Kelsey Bell,AMCR,Song,10,79,1.32,0.13167,0,10,song-call
+PAU - Morning Recordings Contract 2022-23,Sean Jenniskens,AMGO,Call,15,347.05,5.78,0.38561,0,1,call to song
+PAU - Morning Recordings Contract 2022-23,Kelsey Bell,AMGO,Song,6,394,6.57,1.09444,2,1,"LASP, deleted (part of WEME song, already tagged), call-song"
+PAU - Morning Recordings Contract 2022-23,Sean Jenniskens,AMRO,Call,15,603.45,10.06,0.67050,5,0,"SPSA, RWBL, BAOR x2, LEFL"
+PAU - Morning Recordings Contract 2022-23,Sean Jenniskens,BAOR,Call,15,458.37,7.64,0.50930,0,7,call to song x7
+PAU - Morning Recordings Contract 2022-23,Sean Jenniskens,BAOR,Song,17,274.72,4.58,0.26933,2,0,"RBGR, UNPA"
+PAU - Morning Recordings Contract 2022-23,Sean Jenniskens,BWTE,Call,16,291.86,4.86,0.30402,0,0,
+PAU - Morning Recordings Contract 2022-23,Sean Jenniskens,COYE,Song,15,179.04,2.98,0.19893,1,0,UNPA
+PAU - Morning Recordings Contract 2022-23,Erica Alex,CSWA,Song,1,127.8,2.13,2.13000,0,0,
+PAU - Morning Recordings Contract 2022-23,Erica Alex,DOWO,Call,3,85.98,1.43,0.14400,1,0,HAWO
+PAU - Morning Recordings Contract 2022-23,Erica Alex,DOWO,Non-vocal,1,25.02,0.42,0.41700,0,1,drum
+PAU - Morning Recordings Contract 2022-23,Erica Alex,DOWO,Song,1,34.8,0.58,0.58000,1,1,HAWO call
+PAU - Morning Recordings Contract 2022-23,Erica Alex,EAGR,Song,1,12,0.20,0.20000,0,0,
+PAU - Morning Recordings Contract 2022-23,Sean Jenniskens,EAKI,Song,15,324.08,5.40,0.36009,0,4,song to call x4
+PAU - Morning Recordings Contract 2022-23,Erica Alex,EAWP,Song,1,79.98,1.33,1.33300,1,0,EAPH
+PAU - Morning Recordings Contract 2022-23,Erica Alex,EUST,Call,13,262.02,4.37,0.33600,1,0,"AMGO call (already tagged, delete)"
+PAU - Morning Recordings Contract 2022-23,Erica Alex,GCFL,Call,5,172.98,2.88,0.57700,0,2,
+PAU - Morning Recordings Contract 2022-23,Erica Alex,GCFL,Song,5,312.6,5.21,1.04300,1,3,SORA call
+PAU - Morning Recordings Contract 2022-23,Erica Alex,GHOW,Call,9,234,3.90,0.43300,2,7,"STGR, hoot song"
+PAU - Morning Recordings Contract 2022-23,Erica Alex,GHOW,Song,3,34.02,0.57,0.18900,0,0,
+PAU - Morning Recordings Contract 2022-23,Sean Jenniskens,GRCA,Call,3,97.56,1.63,0.54200,2,0,UNPA x2
+PAU - Morning Recordings Contract 2022-23,Sean Jenniskens,GRCA,Song,13,425.49,7.09,0.54550,2,0,AMRO; BAOR
+PAU - Morning Recordings Contract 2022-23,Sean Jenniskens,GRSP,Call,3,81.89,1.36,0.45494,2,1,UNSP x2; Call to Song
+PAU - Morning Recordings Contract 2022-23,Sean Jenniskens,HAWO,Call,3,33.36,0.56,0.18533,0,0,
+PAU - Morning Recordings Contract 2022-23,Sean Jenniskens,HOFI,Call,3,30.07,0.50,0.16706,0,0,
+PAU - Morning Recordings Contract 2022-23,Sean Jenniskens,HOFI,Song,2,84.42,1.41,0.70350,0,0,
+PAU - Morning Recordings Contract 2022-23,Sean Jenniskens,HOLA,Call,12,201.98,3.37,0.28053,0,3,call to song
+PAU - Morning Recordings Contract 2022-23,Sean Jenniskens,HOLA,Song,15,159.75,2.66,0.17750,0,0,
+PAU - Morning Recordings Contract 2022-23,Sean Jenniskens,HOME,Call,1,71.43,1.19,1.19050,1,0,UNDU
+PAU - Morning Recordings Contract 2022-23,Sean Jenniskens,HOSP,Call,11,317.84,5.30,0.48158,8,0,TRES x6; UNPA; GWTE
+PAU - Morning Recordings Contract 2022-23,Sean Jenniskens,HOSP,Song,6,147.34,2.46,0.40928,6,0,TRES x6
+PAU - Morning Recordings Contract 2022-23,Sean Jenniskens,HOWR,Song,16,227.34,3.79,0.23681,0,0,
+PAU - Morning Recordings Contract 2022-23,Sean Jenniskens,LARB,Song,8,238.32,3.97,0.49650,2,0,VESP; deleted
+PAU - Morning Recordings Contract 2022-23,Sean Jenniskens,LASP,Song,3,86.05,1.43,0.47806,1,0,deleted
+PAU - Morning Recordings Contract 2022-23,Sean Jenniskens,LBCU,Call,1,30.91,0.52,0.51517,0,0,
+PAU - Morning Recordings Contract 2022-23,Sean Jenniskens,LBCU,Non-vocal,1,145.62,2.43,2.42700,0,1,non-vocal to song + call
+PAU - Morning Recordings Contract 2022-23,Sean Jenniskens,LBCU,Song,1,29.64,0.49,0.49400,0,0,
+PAU - Morning Recordings Contract 2022-23,Sean Jenniskens,LCSP,Song,15,182.67,3.04,0.20297,0,0,
+PAU - Morning Recordings Contract 2022-23,Sean Jenniskens,LEFL,Call,9,256.87,4.28,0.47569,5,1,WEKI; YEWA x4; call to song
+PAU - Morning Recordings Contract 2022-23,Sean Jenniskens,LESC,Call,1,72,1.20,1.20000,1,0,UNDU
+PAU - Morning Recordings Contract 2022-23,Sean Jenniskens,MAGO,Call,16,257.34,4.29,0.26806,0,0,
+PAU - Morning Recordings Contract 2022-23,Sean Jenniskens,MAGO,Non-vocal,1,37.77,0.63,0.62950,0,1,non-vocal to call
+PAU - Morning Recordings Contract 2022-23,Sean Jenniskens,MAGO,Song,12,259.63,4.33,0.36060,1,7,deleted; song to call X7
+PAU - Morning Recordings Contract 2022-23,Sean Jenniskens,MAWA,Song,2,59.85,1.00,0.49875,1,0,AMRE
+PAU - Morning Recordings Contract 2022-23,Sean Jenniskens,MAWR,Call,1,142.93,2.38,2.38217,1,0,COYE
+PAU - Morning Recordings Contract 2022-23,Sean Jenniskens,MAWR,Song,15,601.89,10.03,0.66877,5,0,"SEWR x3, SAVS calls, WEME"
+PAU - Morning Recordings Contract 2022-23,Sean Jenniskens,MOBL,Song,2,78.24,1.30,0.65200,1,0,UNPA
+PAU - Morning Recordings Contract 2022-23,Sean Jenniskens,NESP,Call,2,145.93,2.43,1.21608,1,1,UNPA; call to song
+PAU - Morning Recordings Contract 2022-23,Sean Jenniskens,NESP,Song,17,238,3.97,0.23333,1,0,SAVS
+PAU - Morning Recordings Contract 2022-23,Sean Jenniskens,NOFL,Call,1,15.91,0.27,0.26517,0,0,
+PAU - Morning Recordings Contract 2022-23,Sean Jenniskens,NOFL,Song,6,150,2.50,0.41667,3,0,deleted x2; UNBI
+PAU - Morning Recordings Contract 2022-23,Sean Jenniskens,OVEN,Song,11,61.95,1.03,0.09386,0,0,
+PAU - Morning Recordings Contract 2022-23,Sean Jenniskens,PBGR,Call,4,105.97,1.77,0.44154,2,1,UNBI x2; call to song
+PAU - Morning Recordings Contract 2022-23,Sean Jenniskens,PBGR,Song,15,306.5,5.11,0.34056,1,0,UNBI
+PAU - Morning Recordings Contract 2022-23,Sean Jenniskens,PHVI,Song,1,49.89,0.83,0.83150,1,0,RPVI
+PAU - Morning Recordings Contract 2022-23,Kelsey Bell,PIWO,Song,2,55,0.92,0.45833,1,1,"song-call, UNWO"
+PAU - Morning Recordings Contract 2022-23,Kelsey Bell,PUMA,Call,2,20,0.33,0.16667,0,0,
+PAU - Morning Recordings Contract 2022-23,Kelsey Bell,PUMA,Song,1,195,3.25,3.25000,1,0,"AMWI (very hard to hear, changed a lot of audio settings, but did not sound like PUMA to me)"
+PAU - Morning Recordings Contract 2022-23,Kelsey Bell,RBGR,Call,1,115,1.92,1.91667,1,0,UNBI
+PAU - Morning Recordings Contract 2022-23,Kelsey Bell,RBGR,Song,13,126,2.10,0.16154,1,0,REVI
+PAU - Morning Recordings Contract 2022-23,Kelsey Bell,RBNU,Song,2,132,2.20,1.10000,1,0,deleted (same RBNU already tagged)
+PAU - Morning Recordings Contract 2022-23,Kelsey Bell,REVI,Call,1,26,0.43,0.43333,1,0,UNBI
+PAU - Morning Recordings Contract 2022-23,Kelsey Bell,RNEP,Call,2,21,0.35,0.17500,0,2,call-song
+PAU - Morning Recordings Contract 2022-23,Kelsey Bell,RNEP,Song,1,15,0.25,0.25000,0,0,
+PAU - Morning Recordings Contract 2022-23,Kelsey Bell,RNGR,Call,1,15,0.25,0.25000,0,1,call-song
+PAU - Morning Recordings Contract 2022-23,Sean Jenniskens,RNGR,Song,18,499.23,8.32,0.46225,2,0,deleted x2
+PAU - Morning Recordings Contract 2022-23,Kelsey Bell,RTHA,Call,1,12,0.20,0.20000,0,0,
+PAU - Morning Recordings Contract 2022-23,Kelsey Bell,RTHU,Non-vocal,1,35,0.58,0.58333,0,0,
+PAU - Morning Recordings Contract 2022-23,Kelsey Bell,RUGR,Song,2,87,1.45,0.72500,0,0,
+PAU - Morning Recordings Contract 2022-23,Kelsey Bell,SACR,Call,7,93,1.55,0.22143,1,0,YHBL
+PAU - Morning Recordings Contract 2022-23,Sean Jenniskens,SEWR,Song,15,115.24,1.92,0.12804,0,0,
+PAU - Morning Recordings Contract 2022-23,Sean Jenniskens,SOSP,Song,19,281.93,4.70,0.24731,0,0,
+PAU - Morning Recordings Contract 2022-23,Kelsey Bell,SPPI,Call,3,158,2.63,0.87778,3,0,RWBL call
+PAU - Morning Recordings Contract 2022-23,Kelsey Bell,SPPI,Song,15,78,1.30,0.08667,0,0,
+PAU - Morning Recordings Contract 2022-23,Kelsey Bell,SPSA,Call,1,22,0.37,0.36667,0,1,call-song
+PAU - Morning Recordings Contract 2022-23,Kelsey Bell,SPSA,Song,2,17,0.28,0.14167,0,0,
+PAU - Morning Recordings Contract 2022-23,Kelsey Bell,STGR,Call,14,563,9.38,0.67024,2,0,"1xdeleted (undetected at multiple audio settings), NSHO"
+PAU - Morning Recordings Contract 2022-23,Sean Jenniskens,STGR,Song,15,302.48,5.04,0.33609,1,0,GHOW
+PAU - Morning Recordings Contract 2022-23,Kelsey Bell,STSA,Call,1,48,0.80,0.80000,0,1,call-song
+PAU - Morning Recordings Contract 2022-23,Kelsey Bell,STSA,Song,2,23,0.38,0.19167,0,0,
+PAU - Morning Recordings Contract 2022-23,Kelsey Bell,SWSP,Song,6,125,2.08,0.34722,1,0,SPSA
+PAU - Morning Recordings Contract 2022-23,Kelsey Bell,SWTH,Call,1,29,0.48,0.48333,1,0,UNBI - def not SWTH
+PAU - Morning Recordings Contract 2022-23,Kelsey Bell,SWTH,Song,5,28,0.47,0.09333,0,0,
+PAU - Morning Recordings Contract 2022-23,Kelsey Bell,TRES,Song,5,132,2.20,0.44000,0,5,song-call
+PAU - Morning Recordings Contract 2022-23,Sean Jenniskens,UNBI,Song,26,1787.95,29.80,1.14612,16,0,"RNGR x3, SPSA, UNAM, deleted (insect), NOHA, ALFL, UNKN, BAOR x2, STGR, RWBL call x3, RUGR"
+PAU - Morning Recordings Contract 2022-23,Kelsey Bell,UPSA,Call,8,100,1.67,0.20833,0,0,
+PAU - Morning Recordings Contract 2022-23,Sean Jenniskens,UPSA,Song,16,267.22,4.45,0.27835,2,0,"LBCU, UNSH"
+PAU - Morning Recordings Contract 2022-23,Kelsey Bell,VEER,Song,7,270,4.50,0.64286,1,1,"1xdeleted (undetected in rest of recording too), 1xsong-call"
+PAU - Morning Recordings Contract 2022-23,Kelsey Bell,VESP,Call,3,73,1.22,0.40556,3,0,UNSP
+PAU - Morning Recordings Contract 2022-23,Sean Jenniskens,VESP,Song,16,639.13,10.65,0.66576,3,0,"deleted, UNPA, SOSP"
+PAU - Morning Recordings Contract 2022-23,Kelsey Bell,VIRA,Call,1,101,1.68,1.68333,1,0,UNKN
+PAU - Morning Recordings Contract 2022-23,Kelsey Bell,VIRA,Song,2,111,1.85,0.92500,1,0,WISN
+PAU - Morning Recordings Contract 2022-23,Kelsey Bell,WAVI,Call,4,62,1.03,0.25833,0,0,
+PAU - Morning Recordings Contract 2022-23,Sean Jenniskens,WAVI,Song,16,116.47,1.94,0.12132,0,0,
+PAU - Morning Recordings Contract 2022-23,Kelsey Bell,WBNU,Call,1,34,0.57,0.56667,0,0,
+PAU - Morning Recordings Contract 2022-23,Kelsey Bell,WEGR,Call,2,22,0.37,0.18333,0,2,call-song
+PAU - Morning Recordings Contract 2022-23,Kelsey Bell,WEGR,Song,5,69,1.15,0.23000,0,0,
+PAU - Morning Recordings Contract 2022-23,Kelsey Bell,WEKI,Call,5,225,3.75,0.75000,2,0,"1xdeleted (EAKI already tagged), 1xUNPA"
+PAU - Morning Recordings Contract 2022-23,Kelsey Bell,WEWP,Song,13,52,0.87,0.06667,0,0,
+PAU - Morning Recordings Contract 2022-23,Kelsey Bell,WIPH,Call,10,302,5.03,0.50333,4,0,"2xUNBI, 1xUNSH, 1xSTGR"
+PAU - Morning Recordings Contract 2022-23,Sean Jenniskens,WISN,Call,16,482.83,8.05,0.50295,1,11,"WILL, call to song x11"
+PAU - Morning Recordings Contract 2022-23,Kelsey Bell,WIWA,Song,1,20,0.33,0.33333,0,0,
+PAU - Morning Recordings Contract 2022-23,Kelsey Bell,YBFL,Song,1,48,0.80,0.80000,1,0,UNBI
+PAU - Morning Recordings Contract 2022-23,Kelsey Bell,YBSA,Call,5,126,2.10,0.42000,1,0,"deleted - thought maybe they meant to tag YBFL, but that wasn't detected either"
+PAU - Morning Recordings Contract 2022-23,Kelsey Bell,YBSA,Song,5,25,0.42,0.08333,0,0,
+PAU - Morning Recordings Contract 2022-23,Kelsey Bell,YEWA,Call,4,104,1.73,0.43333,1,0,RWBL
+PAU - Morning Recordings Contract 2022-23,Kelsey Bell,YHBL,Call,8,74,1.23,0.15417,1,1,"BRBL song, call-song"
+,,COYE,Song,8,137.09,2.28,0.28560,1,0,PAWA
