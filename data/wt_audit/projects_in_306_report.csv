@@ -1,0 +1,24 @@
+program,ar_project_id,new_project_id,organization_id,organization,project,sensor,tasks,status
+Boreal,428,428,5349,CWS-PRA,Boreal Bird Monitoring Program - Manitoba 2020,ARU,150,Active
+Boreal,1284,1284,5349,CWS-PRA,Boreal Bird Monitoring Program – Manitoba 2022,ARU,497,Active
+Boreal,1991,1991,5349,CWS-PRA,Boreal Bird Monitoring Program - Manitoba 2023,ARU,257,Active
+Boreal,2772,2772,5349,CWS-PRA,Boreal Bird Monitoring Program - Manitoba 2024,ARU,638,Active
+Boreal,506,506,5349,CWS-PRA,Boreal Bird Monitoring Program - Saskatchewan 2016,ARU,36,Active
+Boreal,1100,1100,5349,CWS-PRA,Boreal Bird Monitoring Program -Saskatchewan 2022,ARU,444,Active
+Boreal,1992,1992,5349,CWS-PRA,Boreal Bird Monitoring Program - Saskatchewan 2023,ARU,203,Active
+Boreal,286,286,5349,CWS-PRA,Boreal Bird Monitoring Program - Saskatchewan Breeding Bird Atlas collaboration 2017-2020,ARU,3977,Active
+Boreal,586,586,5349,CWS-PRA,Boreal Bird Monitoring Program - Saskatchewan Breeding Bird Atlas collaboration 2021,ARU,1211,Active
+Boreal,240,240,5349,CWS-PRA,Boreal Landbird Monitoring CWS AB 2019,ARU,215,Active
+Grassland,2913,2326,5349,CWS-PRA,GBMP - Contract 2024-25,ARU,471,Active
+Grassland,2302,2302,5349,CWS-PRA,GBMP - Paired Recordings,ARU,830,Active
+Grassland,401,401,5349,CWS-PRA,GBMP - Prairie Pastures 2020,ARU,659,Active
+Grassland,827,827,5349,CWS-PRA,GBMP - Prairie Pastures Morning Recordings 2018-2019,ARU,375,Active
+Grassland,2326,2326,5349,CWS-PRA,GBMP - Prairie Pastures Morning Recordings 2021-2023,ARU,736,Active
+PAU,2744,1389,5349,CWS-PRA,PAU - 2024 Evening Recordings 1SPT,ARU,323,Active
+PAU,2743,1287,5349,CWS-PRA,PAU - 2024 Morning Recordings 1SPT,ARU,295,Active
+PAU,2525,2525,5349,CWS-PRA,PAU - Master Evening Recordings 1SPT 2017 - 2019,ARU,6,Active
+PAU,1389,1389,5349,CWS-PRA,PAU - Master Evening Recordings 1SPT 2020 - 2024,ARU,821,Active
+PAU,2526,2526,5349,CWS-PRA,PAU - Master Morning Recordings 1SPT 2017 - 2019,ARU,357,Active
+PAU,1287,1287,5349,CWS-PRA,PAU - Master Morning Recordings 1SPT 2020 - 2024,ARU,719,Active
+Boreal,587,587,5349,CWS-PRA,Saskatchewan Island Forests CAWA model based sampling,ARU,644,Active
+Boreal,3001,3001,5349,CWS-PRA,Saskatchewan Island Forests CAWA model based sampling - 2024,ARU,361,Published - Public
