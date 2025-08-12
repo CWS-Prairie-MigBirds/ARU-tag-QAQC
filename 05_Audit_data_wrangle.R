@@ -167,7 +167,7 @@ VER_data <- df %>% filter(tag_is_verified == TRUE) %>% mutate(new_id = species_c
          tag_duration, rms_peak_dbfs, pkey)
 
 
-# ok use data download, audit version seems to have something funky going on
+# ok use data download for verified tags, audit version seems to have something funky going on
 
 final <- rbind(VER_data, CHANGED)
 
@@ -185,6 +185,8 @@ mean(final$agreement)
 # max_tag_freq
 # tag_duration
 # needs_review
+# rarity
+# previous experience using wildtrax
 # birdnet confidence: going to need some work here
 
 # main data first to get peak dbs and tag duration
@@ -259,12 +261,48 @@ combo <- combo %>% mutate(agreement = ifelse(original_id == new_id, 1, 0),
 mean(combo$agreement)
 
 
-# then bn data
+## calculate rarity from all tags in the transcribed data for all projects
+
+df_main <- df_main %>% filter(aru_task_status == "Transcribed") %>% 
+  wt_tidy_species(remove = c("unknown", "abiotic"), zerofill = TRUE)
+
+rarity_tags <- df_main  %>% 
+  group_by(species_code) %>% summarise(n_tags = n(), rarity_tags = round((n_tags/length(df_main$tag_id)), 5))
+  
+
+locations <- df_main %>% select(location, latitude, longitude) %>% distinct()
+
+rarity_loc <- df_main %>% group_by(location, latitude, longitude, species_code) %>% 
+  summarise(n_tags = n()) %>% group_by(species_code) %>% summarise(n_loc = n(), 
+                                                                   rarity_loc = round(n_loc/length(locations$location), 5))
+
+combo$species_code <- combo$original_id
+combo <- left_join(combo, rarity_tags, by = "species_code")
+combo <- left_join(combo, rarity_loc, by = "species_code")
+
+# PREVIOUS WILDTRAX EXPERIENCE DUMMY VARIABLE ----------------------------------------
+# observer experience with wildtrax dummy variable
+
+combo$pkey_oe <- paste0(combo$observer, "-", combo$year)
+
+test <- combo %>% group_by(year, observer) %>% summarise(n_tags = n()) %>% 
+  pivot_wider(id_cols = year ,names_from = "observer", values_from = "n_tags", values_fill = 0)
+
+## hhmm we have the problem that some observers have transcribed data from older years even when they had little experience
+## Andy Nguyen being an example
+## maybe this is a covariate where we need some extra info pulled from wildtrax based on the year they signed up?
+
+# BIRD NET SCORE COVARIATE ------------------------------------------------------
+# the issue here is wildtrax only gives you birdnet windows above a threshold of ***
+# that means that there will be many tags that do not have a birdnet score associated with them
+# for tags that do overlap with a birdnet "hit", 
+
+combof <- left_join(combo, t2, by = "tag_id")
 
 
 # save file for use in next script
 
-save(combo, file = "05_qaqc2.0_data_clean.Rdata")
+save(combof, file = "05_qaqc2.0_data_clean.Rdata")
 
 # a couple summaries
 
@@ -278,3 +316,49 @@ spp_agree <- final %>% group_by(original_id) %>%
 final %>% group_by(year, project_id) %>% summarise(n_tags = n())
 
 write_csv(year_summary, "year_summary_audit306.csv")
+
+
+#####UGLY CODE FOR HOW TO GET BN OUTPUT
+
+## create a dataframe of windows?
+
+# assigned window as a character that could be joined on? "0-3" 
+
+w_df <- data.frame(start_s = seq(from = 0, to = 1038, by = 3),
+                   end_s = seq(from = 3, to = 1041, by = 3))
+
+w_df$window <- paste0(w_df$start_s, "-", w_df$end_s)
+w_df$start_win <- seq(from = 1, to = length(w_df$start_s), by = 1)
+
+w_df <- w_df %>% select(window, start_win)
+
+test <- df_tag %>% mutate(start_win = ceiling(detection_time/3),
+                          end_win = ceiling(end_tag/3)) %>% left_join(w_df, by = "start_win") %>% 
+  rename(start_window = window)
+
+w_df$end_win <- seq(from = 1, to = length(w_df$window), by = 1)
+w_df <- w_df %>% select(end_window = window, end_win)
+
+test <- test %>% left_join(w_df, by = "end_win") %>% 
+  mutate(pkey1 = paste0(recording_id, "-", start_window, "-", species_code),
+         pkey2 = paste0(recording_id, "-", end_window, "-", species_code))
+
+bn_join <- df_bn %>% mutate(win_char = paste0(start_s, "-", end_s),
+                            pkey1 = paste0(recording_id, "-", win_char, "-", species_code)) %>% 
+  select(pkey1, win_char, bn_score = confidence)
+
+
+t2 <- left_join(test, bn_join, by = "pkey1")
+
+bn_join2 <- df_bn %>% mutate(win_char = paste0(start_s, "-", end_s),
+                             pkey2 = paste0(recording_id, "-", win_char, "-", species_code)) %>% 
+  select(pkey2, bn_score = confidence)
+
+t2 <- left_join(t2, bn_join2, by = "pkey2")
+
+t2 <- t2 %>% mutate(bn_score.x = ifelse(is.na(bn_score.x), 0, bn_score.x),
+                    bn_score.y = ifelse(is.na(bn_score.y), 0, bn_score.y),
+                    bn_score_f = pmax(bn_score.x, bn_score.y)) %>% 
+  select(tag_id, bn_score_f) %>% distinct()
+
+

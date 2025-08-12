@@ -15,16 +15,22 @@ load("05_qaqc2.0_data_clean.Rdata")
 b_obs <- read.csv("data/trait_tables/boreal_transcriber_traits.csv")
 g_obs <- read.csv("data/trait_tables/grassland_transcriber_traits.csv")
 
+
+# create observer summary by year
+
+obs_summary <- combof %>% group_by(observer) %>% summarise(n_verified = n(), mean_agree = mean(agreement))
+
+
 ## Split dataset into validation and training
 #use 70% of dataset as training set and 30% as test set
 
 set.seed(101)
 
 # Create a random split (70% training, 30% testing)
-sample_size <- floor(0.7 * nrow(combo))
-model_indices <- sample(seq_len(nrow(combo)), size = sample_size)
-model_data <- combo[model_indices, ]
-empirical_data <- combo[-model_indices, ]
+sample_size <- floor(0.7 * nrow(combof))
+model_indices <- sample(seq_len(nrow(combof)), size = sample_size)
+model_data <- combof[model_indices, ]
+empirical_data <- combof[-model_indices, ]
 
 
 # calculate observer error rate
@@ -68,7 +74,7 @@ write_csv(obs_summary, "observer_error_summary.csv")
 
 ggplot(obs_summary, aes(x = error_rate_train, y = error_rate_test)) + geom_point()
 
-ggplot(obs_summary, aes(x = error_rate_train, y = error_rate_emp)) + geom_point() +
+ggplot(obs_summary, aes(x = error_rate_test, y = error_rate_emp)) + geom_point() +
   geom_smooth(method = "lm") + stat_poly_eq(aes(label = paste(stat(eq.label), stat(rr.label), sep = " * \", \" * ")), 
                                             formula = y ~ x, parse = TRUE)
 
@@ -87,41 +93,54 @@ train_data$needs_review <- as.factor(train_data$needs_review)
 
 
 m1 <- glmer(agreement ~ scale(error_rate_emp) + scale(duration2) + scale(peak_db2) +
-              scale(max_tag_freq) + needs_review + (1|original_id), 
+              scale(max_tag_freq) + scale(rarity_tags) + needs_review + (1|original_id), 
             data = train_data, family = binomial)
 
 m2 <- glmer(agreement ~ scale(error_rate_emp) + scale(duration2) + scale(peak_db2) +
+              scale(max_tag_freq) + scale(rarity_loc) + needs_review + (1|original_id), 
+            data = train_data, family = binomial)
+
+m3 <- glmer(agreement ~ scale(error_rate_emp) + scale(duration2) + scale(peak_db2) +
               needs_review + (1|original_id), 
             data = train_data, family = binomial)
 
-m3 <- glmer(agreement ~ scale(error_rate_emp) + scale(duration2) +
+m4 <- glmer(agreement ~ scale(error_rate_emp) + scale(duration2) +
               scale(max_tag_freq) + needs_review + (1|original_id), 
             data = train_data, family = binomial)
 
-m4 <- glmer(agreement ~ scale(error_rate_emp) + scale(duration2) + needs_review + (1|original_id), 
+m5 <- glmer(agreement ~ scale(error_rate_emp) + scale(duration2) + needs_review + (1|original_id), 
             data = train_data, family = binomial)
 
-m5 <- glmer(agreement ~ scale(error_rate_emp)  + needs_review + (1|original_id), 
+m6 <- glmer(agreement ~ scale(error_rate_emp) + scale(duration2) + scale(rarity_tags) + needs_review + (1|original_id), 
             data = train_data, family = binomial)
 
-m6 <- glmer(agreement ~ scale(error_rate_emp)  + (1|original_id), 
+m7 <- glmer(agreement ~ scale(error_rate_emp)  + needs_review + (1|original_id), 
+            data = train_data, family = binomial)
+
+m8 <- glmer(agreement ~ scale(error_rate_emp)  + scale(rarity_loc) + needs_review + (1|original_id), 
+            data = train_data, family = binomial)
+
+m9 <- glmer(agreement ~ scale(error_rate_emp)  + scale(rarity_tags) + needs_review + (1|original_id), 
+            data = train_data, family = binomial)
+
+m10 <- glmer(agreement ~ scale(error_rate_emp)  + (1|original_id), 
             data = train_data, family = binomial)
 
 
 Cand.mods <- list("m1" = m1, "m2" = m2,  "m3" = m3, "m4" = m4,
-                  "m5" = m5, "m6" = m6)
+                  "m5" = m5, "m6" = m6, "m7" = m7, "m8" = m8, "m9" = m9, "m10" = m10)
 
 aic <- aictab(cand.set = Cand.mods, mod.names = NULL, second.ord = FALSE, nobs = NULL, sort = TRUE)
 
 aic
 
-summary(m4)
+summary(m8)
 
-simulationOutput <- simulateResiduals(fittedModel = m4, n = 1000, use.u = T, plot = T)
+simulationOutput <- simulateResiduals(fittedModel = m8, n = 1000, use.u = T, plot = T)
 
 ## predict to witheld test data
 
-pred <- predict(m4, newdata = test_data, type = "response", allow.new.levels = TRUE, re.form = ~(1|original_id))
+pred <- predict(m8, newdata = test_data, type = "response", allow.new.levels = TRUE, re.form = ~(1|original_id))
 
 test_data$predicted <- pred
 
