@@ -17,13 +17,15 @@ Sys.setenv(WT_USERNAME = user, WT_PASSWORD = password)
 
 wt_auth()
 
-# Download list of projects
+# Download list of projects. Optionally add filter if you know the name of project you want
 
-my_projects <- wt_get_download_summary(sensor_id = 'ARU')
+my_project <- wt_get_projects("ARU") |>
+  filter(project == "CWS-GBMP - Morning Recordings 2025") |>
+  pull(project_id)
 
 # Download the project that has tags you would like to verify
 
-detail <- wt_download_report(project_id = 2913, sensor_id = "ARU", reports = c("tag"), weather_cols = FALSE)
+detail <- wt_download_report(project_id = my_project, sensor_id = "ARU", reports = c("tag"), weather_cols = FALSE)
 
 # Filter out abiotic sounds
 
