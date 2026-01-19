@@ -189,6 +189,7 @@ aic <- aictab(cand.set = Cand.mods, mod.names = NULL, second.ord = FALSE, nobs =
 aic
 
 summary(m12b)
+saveRDS(m12b, file="m12b.rds")
 
 simulationOutput <- simulateResiduals(fittedModel = m12b, n = 1000, use.u = T, plot = T)
 

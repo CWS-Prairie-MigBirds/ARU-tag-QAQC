@@ -28,10 +28,8 @@ my_project <- wt_get_projects("ARU") |>
 detail <- wt_download_report(project_id = my_project, sensor_id = "ARU", reports = c("tag"), weather_cols = FALSE)
 
 # Filter out abiotic sounds
-
-biotic <- wt_tidy_species(detail, remove = c("abiotic"), zerofill = FALSE)
-
-biotic <- biotic %>% rename(ID1 = species_code, transcriber = observer)
+biotic <- wt_tidy_species(detail, remove = c("abiotic"), zerofill = FALSE) %>% 
+  rename(ID1 = species_code, transcriber = observer)
 
 #############################################################################
 # Use QAQC model to predict probability of agreement by species
