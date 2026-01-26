@@ -17,25 +17,29 @@ Sys.setenv(WT_USERNAME = username, WT_PASSWORD = password)
 wt_auth()
 
 
-# Determine project ID for the project of interest. Replace project name in filter() function below
+#Enter sensor and project name of interest and and pull project ID. Replace sensor and proj accordingly
+sensor <- "ARU"
+proj <- "WHCR - Morning Recordings (2023-2024)"
 
-my_project <- wt_get_projects("ARU") |>
-  filter(project == "CWS-GBMP - Morning Recordings 2025") |>
+my_project <- wt_get_projects(sensor = sensor) |>
+  filter(project == proj) |>
   pull(project_id)
 
 
 # Download the data from the projects you need to summarize: Error in x[[1]] : subscript out of bounds
 
-detail <- wt_download_report(project_id = my_project, sensor_id = "ARU", reports = c("tag"), weather_cols = FALSE) %>%
-  rename(original_id = species_code)
+detail <- wt_download_report(project_id = my_project, sensor_id = sensor, reports = c("tag"), weather_cols = FALSE) %>%
+  rename(original_id = species_code)  
 
-# Filter out abiotic sounds. Only needed for older WildTrax projects. Abiotic sounds are no longer tagged in new WildTrax version.
-# detail <- detail %>% filter(!ID1 %in% c( "MOWI", "MOAI", "LIAI", "LIBA", "LIRA",  "HEWI", "LIWI", "MOTF", "HETF", "LITF", "LITN", "NONE", "MONO", "LINO", "MOBA", "NOISE", "HENO", "HEAI", "HUMVOC", "HUMNON", "HERA", "HEBA", "GUN", "MORA", "LIWT", "HETN", "MOTN"))
+# Filter out abiotic sounds and domestic animals
+detail <- detail %>%
+  filter(!species_class %in% c("Abiotic")) %>%
+  filter(!original_id %in% c("COWW", "DOGG", "CHIK"))
 
 unique(detail$original_id)
 
-###Model predictions by species
 
+###Model predictions by species
 m12b<- readRDS("m12b.rds")
 summary(m12b)
 
@@ -54,22 +58,28 @@ obs_summary <- dat %>% group_by(observer) %>%
 # see if there are any observers in the current project without error rate estimates from past data
 unique(detail$observer[!(detail$observer %in% obs_summary$observer)])
 
-# modify unsernames that have changed since training data was transcribed
+# modify unsernames that have changed since training data was transcribed (# MODIFY SCRIPT TO DO THE NEXT TWO STEPS PROGRAMATICALLY. A MESSAGE WILL HAVE TO POP UP ASKING THE USER HOW TO RESOLVE MISSING NAMES
+# OPTIONS ARE: 1) UPDATE NAMES THAT HAVE CHANGED SLIGHTLY SINCE TRAINING DATA OR 2)APPLY THE MEDIAN ERROR RATE IF NEW USER 
 detail <- detail %>%
   mutate(observer = recode(observer,
                            "Andy Nguyen2" = "Andy Nguyen",
-                           "Sean Jenniskens (BirdsCanada)" = "Sean Jenniskens"))
+                           "Sean Jenniskens (BirdsCanada)" = "Sean Jenniskens",
+                           "Enid Cumming" = "Enid"))
+
+# check to make sure everything is fixed
+unique(detail$observer[!(detail$observer %in% obs_summary$observer)])
 
 # One observer, William Konze, has no data in the training dataset, so he must be new for 2025. Assign the median error rate
 obs_summary <- rbind(obs_summary, c("William Konze", as.numeric(median(obs_summary$error_rate_emp))))
 
 # join error rates to prediction dataset
 detail <- left_join(detail, obs_summary)
+
 #look for NAs
 any(is.na(detail$error_rate_emp))
 
 
-#2. calculate rarity for species in new dataset, use all tags in the first dataset?
+#2. calculate rarity for species in project making predictions for
 rarity_tags <- detail %>% group_by(original_id) %>% summarise(rarity_tags = n()/nrow(detail))
 detail <- left_join(detail, rarity_tags)
 any(is.na(detail$rarity_tags))
@@ -86,7 +96,7 @@ detail$error_rate_emp <- as.numeric(detail$error_rate_emp)
 pred <- predict(m12b, newdata = detail, type = "response", allow.new.levels = TRUE)
 detail$predicted <- pred
 
-# Now, make the dataset
+# Calculate mean probability of for each species and add to tag data
 spp <- detail %>% group_by(original_id) %>% summarise(mean = mean(predicted))
 tags <- left_join(detail, spp)
 
@@ -99,8 +109,8 @@ d.stat <- tags %>%
   group_by(original_id, vocalization, mean, needs_review) %>% 
   summarise(n_tags = n()) %>% 
   pivot_wider(names_from = needs_review, values_from = n_tags, values_fill = 0) %>%
-  rename(Confident = "FALSE",NeedsReview = "TRUE") %>%
-  filter(!original_id %in% c("COWW", "DOGG", "CHIK"))
+  rename(Confident = "FALSE",NeedsReview = "TRUE")
+
 
 #Now follow priority rules below to put species-vocalization type in priority order for validation
 #1. SAR species (calls and songs) in ascending order of agreement prob (mean)
@@ -120,15 +130,18 @@ d.stat <- tags %>%
   # All needs review
 
 
-#1.SAR
+#1.SAR/Priority species: use the list associated with project of interest
 #Priority SAR for Grassland program
-gbmp_sar <- c("FEHA", "BUOW", "GRSG", "LOSH", "CCLO", "SPPI", "TBLO", "MCLO", "LBCU", "SEOW", "BAIS", "GRSP", "BOBO")
+sar <- c("FEHA", "BUOW", "GRSG", "LOSH", "CCLO", "SPPI", "TBLO", "MCLO", "LBCU", "SEOW", "BAIS", "GRSP", "BOBO")
 
 #Priority SAR for Boreal program
-bbmp_sar <- c("CONI", "OSFL", "CAWA", "TRUS", "YERA", "EWPW", "RUBL")
+sar <- c("CONI", "OSFL", "CAWA", "TRUS", "YERA", "EWPW", "RUBL", "LEBI", "EVGR", "LEYE", "GWWA", "HASP", "REKN", "SBDO", "MAGO", "HUGO", "STSA", "WRSA")
+
+#Priority species for WHCR program
+sar1 <- c("CORA", "WHCR", "CONI", "OSFL", "CAWA", "TRUS", "YERA", "EWPW", "RUBL", "LEBI", "EVGR", "LEYE", "GWWA", "HASP", "REKN", "SBDO", "MAGO", "HUGO", "STSA", "WRSA")
 
 sar <- d.stat %>% 
-  filter(original_id %in% gbmp_sar) %>%
+  filter(original_id %in% sar) %>%
   arrange(mean) %>%
   mutate(NuConfToVer = if_else(Confident > 15, 15, Confident),
          NuNeedsRevToVer = NeedsReview)
@@ -186,7 +199,7 @@ calls <- d.stat %>%
 
 #Combine all and save
 validate <- rbind(sar,n15,unk,song,nv,calls)
-write.csv(validate, "output/spp_verif_CWS-GBMP_2025.csv", row.names = F)
+write.csv(validate, "output/spp_verif_MBpeatRestDUSK.csv", row.names = F)
 
 
 
