@@ -19,7 +19,7 @@ wt_auth()
 
 #Enter sensor and project name of interest and and pull project ID. Replace sensor and proj accordingly
 sensor <- "ARU"
-proj <- "WHCR - Morning Recordings (2023-2024)"
+proj <- "Boreal Bird Monitoring Program - Prairie Region 2025 DUSK transcription"
 
 my_project <- wt_get_projects(sensor = sensor) |>
   filter(project == proj) |>
@@ -106,7 +106,7 @@ tags <- left_join(detail, spp)
 #Priority species for Zack Moore's MSc...no longer needed
 # z_spp <- c("LAZB", "SAVS", "VESP", "CCSP", "WEME", "BAIS", "BRSP", "BOBO", "GRSP", "BHCO", "YERA", "CONI", "FEHA", "BARS", "NESP")
 
-#Count number of tags with and without Needs review for each species-vocalization type combo (and remove cows and dogs)
+#Count number of tags with and without Needs review for each species-vocalization type combo
 d.stat <- tags %>% 
   group_by(original_id, vocalization, mean, needs_review) %>% 
   summarise(n_tags = n()) %>% 
@@ -134,13 +134,13 @@ d.stat <- tags %>%
 
 #1.SAR/Priority species: use the list associated with project of interest
 #Priority SAR for Grassland program
-sar <- c("FEHA", "BUOW", "GRSG", "LOSH", "CCLO", "SPPI", "TBLO", "MCLO", "LBCU", "SEOW", "BAIS", "GRSP", "BOBO")
+# sar <- c("FEHA", "BUOW", "GRSG", "LOSH", "CCLO", "SPPI", "TBLO", "MCLO", "LBCU", "SEOW", "BAIS", "GRSP", "BOBO")
 
 #Priority SAR for Boreal program
 sar <- c("CONI", "OSFL", "CAWA", "TRUS", "YERA", "EWPW", "RUBL", "LEBI", "EVGR", "LEYE", "GWWA", "HASP", "REKN", "SBDO", "MAGO", "HUGO", "STSA", "WRSA")
 
 #Priority species for WHCR program
-sar <- c("CORA", "WHCR", "CONI", "OSFL", "CAWA", "TRUS", "YERA", "EWPW", "RUBL", "LEBI", "EVGR", "LEYE", "GWWA", "HASP", "REKN", "SBDO", "MAGO", "HUGO", "STSA", "WRSA")
+# sar <- c("CORA", "WHCR", "CONI", "OSFL", "CAWA", "TRUS", "YERA", "EWPW", "RUBL", "LEBI", "EVGR", "LEYE", "GWWA", "HASP", "REKN", "SBDO", "MAGO", "HUGO", "STSA", "WRSA")
 
 sar <- d.stat %>% 
   filter(original_id %in% sar) %>%
@@ -149,8 +149,8 @@ sar <- d.stat %>%
          NuNeedsRevToVer = NeedsReview)
 
 #For WHCR PROJECT ONLY, verify ALL CORA tags, not just 15
-sar <- sar %>%
-  mutate(NuConfToVer = if_else(original_id == "CORA", Confident, NuConfToVer))
+# sar <- sar %>%
+#   mutate(NuConfToVer = if_else(original_id == "CORA", Confident, NuConfToVer))
 
 #2.Species with <15 tags
 n15spp <- tags %>%
@@ -186,7 +186,7 @@ song <- d.stat %>%
 
 #5.Non-vocal tags
 nv <- d.stat %>%
-  filter(vocalization == "Non-vocal") %>%
+  filter(vocalization == "Non-vocal"| vocalization == "Nocturnal flight") %>%
   filter(!original_id %in% unk$original_id) %>%
   filter(!original_id %in% sar$original_id) %>%
   arrange(mean) %>%
@@ -207,14 +207,20 @@ calls <- d.stat %>%
 #Combine all and save
 validate <- rbind(sar,n15,unk,song,nv,calls)
 
-#validate should have same number of rows as d.stat. If it has more rows, identify which species-call type is duplicated
-# if(nrow(validate) > nrow(d.stat)) {
-#   dup <- validate %>% group_by(original_id, vocalization) %>% 
-#     filter(n() > 1)
-# }
-write.csv(validate, "output/spp_verif_WHCR_morning_2023-2024.csv", row.names = F)
+#validate should have same number of rows as d.stat. If it has more rows or less rows, identify which species-call type is duplicated or missing
+if(nrow(validate) > nrow(d.stat)) {
+  dup <- validate %>% group_by(original_id, vocalization) %>%
+    filter(n() > 1)
+}
 
+if(nrow(validate) < nrow(d.stat)) {
+  miss <- anti_join(d.stat, validate, by = c("original_id", "vocalization"))
+}
 
+write.csv(validate, "output/spp_verif_BBMP-PrairieRegion2025DUSK.csv", row.names = F)
+
+#clear environment if you want to run for another project
+rm(list=ls())
 
 
 
