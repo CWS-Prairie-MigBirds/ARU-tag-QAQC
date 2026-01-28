@@ -63,3 +63,26 @@ tot_recs <- do.call(rbind, summary_rec) %>%
   summarise(count = sum(task_count),
             hours = sum(hours))
 
+#Summarize number of tags and total hours transcribed to date for each project
+summary_trans <- lapply(recordings, FUN = function(x) {
+  name = unique(x$project)
+  tmp = x %>%
+    filter(task_is_complete == TRUE) %>%
+    mutate(length = round(task_duration/60)) %>%
+    group_by(length) %>%
+    summarise(task_count = n()) %>%
+    mutate(hours = length*task_count/60,
+           project = rep(name, time = n())) %>% 
+    group_by(project) %>%
+    summarise(totalHrs = sum(hours))
+  return(tmp)
+})
+
+transAll <- do.call(rbind, summary_trans)
+write.csv(transAll, "output/borealTranscriptionSummary.csv", row.names = F)
+
+#calculate total hours transcribed across all projects
+
+sum(transAll$totalHrs)-(55*3/60)
+
+
