@@ -23,10 +23,8 @@ proj <- c("Boreal Bird Monitoring Program - Prairie Region MB peatland restorati
           "Boreal Bird Monitoring Program - Prairie Region MB peatland restoration DUSK",
           "Boreal Bird Monitoring Program - Prairie Region MB peatland restoration DAWN",
           "Boreal Bird Monitoring Program - Localization 2025",
-          "Boreal Bird Monitoring Program - Prairie Region 2025 NOCTURNAL transcription",
           "Boreal Bird Monitoring Program - Prairie Region 2025 DUSK transcription",
-          "Boreal Bird Monitoring Program - Prairie Region 2025 DAWN transcription",
-          "Boreal Bird Monitoring Program - Manitoba 2023 Nocturnal")
+          "Boreal Bird Monitoring Program - Prairie Region 2025 DAWN transcription")
 
 proj_info <- wt_get_projects(sensor = sensor) |>
   filter(project %in% proj)
@@ -56,7 +54,7 @@ tot_proj <- do.call(rbind, summary_rec) %>%
   summarise(count = sum(task_count),
             hours = sum(hours)) %>%
   mutate(percent = hours/sum(hours),
-         verif_hours = percent*10)
+         verif_hours = percent*10) #spliting 10 hours of verification across these projects
 
 tot_recs <- do.call(rbind, summary_rec) %>%
   group_by(length) %>%
@@ -74,11 +72,14 @@ summary_trans <- lapply(recordings, FUN = function(x) {
     mutate(hours = length*task_count/60,
            project = rep(name, time = n())) %>% 
     group_by(project) %>%
-    summarise(totalHrs = sum(hours))
+    summarise(totalHrs = sum(hours)) %>%
   return(tmp)
 })
 
-transAll <- do.call(rbind, summary_trans)
+transAll <- do.call(rbind, summary_trans) %>%
+  mutate(percent = totalHrs/sum(totalHrs),
+         verif_hours = percent*10) #spliting 10 hours of verification across these projects
+
 write.csv(transAll, "output/borealTranscriptionSummary.csv", row.names = F)
 
 #calculate total hours transcribed across all projects
