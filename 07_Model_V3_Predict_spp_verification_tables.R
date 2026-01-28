@@ -70,7 +70,7 @@ detail <- detail %>%
 unique(detail$observer[!(detail$observer %in% obs_summary$observer)])
 
 # One observer, William Konze, has no data in the training dataset, so he must be new for 2025. Assign the median error rate
-obs_summary <- rbind(obs_summary, c("William Konze", as.numeric(median(obs_summary$error_rate_emp))))
+# obs_summary <- rbind(obs_summary, c("William Konze", as.numeric(median(obs_summary$error_rate_emp))))
 
 # join error rates to prediction dataset
 detail <- left_join(detail, obs_summary)
@@ -97,7 +97,9 @@ pred <- predict(m12b, newdata = detail, type = "response", allow.new.levels = TR
 detail$predicted <- pred
 
 # Calculate mean probability of for each species and add to tag data
-spp <- detail %>% group_by(original_id) %>% summarise(mean = mean(predicted))
+spp <- detail %>% 
+  group_by(original_id) %>% 
+  summarise(mean = mean(predicted))
 tags <- left_join(detail, spp)
 
 # List out SAR or priority species from certain projects
@@ -138,13 +140,17 @@ sar <- c("FEHA", "BUOW", "GRSG", "LOSH", "CCLO", "SPPI", "TBLO", "MCLO", "LBCU",
 sar <- c("CONI", "OSFL", "CAWA", "TRUS", "YERA", "EWPW", "RUBL", "LEBI", "EVGR", "LEYE", "GWWA", "HASP", "REKN", "SBDO", "MAGO", "HUGO", "STSA", "WRSA")
 
 #Priority species for WHCR program
-sar1 <- c("CORA", "WHCR", "CONI", "OSFL", "CAWA", "TRUS", "YERA", "EWPW", "RUBL", "LEBI", "EVGR", "LEYE", "GWWA", "HASP", "REKN", "SBDO", "MAGO", "HUGO", "STSA", "WRSA")
+sar <- c("CORA", "WHCR", "CONI", "OSFL", "CAWA", "TRUS", "YERA", "EWPW", "RUBL", "LEBI", "EVGR", "LEYE", "GWWA", "HASP", "REKN", "SBDO", "MAGO", "HUGO", "STSA", "WRSA")
 
 sar <- d.stat %>% 
   filter(original_id %in% sar) %>%
   arrange(mean) %>%
   mutate(NuConfToVer = if_else(Confident > 15, 15, Confident),
          NuNeedsRevToVer = NeedsReview)
+
+#For WHCR PROJECT ONLY, verify ALL CORA tags, not just 15
+sar <- sar %>%
+  mutate(NuConfToVer = if_else(original_id == "CORA", Confident, NuConfToVer))
 
 #2.Species with <15 tags
 n15spp <- tags %>%
@@ -182,6 +188,7 @@ song <- d.stat %>%
 nv <- d.stat %>%
   filter(vocalization == "Non-vocal") %>%
   filter(!original_id %in% unk$original_id) %>%
+  filter(!original_id %in% sar$original_id) %>%
   arrange(mean) %>%
   mutate(NuConfToVer = if_else(Confident > 15, 15, Confident),
          NuNeedsRevToVer = NeedsReview)
@@ -199,7 +206,13 @@ calls <- d.stat %>%
 
 #Combine all and save
 validate <- rbind(sar,n15,unk,song,nv,calls)
-write.csv(validate, "output/spp_verif_MBpeatRestDUSK.csv", row.names = F)
+
+#validate should have same number of rows as d.stat. If it has more rows, identify which species-call type is duplicated
+# if(nrow(validate) > nrow(d.stat)) {
+#   dup <- validate %>% group_by(original_id, vocalization) %>% 
+#     filter(n() > 1)
+# }
+write.csv(validate, "output/spp_verif_WHCR_morning_2023-2024.csv", row.names = F)
 
 
 
